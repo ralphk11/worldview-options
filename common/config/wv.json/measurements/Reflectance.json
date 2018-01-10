@@ -1,0 +1,20 @@
+{
+    "measurements": {
+        "Reflectance": {
+            "id": "reflectance",
+            "title":    "Reflectance",
+            "subtitle": "GOES16 / ABI",
+            "sources": {
+                "GOES16/ABI": {
+                    "id": "goes16-abi",
+                    "title": "GOES 16 ABI",
+                    "description": "ABI/Reflectance",
+                    "image": "",
+                    "settings": [
+                        "ABI_GOES16_test_geo"
+                    ]
+                }
+            }
+        }
+    }
+}

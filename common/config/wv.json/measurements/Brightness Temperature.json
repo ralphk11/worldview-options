@@ -1,0 +1,20 @@
+{
+    "measurements": {
+        "Brightness Temperature": {
+            "id": "brightness_temperature",
+            "title":    "brightness temperature",
+            "subtitle": "GOES16 / ABI",
+            "sources": {
+                "GOES16/ABI": {
+                    "id": "goes16-abi",
+                    "title": "GOES 16 ABI",
+                    "description": "ABI/Brightness Temperature",
+                    "image": "",
+                    "settings": [
+                        "ABI_L1b_BT_M3C14"
+                    ]
+                }
+            }
+        }
+    }
+}

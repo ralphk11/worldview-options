@@ -1,0 +1,24 @@
+{
+    "layers": {
+        "ABI_L1b_Rad_M3C02": {
+            "id":       "ABI_L1b_Rad_M3C02",
+            "title":    "Reflectance",
+            "subtitle": "ABI / GOES 16",
+            "tags":     "Reflectance",
+            "group":    "baselayers",
+
+            "format":       "image/png",
+            "period":       "daily",
+            "startDate":    "2017-09-20",
+            "endDate":      "2017-09-20",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_500m",
+                    "source":       "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

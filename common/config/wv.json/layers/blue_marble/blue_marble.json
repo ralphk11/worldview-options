@@ -1,0 +1,23 @@
+{
+    "layers": {
+        "blue_marble": {
+            "id":       "blue_marble",
+            "title":    "Blue Marble (RGB)",
+            "subtitle": "NASA",
+            "tags":     "blue_marble",
+            "group":    "baselayers",
+
+            "format":       "image/jpeg",
+            "period":       "daily",
+            "startDate":    "2012-01-01",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_1km",
+                    "source":       "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

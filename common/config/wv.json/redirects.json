@@ -1,0 +1,17 @@
+{
+    "redirects": {
+        "layers": {
+
+            "polarview:graticuleN":          "Graticule",
+            "polarview:graticule3031_10x30": "Graticule",
+
+            "gpw-v3-coastlines":        "Coastlines",
+            "land_water_map":           "Land_Water_Map",
+            "land_mask":                "Land_Mask",
+            "ol_graticule":             "Graticule",
+
+            "cartographic:esri-administrative-boundaries_level-1": "Reference_Features",
+            "cartographic:00-global-labels": "Reference_Labels"
+        }
+    }
+}

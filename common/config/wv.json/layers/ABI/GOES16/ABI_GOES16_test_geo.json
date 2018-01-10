@@ -1,0 +1,24 @@
+{
+    "layers": {
+        "ABI_GOES16_test_geo": {
+            "id":       "ABI_GOES16_test_geo",
+            "title":    "Reflectance (Grayscale)",
+            "subtitle": "ABI / GOES 16",
+            "tags":     "reflectance",
+            "group":    "baselayers",
+
+            "format":       "image/png",
+            "period":       "daily",
+            "startDate":    "2017-03-12",
+            "endDate":      "2017-03-13",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_1km",
+                    "source":       "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

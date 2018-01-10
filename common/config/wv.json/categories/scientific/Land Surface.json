@@ -1,0 +1,17 @@
+{
+    "categories": {
+        "scientific": {
+            "Land Surface": {
+                "title": "Land Surface",
+                "id": "land-surface",
+                "image": "",
+                "description": "",
+                "measurements": [
+                    "Brightness Temperature",
+                    "Reflectance",
+                    "Blue Marble"
+                ]
+            }
+        }
+    }
+}
