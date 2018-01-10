@@ -1,2 +1,18 @@
 {
+    "warnOnUnexpectedLayer": "true",
+    "wv-options-fetch": [
+        {
+            "from": "http://192.168.56.102/onearth/wmts/epsg4326/wmts.cgi?request=GetCapabilities",
+            "to": "gibs-geographic.xml"
+        }
+    ],
+    "wv-options-wmts": [
+        {
+            "source": "GIBS:geographic",
+            "from": "gibs-geographic.xml",
+            "to": "gibs-geographic.json",
+            "projection": "geographic",
+            "maxResolution": 0.5625
+        }
+    ]
 }

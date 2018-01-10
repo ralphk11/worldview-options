@@ -1,25 +1,7 @@
 {
     "sources": {
         "GIBS:geographic": {
-            "url": "//map1{a-c}.vis.earthdata.nasa.gov/wmts-geo/wmts.cgi",
-            "matrixSets": {
-                "EPSG4326_250m": {
-                    "id": "EPSG4326_250m",
-                    "maxResolution": 0.5625,
-                    "resolutions": [
-                        0.5625,
-                        0.28125,
-                        0.140625,
-                        0.0703125,
-                        0.03515625,
-                        0.017578125,
-                        0.0087890625,
-                        0.00439453125,
-                        0.002197265625
-                    ],
-                    "tileSize": [ 512, 512 ]
+            "url": "//192.168.56.102/onearth/wmts/epsg4326/wmts.cgi"
                 }
-            }
-        }
     }
 }

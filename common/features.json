@@ -1,6 +1,7 @@
 {
     "features": {
         "dataDownload": false,
-        "urlShortening": false
+        "urlShortening": false,
+        "animation": true
     }
 }

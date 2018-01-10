@@ -1,8 +1,8 @@
 {
     "layerOrder": [
-        "MODIS_Terra_CorrectedReflectance_TrueColor",
-        "MODIS_Aqua_CorrectedReflectance_TrueColor",
-
-        "Reference_Features"
+        "blue_marble",
+        "ABI_L1b_BT_M3C14",
+        "ABI_L1b_Rad_M3C02",
+        "ABI_GOES16_test_geo"
     ]
 }
