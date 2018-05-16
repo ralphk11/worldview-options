@@ -1,0 +1,24 @@
+{
+    "layers": {
+        "AHI_Himawari8_Brightness_Temperature_Band14": {
+            "id":       "AHI_Himawari8_Brightness_Temperature_Band14",
+            "title":    "11 um Brightness Temperature",
+            "subtitle": "AHI / Himawari 8",
+            "tags":     "brightness temperature",
+            "group":    "baselayers",
+
+            "format":       "image/jpeg",
+            "period":       "subdaily",
+            "startDate":    "2011-01-01",
+            "endDate":      "2017-01-01",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_2km",
+                    "source":       "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

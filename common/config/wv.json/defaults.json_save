@@ -1,0 +1,17 @@
+{
+    "defaults": {
+        "projection": "geographic",
+        "startingLayers": [
+            { "id": "AHI_Himawari8_Reflectance_Band01" },
+            { "id": "AHI_Himawari8_Reflectance_Band02" },
+            { "id": "AHI_Himawari8_Reflectance_Band03" },
+            { "id": "AHI_Himawari8_Reflectance_Band04" },
+            { "id": "AHI_Himawari8_CorrectedReflectance_Truecolor" },
+            { "id": "AHI_Himawari8_Brightness_Temperature_Band14" },
+            { "id": "AHI_Himawari8_Brightness_Temperature_Band09" },
+            { "id": "ABI_L1b_Rad_M3C02" },
+            { "id": "ABI_L1b_BT_M3C14" },
+            { "id": "blue_marble" }
+        ]
+    }
+}

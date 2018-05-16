@@ -1,0 +1,24 @@
+{
+    "layers": {
+        "AHI_Himawari8_Reflectance_Band04": {
+            "id":       "AHI_Himawari8_Reflectance_Band04",
+            "title":    "0.86 um Reflectance",
+            "subtitle": "AHI / Himawari 8",
+            "tags":     "Reflectance",
+            "group":    "baselayers",
+
+            "format":       "image/jpeg",
+            "period":       "daily",
+            "startDate":    "2011-01-01",
+            "endDate":      "2017-01-01",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_2km",
+                    "source":       "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

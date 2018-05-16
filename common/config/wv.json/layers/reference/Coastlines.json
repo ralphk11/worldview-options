@@ -1,0 +1,18 @@
+{
+    "layers": {
+        "Coastlines": {
+            "id": "Coastlines",
+            "title": "Coastlines",
+            "subtitle": "Coastlines",
+            "group": "overlays",
+            "format": "image/png",
+            "type": "wmts",
+            "projections": {
+                "geographic": {
+                    "matrixSet": "EPSG4326_500m",
+                    "source": "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

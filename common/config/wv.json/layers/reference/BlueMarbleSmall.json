@@ -1,0 +1,21 @@
+{
+    "layers": {
+        "BlueMarbleSmall": {
+            "id": "BlueMarbleSmall",
+            "title": "BlueMarbleSmall",
+            "subtitle": "AHI",
+            "tags": "natural color cr",
+            "group": "baselayers",
+            "format": "image/png",
+            "period": "daily",
+            "startDate": "2011-01-01",
+            "type": "wmts",
+            "projections": {
+                "geographic": {
+                    "matrixSet": "EPSG4326_2km",
+                    "source": "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

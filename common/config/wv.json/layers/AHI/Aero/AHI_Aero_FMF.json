@@ -1,0 +1,21 @@
+{
+    "layers": {
+        "AHI_Aero_FMF": {
+            "id": "AHI_Aero_FMF",
+            "title": "AHI Aero FMF",
+            "subtitle": "AHI",
+            "tags": "natural color cr",
+            "group": "baselayers",
+            "format": "image/png",
+            "period": "daily",
+            "startDate": "2011-01-01",
+            "type": "wmts",
+            "projections": {
+                "geographic": {
+                    "matrixSet": "EPSG4326_2km",
+                    "source": "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

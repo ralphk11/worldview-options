@@ -1,0 +1,15 @@
+{
+    "layerOrder": [
+        "blue_marble",
+        "AHI_Himawari8_Reflectance_Band01",
+        "AHI_Himawari8_Reflectance_Band02",
+        "AHI_Himawari8_Reflectance_Band03",
+        "AHI_Himawari8_Reflectance_Band04",
+        "AHI_Himawari8_CorrectedReflectance_Truecolor",
+        "AHI_Himawari8_Brightness_Temperature_Band14",
+        "AHI_Himawari8_Brightness_Temperature_Band09",
+        "ABI_L1b_BT_M3C14",
+        "ABI_L1b_Rad_M3C02",
+        "ABI_GOES16_test_geo"
+    ]
+}

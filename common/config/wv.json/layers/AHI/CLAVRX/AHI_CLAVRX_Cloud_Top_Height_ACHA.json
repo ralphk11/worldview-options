@@ -1,0 +1,21 @@
+{
+    "layers": {
+        "AHI_CLAVRX_Cloud_Top_Height_ACHA": {
+            "id": "AHI_CLAVRX_Cloud_Top_Height_ACHA",
+            "title": "AHI CLAVRX Cloud Top Height ACHA",
+            "subtitle": "AHI",
+            "tags": "natural color cr",
+            "group": "overlays",
+            "format": "image/png",
+            "period": "daily",
+            "startDate": "2011-01-01",
+            "type": "wmts",
+            "projections": {
+                "geographic": {
+                    "matrixSet": "EPSG4326_2km",
+                    "source": "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

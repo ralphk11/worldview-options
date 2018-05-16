@@ -1,0 +1,20 @@
+{
+    "measurements": {
+        "Corrected Reflectance": {
+            "id": "corrected-reflectance",
+            "title":    "Corrected Reflectance",
+            "subtitle": "Himawari8/AHI",
+            "sources": {
+               "Himawari8/AHI": {
+                    "id": "himawari8-ahi",
+                    "title": "Himawari 8 / AHI",
+                    "description": "AHI/CorrectedReflectance",
+                    "image": "",
+                    "settings": [
+                	"AHI_Himawari8_CorrectedReflectance_TrueColor"
+                    ]
+                }
+            }
+        }
+    }
+}
