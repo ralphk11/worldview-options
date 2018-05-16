@@ -3,7 +3,7 @@
         "Reflectance": {
             "id": "reflectance",
             "title":    "Reflectance",
-            "subtitle": "GOES16 / ABI",
+            "subtitle": "GOES16 / ABI, Himawari8 / AHI",
             "sources": {
                 "GOES16/ABI": {
                     "id": "goes16-abi",
@@ -13,7 +13,18 @@
                     "settings": [
                         "ABI_GOES16_test_geo"
                     ]
+                },
+                "Himawari8/AHI": {
+                    "id": "himawari8-ahi",
+                    "title": "Himawari8 / AHI",
+                    "description": "AHI/Reflectance",
+                    "image": "",
+                    "settings": [
+                        "AHI_Himawari8_Reflectance_Band03",
+                        "AHI_Himawari8_Reflectance_Band04"
+                    ]
                 }
+ 
             }
         }
     }

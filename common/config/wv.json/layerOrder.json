@@ -1,8 +1,19 @@
 {
     "layerOrder": [
-        "blue_marble",
+        "AHI_Aero_AOD_550",
+        "AHI_Aero_FMF",
+        "AHI_CLAVRX_Cloud_Phase",
+        "AHI_CLAVRX_Cloud_Top_Height_ACHA",
+        "AHI_CLAVRX_Cloud_Effective_Radius",
+        "AHI_Himawari8_CorrectedReflectance_TrueColor",
+        "AHI_Himawari8_Reflectance_Band03",
+        "AHI_Himawari8_Reflectance_Band04",
+        "AHI_Himawari8_Brightness_Temperature_Band09",
+        "AHI_Himawari8_Brightness_Temperature_Band14",
         "ABI_L1b_BT_M3C14",
         "ABI_L1b_Rad_M3C02",
-        "ABI_GOES16_test_geo"
+        "ABI_GOES16_test_geo",
+        "blue_marble",
+        "Coastlines"
     ]
 }

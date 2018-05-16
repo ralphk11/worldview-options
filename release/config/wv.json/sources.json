@@ -1,7 +1,7 @@
 {
     "sources": {
         "GIBS:geographic": {
-            "url": "//192.168.56.102/onearth/wmts/epsg4326/wmts.cgi"
+            "url": "//mayon.ssec.wisc.edu/onearth/wmts/epsg4326/wmts.cgi"
                 }
     }
 }

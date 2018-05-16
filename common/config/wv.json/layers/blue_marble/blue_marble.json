@@ -9,7 +9,7 @@
 
             "format":       "image/jpeg",
             "period":       "daily",
-            "startDate":    "2012-01-01",
+            "startDate":    "2011-01-01",
             "type":         "wmts",
 
             "projections": {
