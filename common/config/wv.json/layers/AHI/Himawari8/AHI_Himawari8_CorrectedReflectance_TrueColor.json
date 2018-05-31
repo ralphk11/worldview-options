@@ -9,7 +9,7 @@
 
             "format":       "image/jpeg",
             "period":       "subdaily",
-            "startDate":    "2017-01-01",
+            "startDate":    "2016-01-01",
             "endDate":      "2018-12-31",
             "type":         "wmts",
 

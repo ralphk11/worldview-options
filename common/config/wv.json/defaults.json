@@ -2,14 +2,10 @@
     "defaults": {
         "projection": "geographic",
         "startingLayers": [
-            { "id": "AHI_Aero_AOD_550" },
-            { "id": "AHI_Aero_FMF" },
-            { "id": "AHI_CLAVRX_Cloud_Phase" },
-            { "id": "AHI_CLAVRX_Cloud_Top_Height_ACHA" },
-            { "id": "AHI_CLAVRX_Cloud_Effective_Radius" },
+	    { "id": "AHI_CHIMAERA_Cloud_Effective_Radius", "hidden": "true"},
+	    { "id": "AHI_CHIMAERA_Cloud_Optical_Thickness", "hidden": "true"},
             { "id": "AHI_Himawari8_CorrectedReflectance_TrueColor" },
-            { "id": "AHI_Himawari8_Brightness_Temperature_Band14" },
-            { "id": "blue_marble" },
+            { "id": "blue_marble", "hidden": "true"},
             { "id": "Coastlines" }
         ]
     }

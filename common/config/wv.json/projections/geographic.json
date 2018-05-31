@@ -29,10 +29,10 @@
             ],
             "numZoomLevels": 9,
             "startCenter": [
-                0,
+                140,
                 0
             ],
-            "startZoom": 1
+            "startZoom": 3
         }
     }
 }

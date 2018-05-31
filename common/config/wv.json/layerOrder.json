@@ -5,6 +5,8 @@
         "AHI_CLAVRX_Cloud_Phase",
         "AHI_CLAVRX_Cloud_Top_Height_ACHA",
         "AHI_CLAVRX_Cloud_Effective_Radius",
+        "AHI_CHIMAERA_Cloud_Effective_Radius",
+        "AHI_CHIMAERA_Cloud_Optical_Thickness",
         "AHI_Himawari8_CorrectedReflectance_TrueColor",
         "AHI_Himawari8_Reflectance_Band03",
         "AHI_Himawari8_Reflectance_Band04",
