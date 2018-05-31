@@ -1,0 +1,20 @@
+{
+    "categories": {
+        "scientific": {
+            "All": {
+                "title": "All",
+                "id": "scientific-all",
+                "image": "",
+                "description": "",
+                "measurements": [
+                    "Blue Marble",
+                    "Brightness Temperature",
+                    "Cloud Effective Radius",
+                    "Cloud Optical Thickness",
+                    "Corrected Reflectance",
+                    "Reflectance"
+                ]
+            }
+        }
+    }
+}

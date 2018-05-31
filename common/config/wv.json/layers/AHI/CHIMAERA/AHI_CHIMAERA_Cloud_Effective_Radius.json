@@ -1,0 +1,27 @@
+{
+    "layers": {
+        "AHI_CHIMAERA_Cloud_Effective_Radius": {
+            "id":       "AHI_CHIMAERA_Cloud_Effective_Radius",
+            "title":    "CHIMAERA Cloud Effective Radius",
+            "subtitle": "AHI / Himawari8",
+            "tags":     "chimaera effective radius",
+            "group":    "overlays",
+
+            "format":       "image/png",
+            "period":       "subdaily",
+            "startDate":    "2011-01-01",
+            "endDate":      "2018-12-31",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_2km",
+                    "source":       "GIBS:geographic"
+                }
+            },
+            "palette": {
+		"id": "chimaera_effective_radius"
+	    }
+        }
+    }
+}

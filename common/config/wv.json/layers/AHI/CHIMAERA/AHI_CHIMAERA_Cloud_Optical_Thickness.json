@@ -1,0 +1,27 @@
+{
+    "layers": {
+        "AHI_CHIMAERA_Cloud_Optical_Thickness": {
+            "id":       "AHI_CHIMAERA_Cloud_Optical_Thickness",
+            "title":    "CHIMAERA Cloud Optical Thickness",
+            "subtitle": "AHI / Himawari8",
+            "tags":     "chimaera optical thickness",
+            "group":    "overlays",
+
+            "format":       "image/png",
+            "period":       "subdaily",
+            "startDate":    "2016-01-01",
+            "endDate":      "2018-12-31",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_2km",
+                    "source":       "GIBS:geographic"
+                }
+            },
+            "palette": {
+		"id": "chimaera_optical_thickness"
+	    }
+        }
+    }
+}
