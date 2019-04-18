@@ -4,15 +4,13 @@
             "All": {
                 "title": "All",
                 "id": "scientific-all",
-                "image": "",
+                "placement": "first",
                 "description": "",
                 "measurements": [
-                    "Blue Marble",
-                    "Brightness Temperature",
-                    "Cloud Effective Radius",
-                    "Cloud Optical Thickness",
-                    "Corrected Reflectance",
-                    "Reflectance"
+                  "Blue Marble",
+                  "Brightness Temperature",
+                  "Cloud Top Height",
+                  "Corrected Reflectance"
                 ]
             }
         }

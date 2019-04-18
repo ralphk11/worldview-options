@@ -1,0 +1,24 @@
+{
+    "layers": {
+        "AHI_Himawari8_CorrectedReflectance_LargeParticle": {
+            "id":       "AHI_Himawari8_CorrectedReflectance_LargeParticle",
+            "title":    "Corrected Reflectance (Large Particle)",
+            "subtitle": "AHI / Himawari8",
+            "tags":     "natural color cr",
+            "group":    "baselayers",
+
+            "format":       "image/jpeg",
+            "period":       "subdaily",
+            "startDate":    "2018-07-01",
+            "endDate":      "2020-12-31",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_2km",
+                    "source":       "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

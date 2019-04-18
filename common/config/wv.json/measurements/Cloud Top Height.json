@@ -1,0 +1,20 @@
+{
+    "measurements": {
+        "Cloud Top Height": {
+            "id": "cloud-top-height",
+            "title":    "Cloud Top Height",
+            "subtitle": "Himawari8/AHI",
+            "sources": {
+               "Himawari8/AHI": {
+                    "id": "himawari8-ahi",
+                    "title": "Himawari 8 / AHI",
+                    "description": "AHI/CloudTopHeight",
+                    "image": "",
+                    "settings": [
+                	"AHI_CLAVRX_Cloud_Top_Height_ACHA"
+                    ]
+                }
+            }
+        }
+    }
+}

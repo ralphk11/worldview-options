@@ -8,13 +8,16 @@
             "group": "overlays",
             "format": "image/png",
             "period": "daily",
-            "startDate": "2011-01-01",
+            "startDate": "2018-01-01",
             "type": "wmts",
             "projections": {
                 "geographic": {
                     "matrixSet": "EPSG4326_2km",
                     "source": "GIBS:geographic"
                 }
+            },
+	    "palette": {
+                "id": "Cloud_Phase"
             }
         }
     }

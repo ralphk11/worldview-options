@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ColorMaps>
+  <ColorMap title="No Data">
+    <Entries>
+      <ColorMapEntry rgb="0,0,0" transparent="true" sourceValue="[-9999,0)" nodata="true" ref="0"/>
+    </Entries>
+    <Legend type="classification">
+      <LegendEntry rgb="0,0,0" tooltip="Fill" id="0"/>
+    </Legend>
+  </ColorMap>
+  <ColorMap title="Cloud Top Height" units="m">
+    <Entries>
+      <ColorMapEntry rgb="255,0,0" transparent="false" sourceValue="[0,800)" value="[0,800)" ref="1"/>
+      <ColorMapEntry rgb="170,0,0" transparent="false" sourceValue="[800,1600)" value="[800,1600)" ref="2"/>
+      <ColorMapEntry rgb="110,0,0" transparent="false" sourceValue="[1600,2350)" value="[1600,2350)" ref="3"/>
+      <ColorMapEntry rgb="112,1,2" transparent="false" sourceValue="[2350,3150)" value="[2350,3150)" ref="4"/>
+      <ColorMapEntry rgb="124,91,5" transparent="false" sourceValue="[3150,4000)" value="[3150,4000)" ref="5"/>
+      <ColorMapEntry rgb="240,190,64" transparent="false" sourceValue="[4000,4800)" value="[4000,4800)" ref="6"/>
+      <ColorMapEntry rgb="255,255,0" transparent="false" sourceValue="[4800,5600)" value="[4800,5600)" ref="7"/>
+      <ColorMapEntry rgb="0,220,0" transparent="false" sourceValue="[5600,6400)" value="[5600,6400)" ref="8"/>
+      <ColorMapEntry rgb="0,136,0" transparent="false" sourceValue="[6400,7200)" value="[6400,7200)" ref="9"/>
+      <ColorMapEntry rgb="0,80,0" transparent="false" sourceValue="[7200,8000)" value="[7200,8000)" ref="10"/>
+      <ColorMapEntry rgb="0,136,238" transparent="false" sourceValue="[8000,8800)" value="[8000,8800)" ref="11"/>
+      <ColorMapEntry rgb="0,0,255" transparent="false" sourceValue="[8800,9600)" value="[8800,9600)" ref="12"/>
+      <ColorMapEntry rgb="0,0,170" transparent="false" sourceValue="[9600,10400)" value="[9600,10400)" ref="13"/>
+      <ColorMapEntry rgb="0,0,100" transparent="false" sourceValue="[10400,11200)" value="[10400,11200)" ref="14"/>
+      <ColorMapEntry rgb="183,15,141" transparent="false" sourceValue="[11200,12000)" value="[11200,12000)" ref="15"/>
+      <ColorMapEntry rgb="102,0,119" transparent="false" sourceValue="[12000,+INF)" value="[12000,+INF)" ref="16"/>
+    </Entries>
+    <Legend type="continuous" minLabel="0" maxLabel="&gt;= 12000">
+      <LegendEntry rgb="255,0,0" tooltip="0 - 800" id="1"/>
+      <LegendEntry rgb="170,0,0" tooltip="800 - 1600" id="2"/>
+      <LegendEntry rgb="110,0,0" tooltip="1600 - 2350" id="3"/>
+      <LegendEntry rgb="112,1,2" tooltip="2350 - 3150" id="4"/>
+      <LegendEntry rgb="124,91,5" tooltip="3150 - 4000" id="5"/>
+      <LegendEntry rgb="240,190,64" tooltip="4000 - 4800" id="6"/>
+      <LegendEntry rgb="255,255,0" tooltip="4800 - 5600" id="7"/>
+      <LegendEntry rgb="0,220,0" tooltip="5600 - 6400" id="8"/>
+      <LegendEntry rgb="0,136,0" tooltip="6400 - 7200" id="9"/>
+      <LegendEntry rgb="0,80,0" tooltip="7200 - 8000" id="10"/>
+      <LegendEntry rgb="0,136,238" tooltip="8000 - 8800" id="11"/>
+      <LegendEntry rgb="0,0,255" tooltip="8800 - 9600" id="12"/>
+      <LegendEntry rgb="0,0,170" tooltip="9600 - 10400" id="13"/>
+      <LegendEntry rgb="0,0,100" tooltip="10400 - 11200" id="14"/>
+      <LegendEntry rgb="183,15,141" tooltip="11200 - 12000" id="15"/>
+      <LegendEntry rgb="102,0,119" tooltip="&gt;= 12000" id="16"/>
+    </Legend>
+  </ColorMap>
+</ColorMaps>

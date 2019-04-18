@@ -15,6 +15,9 @@
                     "matrixSet": "EPSG4326_2km",
                     "source": "GIBS:geographic"
                 }
+            },
+	    "palette": {
+                "id": "Cloud_Top_Height"
             }
         }
     }

@@ -4,6 +4,10 @@
         {
             "from": "http://mayon.ssec.wisc.edu/onearth/wmts/epsg4326/wmts.cgi?request=GetCapabilities",
             "to": "gibs-geographic.xml"
+        },
+        {
+            "from": "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi?request=GetCapabilities",
+            "to": "gibs-geographic_nasa.xml"
         }
     ],
     "wv-options-wmts": [
@@ -13,6 +17,14 @@
             "to": "gibs-geographic.json",
             "projection": "geographic",
             "maxResolution": 0.5625
+        },
+        {
+            "source": "GIBS:geographic_nasa",
+            "from": "gibs-geographic_nasa.xml",
+            "to": "gibs-geographic_nasa.json",
+            "projection": "geographic",
+            "maxResolution": 0.5625
         }
+
     ]
 }

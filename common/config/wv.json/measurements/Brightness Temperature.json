@@ -2,25 +2,18 @@
     "measurements": {
         "Brightness Temperature": {
             "id": "brightness_temperature",
-            "title":    "brightness temperature",
-            "subtitle": "GOES16/ABI, Himawari8/AHI",
+            "title":    "Brightness Temperature",
+            "subtitle": "Himawari8/AHI",
             "sources": {
-                "GOES16/ABI": {
-                    "id": "goes16-abi",
-                    "title": "GOES 16 ABI",
-                    "description": "ABI/Brightness Temperature",
-                    "image": "",
-                    "settings": [
-                        "ABI_L1b_BT_M3C14"
-                    ]
-                },
                 "Himawari8/AHI": {
                     "id": "himawari8-ahi",
                     "title": "Himawari8 / AHI",
                     "description": "AHI/BrightnessTemperature",
                     "image": "",
                     "settings": [
+                        "AHI_Himawari8_Brightness_Temperature_Band08",
                         "AHI_Himawari8_Brightness_Temperature_Band09",
+                        "AHI_Himawari8_Brightness_Temperature_Band10",
                         "AHI_Himawari8_Brightness_Temperature_Band14"
                     ]
                 }

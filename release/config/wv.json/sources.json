@@ -2,6 +2,9 @@
     "sources": {
         "GIBS:geographic": {
             "url": "//mayon.ssec.wisc.edu/onearth/wmts/epsg4326/wmts.cgi"
-                }
+                },
+    "GIBS:geographic_nasa": {
+    "url": "https://gibs-{a-c}.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi"
+	}
     }
 }

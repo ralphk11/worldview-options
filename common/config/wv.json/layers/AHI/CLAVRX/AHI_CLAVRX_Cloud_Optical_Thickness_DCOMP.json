@@ -1,0 +1,27 @@
+{
+    "layers": {
+        "AHI_CLAVRX_Cloud_Optical_Thickness_DCOMP": {
+            "id":       "AHI_CLAVRX_Cloud_Optical_Thickness_DCOMP",
+            "title":    "CLAVRX Cloud Optical Thickness DCOMP",
+            "subtitle": "AHI / Himawari8",
+            "tags":     "optical thickness",
+            "group":    "overlays",
+
+            "format":       "image/png",
+            "period":       "subdaily",
+            "startDate":    "2018-01-01",
+            "endDate":      "2019-12-31",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_2km",
+                    "source":       "GIBS:geographic"
+                }
+            },
+            "palette": {
+		"id": "chimaera_optical_thickness"
+	    }
+        }
+    }
+}

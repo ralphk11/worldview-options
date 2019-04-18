@@ -7,15 +7,19 @@
             "tags": "natural color cr",
             "group": "overlays",
             "format": "image/png",
-            "period": "daily",
-            "startDate": "2011-01-01",
+            "period": "subdaily",
+            "startDate": "2018-01-01",
             "type": "wmts",
             "projections": {
                 "geographic": {
                     "matrixSet": "EPSG4326_2km",
                     "source": "GIBS:geographic"
                 }
-            }
+            },
+	    "palette": {
+		"id": "chimaera_effective_radius"
+	    }
+
         }
     }
 }

@@ -1,0 +1,25 @@
+{
+    "layers": {
+        "AHI_CLAVRX_Cloud_Effective_Radius_DCOMP": {
+            "id": "AHI_CLAVRX_Cloud_Effective_Radius_DCOMP",
+            "title": "AHI CLAVRX Cloud Effective Radius DCOMP",
+            "subtitle": "AHI",
+            "tags": "cloud properties",
+            "group": "overlays",
+            "format": "image/png",
+            "period": "subdaily",
+            "startDate": "2018-01-01",
+            "type": "wmts",
+            "projections": {
+                "geographic": {
+                    "matrixSet": "EPSG4326_2km",
+                    "source": "GIBS:geographic"
+                }
+            },
+	    "palette": {
+		"id": "chimaera_effective_radius"
+	    }
+
+        }
+    }
+}

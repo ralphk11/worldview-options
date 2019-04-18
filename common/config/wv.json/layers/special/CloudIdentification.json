@@ -1,0 +1,24 @@
+{
+    "layers": {
+        "CloudIdentification": {
+            "id":       "CloudIdentification",
+            "title":    "Cloud Identification",
+            "subtitle": "Aqua / MODIS",
+            "description": "cloud idetification",
+            "group":    "overlays",
+            "product":  "special",
+            "wrapadjacentdays": true,
+            "type": "wmts",
+            "projections": {
+                "geographic": {
+                    "matrixSet": "EPSG4326_2km",
+                    "source": "GIBS:geographic"
+                }
+            },
+            "palette": {
+                "id": "CloudIdentification"
+            }
+
+        }
+    }
+}
