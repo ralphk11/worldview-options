@@ -1,0 +1,18 @@
+{
+    "layers": {
+        "AirWayPoints_names": {
+            "id": "AirWayPoints_names",
+            "title": "AirWayPoints_names",
+            "subtitle": "AirWayPoints_names",
+            "group": "overlays",
+            "format": "image/png",
+            "type": "wmts",
+            "projections": {
+                "geographic": {
+                    "matrixSet": "EPSG4326_250m",
+                    "source": "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

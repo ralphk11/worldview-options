@@ -9,7 +9,7 @@
       <LegendEntry rgb="255,0,255" tooltip="No Data" id="0"/>
     </Legend>
   </ColorMap>
-  <ColorMap title="Carbon Monoxide at 500 hPa" units="ppbv">
+  <ColorMap title="Carbon Monoxide" units="ppbv">
     <Entries>
       <ColorMapEntry rgb="255,253,218" transparent="false" sourceValue="[-INF,0.000e+00)" value="[-INF,0.0)" ref="1"/>
       <ColorMapEntry rgb="255,253,217" transparent="false" sourceValue="[0.000e+00,1.400e-09)" value="[0.0,1.4)" ref="2"/>
@@ -264,8 +264,8 @@
       <ColorMapEntry rgb="69,18,108" transparent="false" sourceValue="[3.486e-07,3.500e-07)" value="[348.6,350.0)" ref="251"/>
       <ColorMapEntry rgb="47,5,74" transparent="false" sourceValue="[3.500e-07,+INF)" value="[350.0,+INF)" ref="252"/>
     </Entries>
-    <Legend type="continuous" minLabel="&lt; 0" maxLabel="&gt;= 350">
-      <LegendEntry rgb="255,253,218" tooltip="&lt; 0.0" id="1"/>
+    <Legend type="continuous" minLabel="0.0" maxLabel="&gt;= 350.0">
+      <LegendEntry rgb="255,253,218" tooltip="0.0" id="1"/>
       <LegendEntry rgb="255,253,217" tooltip="0.0 - 1.4" id="2"/>
       <LegendEntry rgb="255,253,216" tooltip="1.4 - 2.8" id="3"/>
       <LegendEntry rgb="255,252,215" tooltip="2.8 - 4.2" id="4"/>

@@ -1,0 +1,18 @@
+{
+    "layers": {
+        "SallyRideRegion": {
+            "id": "SallyRideRegion",
+            "title": "SallyRideRegion",
+            "subtitle": "SallyRideRegion",
+            "group": "overlays",
+            "format": "image/png",
+            "type": "wmts",
+            "projections": {
+                "geographic": {
+                    "matrixSet": "EPSG4326_2km",
+                    "source": "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

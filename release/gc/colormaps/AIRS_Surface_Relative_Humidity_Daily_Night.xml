@@ -9,7 +9,7 @@
       <LegendEntry rgb="0,0,0" tooltip="No Data" id="0"/>
     </Legend>
   </ColorMap>
-  <ColorMap title="Surface Relative Humidity" units="%">
+  <ColorMap title="Relative Humidity" units="%">
     <Entries>
       <ColorMapEntry rgb="183,119,48" transparent="false" sourceValue="[0.0,0.5)" value="[0.0,0.5)" ref="1"/>
       <ColorMapEntry rgb="184,120,49" transparent="false" sourceValue="[0.5,1.0)" value="[0.5,1.0)" ref="2"/>

@@ -1,0 +1,27 @@
+{
+    "layers": {
+        "AHI_Dark_Target_AOD": {
+            "id":       "AHI_Dark_Target_AOD",
+            "title":    "Dark Target AOD",
+            "subtitle": "AHI / Himawari8",
+            "tags":     "optical thickness",
+            "group":    "overlays",
+
+            "format":       "image/png",
+            "period":       "subdaily",
+            "startDate":    "2018-01-01",
+            "endDate":      "2020-12-31",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_2km",
+                    "source":       "GIBS:geographic"
+                }
+            },
+            "palette": {
+		"id": "MODIS_Aqua_AOD_Deep_Blue_Combined"
+	    }
+        }
+    }
+}

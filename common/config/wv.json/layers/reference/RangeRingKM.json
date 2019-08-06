@@ -1,0 +1,18 @@
+{
+    "layers": {
+        "RangeRingKM": {
+            "id": "RangeRingKM",
+            "title": "RangeRingKM",
+            "subtitle": "RangeRingKM",
+            "group": "overlays",
+            "format": "image/png",
+            "type": "wmts",
+            "projections": {
+                "geographic": {
+                    "matrixSet": "EPSG4326_1km",
+                    "source": "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

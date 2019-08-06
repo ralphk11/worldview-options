@@ -197,9 +197,9 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-18T18:40:00Z</Default>
+             <Default>2019-07-19T21:50:00Z</Default>
              <Current>false</Current>
-             <Value>2018-01-01T00:00:00Z/2019-04-18T18:40:00Z/PT10M</Value>
+             <Value>2018-01-01T00:00:00Z/2019-07-19T21:50:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -221,9 +221,9 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-18T18:40:00Z</Default>
+             <Default>2019-07-19T21:50:00Z</Default>
              <Current>false</Current>
-             <Value>2017-01-01T00:00:00Z/2019-04-18T18:40:00Z/PT10M</Value>
+             <Value>2017-01-01T00:00:00Z/2019-07-19T21:50:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -245,9 +245,9 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-18T18:40:00Z</Default>
+             <Default>2019-07-19T21:50:00Z</Default>
              <Current>false</Current>
-             <Value>2018-01-01T00:00:00Z/2019-04-18T18:40:00Z/PT10M</Value>
+             <Value>2018-01-01T00:00:00Z/2019-07-19T21:50:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -269,9 +269,9 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-18T18:40:00Z</Default>
+             <Default>2019-07-19T21:50:00Z</Default>
              <Current>false</Current>
-             <Value>2018-01-01T00:00:00Z/2019-04-18T18:40:00Z/PT10M</Value>
+             <Value>2018-01-01T00:00:00Z/2019-07-19T21:50:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -293,9 +293,9 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-18T18:40:00Z</Default>
+             <Default>2019-07-19T21:50:00Z</Default>
              <Current>false</Current>
-             <Value>2018-01-01T00:00:00Z/2019-04-18T18:40:00Z/PT10M</Value>
+             <Value>2018-01-01T00:00:00Z/2019-07-19T21:50:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -317,14 +317,38 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-18T18:40:00Z</Default>
+             <Default>2019-07-19T21:50:00Z</Default>
              <Current>false</Current>
-             <Value>2018-01-01T00:00:00Z/2019-04-18T18:40:00Z/PT10M</Value>
+             <Value>2018-01-01T00:00:00Z/2019-07-19T21:50:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
          </TileMatrixSetLink>
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_CLAVRX_Cloud_Top_Height_ACHA/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">AHI CLAVRX Cloud Optical Thickness ACHA</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AHI_Dark_Target_AOD</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-07-19T21:50:00Z</Default>
+             <Current>false</Current>
+             <Value>2018-01-01T00:00:00Z/2019-07-19T21:50:00Z/PT10M</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_Dark_Target_AOD/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
          <ows:Title xml:lang="en">AHI Himawari8 Brightness Temperature Band 08</ows:Title>
@@ -341,9 +365,9 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-18T19:30:00Z</Default>
+             <Default>2019-07-19T22:30:00Z</Default>
              <Current>false</Current>
-             <Value>2017-01-01T00:00:00Z/2019-04-18T19:30:00Z/PT10M</Value>
+             <Value>2017-01-01T00:00:00Z/2019-07-19T22:30:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -365,9 +389,9 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-18T19:30:00Z</Default>
+             <Default>2019-07-19T22:30:00Z</Default>
              <Current>false</Current>
-             <Value>2017-01-01T00:00:00Z/2019-04-18T19:30:00Z/PT10M</Value>
+             <Value>2017-01-01T00:00:00Z/2019-07-19T22:30:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -413,9 +437,9 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-18T19:30:00Z</Default>
+             <Default>2019-07-19T22:30:00Z</Default>
              <Current>false</Current>
-             <Value>2017-08-16T00:00:00Z/2019-04-18T19:30:00Z/PT10M</Value>
+             <Value>2017-08-16T00:00:00Z/2019-07-19T22:30:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -437,9 +461,9 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-18T19:30:00Z</Default>
+             <Default>2019-07-19T22:20:00Z</Default>
              <Current>false</Current>
-             <Value>2018-10-01T00:00:00Z/2019-04-18T19:30:00Z/PT10M</Value>
+             <Value>2018-10-01T00:00:00Z/2019-07-19T22:20:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -461,9 +485,9 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-18T19:30:00Z</Default>
+             <Default>2019-07-19T22:20:00Z</Default>
              <Current>false</Current>
-             <Value>2016-01-01T00:00:00Z/2019-04-18T19:30:00Z/PT10M</Value>
+             <Value>2016-01-01T00:00:00Z/2019-07-19T22:20:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -550,6 +574,40 @@
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/aircraft_position/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
+         <ows:Title xml:lang="en">AirWayPoints</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AirWayPoints</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AirWayPoints/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">AirWayPoints_names</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AirWayPoints_names</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_250m</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AirWayPoints_names/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
          <ows:Title xml:lang="en">Blue Marble Demo Imagery</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
@@ -598,10 +656,52 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2017-12-12</Default>
+             <Default>2018-12-27</Default>
              <Current>false</Current>
              <Value>2015-02-27/2015-02-27/P1D</Value>
              <Value>2017-12-12/2017-12-12/P1D</Value>
+             <Value>2018-02-05/2018-02-05/P1D</Value>
+             <Value>2018-03-04/2018-03-04/P1D</Value>
+             <Value>2018-09-11/2018-09-11/P1D</Value>
+             <Value>2018-10-11/2018-10-11/P1D</Value>
+             <Value>2018-11-11/2018-11-11/P1D</Value>
+             <Value>2018-12-16/2018-12-17/P1D</Value>
+             <Value>2018-12-24/2018-12-24/P1D</Value>
+             <Value>2018-12-27/2018-12-27/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_CNN_Red_Green_11um/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Cloud Identification CNN Red Green 11um</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_CNN_Red_Green_11um</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2018-12-27T07:15:00Z</Default>
+             <Current>false</Current>
+             <Value>2018-02-05T04:55:00Z/2018-02-05T04:55:00Z/PT24H</Value>
+             <Value>2018-03-04T04:35:00Z/2018-03-04T04:35:00Z/PT24H</Value>
+             <Value>2018-09-11T22:10:00Z/2018-09-11T22:10:00Z/PT24H</Value>
+             <Value>2018-10-11T21:15:00Z/2018-10-11T21:15:00Z/PT24H</Value>
+             <Value>2018-11-11T18:45:00Z/2018-11-11T18:45:00Z/PT24H</Value>
+             <Value>2018-12-16T09:10:00Z/2018-12-16T09:10:00Z/PT24H</Value>
+             <Value>2018-12-16T09:15:00Z/2018-12-16T09:15:00Z/PT24H</Value>
+             <Value>2018-12-17T08:15:00Z/2018-12-17T08:15:00Z/PT24H</Value>
+             <Value>2018-12-17T08:20:00Z/2018-12-17T08:20:00Z/PT24H</Value>
+             <Value>2018-12-24T15:00:00Z/2018-12-24T15:00:00Z/PT24H</Value>
+             <Value>2018-12-27T07:15:00Z/2018-12-27T07:15:00Z/PT24H</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -651,6 +751,23 @@
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_CNN_Red/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
+         <ows:Title xml:lang="en">Cloud Identification CNN Red</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_CNN_Red</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_CNN_Red/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
          <ows:Title xml:lang="en">Cloud Identification MeanStddev Red Green 11um</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
@@ -682,10 +799,49 @@
          <Dimension>
              <ows:Identifier>time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2017-12-12</Default>
+             <Default>2018-12-27</Default>
              <Current>false</Current>
-             <Value>2015-02-27/2015-02-27/P1D</Value>
-             <Value>2017-12-12/2017-12-12/P1D</Value>
+             <Value>2018-02-05/2018-02-05/P1D</Value>
+             <Value>2018-03-04/2018-03-04/P1D</Value>
+             <Value>2018-09-11/2018-09-11/P1D</Value>
+             <Value>2018-11-11/2018-11-11/P1D</Value>
+             <Value>2018-12-16/2018-12-17/P1D</Value>
+             <Value>2018-12-24/2018-12-24/P1D</Value>
+             <Value>2018-12-27/2018-12-27/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_MeanStddev_Red_Green_11um/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Cloud Identification MeanStddev Red Green 11um</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_MeanStddev_Red_Green_11um</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2018-12-27T07:15:00Z</Default>
+             <Current>false</Current>
+             <Value>2018-02-05T04:55:00Z/2018-02-05T04:55:00Z/PT24H</Value>
+             <Value>2018-03-04T04:35:00Z/2018-03-04T04:35:00Z/PT24H</Value>
+             <Value>2018-09-11T22:10:00Z/2018-09-11T22:10:00Z/PT24H</Value>
+             <Value>2018-10-11T21:15:00Z/2018-10-11T21:15:00Z/PT24H</Value>
+             <Value>2018-11-11T18:45:00Z/2018-11-11T18:45:00Z/PT24H</Value>
+             <Value>2018-12-16T09:10:00Z/2018-12-16T09:10:00Z/PT24H</Value>
+             <Value>2018-12-16T09:15:00Z/2018-12-16T09:15:00Z/PT24H</Value>
+             <Value>2018-12-17T08:15:00Z/2018-12-17T08:15:00Z/PT24H</Value>
+             <Value>2018-12-17T08:20:00Z/2018-12-17T08:20:00Z/PT24H</Value>
+             <Value>2018-12-24T15:00:00Z/2018-12-24T15:00:00Z/PT24H</Value>
+             <Value>2018-12-27T07:15:00Z/2018-12-27T07:15:00Z/PT24H</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -733,6 +889,23 @@
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
          </TileMatrixSetLink>
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_MeanStddev_Red/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Cloud Identification MeanStddev Red</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_MeanStddev_Red</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_MeanStddev_Red/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
          <ows:Title xml:lang="en">Cloud Identification</ows:Title>
@@ -792,12 +965,30 @@
              <ows:UOM>ISO8601</ows:UOM>
              <Default>2019-03-09</Default>
              <Current>false</Current>
+             <Value>2018-10-02/2018-10-02/P1D</Value>
              <Value>2019-03-09/2019-03-09/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_16km</TileMatrixSet>
          </TileMatrixSetLink>
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/ICAP_MME_Total_Mean_AOD/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">ICOA_regions</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>ICOA_regions</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/ICOA_regions/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
          <ows:Title xml:lang="en">MODIS Aqua/Terra combined AOD from NRL</ows:Title>
@@ -824,6 +1015,31 @@
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/MODIS_NRL_AOD/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
+         <ows:Title xml:lang="en">NAVGEM_850mb_winds</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>NAVGEM_850mb_winds</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-03-08</Default>
+             <Current>false</Current>
+             <Value>2018-10-02/2018-10-02/P1D</Value>
+             <Value>2019-03-08/2019-03-08/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_8km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/NAVGEM_850mb_winds/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
          <ows:Title xml:lang="en">PISTON ship position</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
@@ -846,6 +1062,57 @@
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/PISTON_ship_position/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">RangeRingKM</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>RangeRingKM</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/RangeRingKM/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">RangeRingNM</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>RangeRingNM</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/RangeRingNM/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SallyRideRegion</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>SallyRideRegion</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/SallyRideRegion/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <TileMatrixSet>
          <ows:Identifier>EPSG4326_16km</ows:Identifier>

@@ -1,0 +1,17 @@
+{
+    "categories": {
+        "scientific": {
+            "Other": {
+                "title": "Other",
+                "id": "scientific-other",
+                "placement": "last",
+                "description": "",
+                "measurements": [
+                  "AirWayPoints",
+                  "ICOA_regions",
+                  "SallyRideRegion"
+                ]
+            }
+        }
+    }
+}
