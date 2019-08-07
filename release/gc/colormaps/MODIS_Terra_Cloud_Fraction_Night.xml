@@ -115,19 +115,19 @@
     </Entries>
     <Legend type="discrete" minLabel="0" maxLabel="100">
       <LegendEntry rgb="102,0,119" tooltip="0 - 5" id="1"/>
-      <LegendEntry rgb="183,15,141" tooltip="6 - 11" id="2"/>
+      <LegendEntry rgb="183,15,141" tooltip="6 - 11" showTick="true" showLabel="true" label="6-11" id="2"/>
       <LegendEntry rgb="0,0,100" tooltip="12 - 18" id="3"/>
-      <LegendEntry rgb="0,0,170" tooltip="19 - 24" id="4"/>
+      <LegendEntry rgb="0,0,170" tooltip="19 - 24" showTick="true" showLabel="true" label="19-24" id="4"/>
       <LegendEntry rgb="0,0,255" tooltip="25 - 30" id="5"/>
-      <LegendEntry rgb="0,136,238" tooltip="31 - 37" id="6"/>
+      <LegendEntry rgb="0,136,238" tooltip="31 - 37" showTick="true" showLabel="true" label="31-37" id="6"/>
       <LegendEntry rgb="0,80,0" tooltip="38 - 43" id="7"/>
-      <LegendEntry rgb="0,136,0" tooltip="44 - 49" id="8"/>
+      <LegendEntry rgb="0,136,0" tooltip="44 - 49" showTick="true" showLabel="true" label="44-49" id="8"/>
       <LegendEntry rgb="0,220,0" tooltip="50 - 56" id="9"/>
-      <LegendEntry rgb="255,255,0" tooltip="57 - 62" id="10"/>
+      <LegendEntry rgb="255,255,0" tooltip="57 - 62" showTick="true" showLabel="true" label="57-62" id="10"/>
       <LegendEntry rgb="240,190,64" tooltip="63 - 68" id="11"/>
-      <LegendEntry rgb="187,136,0" tooltip="69 - 75" id="12"/>
+      <LegendEntry rgb="187,136,0" tooltip="69 - 75" showTick="true" showLabel="true" label="69-75" id="12"/>
       <LegendEntry rgb="122,90,3" tooltip="76 - 81" id="13"/>
-      <LegendEntry rgb="110,0,0" tooltip="82 - 87" id="14"/>
+      <LegendEntry rgb="110,0,0" tooltip="82 - 87" showTick="true" showLabel="true" label="82-87" id="14"/>
       <LegendEntry rgb="170,0,0" tooltip="88 - 94" id="15"/>
       <LegendEntry rgb="255,0,0" tooltip="95 - 100" id="16"/>
     </Legend>

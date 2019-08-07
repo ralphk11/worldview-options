@@ -286,7 +286,7 @@
       <LegendEntry rgb="117,0,255" tooltip="229.1 – 229.5" id="24"/>
       <LegendEntry rgb="113,0,255" tooltip="229.5 – 229.9" id="25"/>
       <LegendEntry rgb="109,0,255" tooltip="229.9 – 230.2" id="26"/>
-      <LegendEntry rgb="105,0,255" tooltip="230.2 – 230.6" id="27"/>
+      <LegendEntry rgb="105,0,255" tooltip="230.2 – 230.6" showTick="true" id="27"/>
       <LegendEntry rgb="101,0,255" tooltip="230.6 – 231.0" id="28"/>
       <LegendEntry rgb="97,0,255" tooltip="231.0 – 231.3" id="29"/>
       <LegendEntry rgb="93,0,255" tooltip="231.3 – 231.7" id="30"/>
@@ -312,7 +312,7 @@
       <LegendEntry rgb="13,0,255" tooltip="238.7 – 239.1" id="50"/>
       <LegendEntry rgb="9,0,255" tooltip="239.1 – 239.5" id="51"/>
       <LegendEntry rgb="5,0,255" tooltip="239.5 – 239.8" id="52"/>
-      <LegendEntry rgb="1,0,255" tooltip="239.8 – 240.2" id="53"/>
+      <LegendEntry rgb="1,0,255" tooltip="239.8 – 240.2" showTick="true" showLabel="true" label="240.0" id="53"/>
       <LegendEntry rgb="0,10,255" tooltip="240.2 – 240.6" id="54"/>
       <LegendEntry rgb="0,15,255" tooltip="240.6 – 241.0" id="55"/>
       <LegendEntry rgb="0,20,255" tooltip="241.0 – 241.3" id="56"/>
@@ -339,7 +339,7 @@
       <LegendEntry rgb="0,128,255" tooltip="248.7 – 249.1" id="77"/>
       <LegendEntry rgb="0,133,255" tooltip="249.1 – 249.5" id="78"/>
       <LegendEntry rgb="0,138,255" tooltip="249.5 – 249.8" id="79"/>
-      <LegendEntry rgb="0,143,255" tooltip="249.8 – 250.2" id="80"/>
+      <LegendEntry rgb="0,143,255" tooltip="249.8 – 250.2" showTick="true" id="80"/>
       <LegendEntry rgb="0,148,255" tooltip="250.2 – 250.6" id="81"/>
       <LegendEntry rgb="0,153,255" tooltip="250.6 – 250.9" id="82"/>
       <LegendEntry rgb="0,158,255" tooltip="250.9 – 251.3" id="83"/>
@@ -366,7 +366,7 @@
       <LegendEntry rgb="11,255,230" tooltip="258.7 – 259.1" id="104"/>
       <LegendEntry rgb="15,255,222" tooltip="259.1 – 259.5" id="105"/>
       <LegendEntry rgb="18,255,213" tooltip="259.5 – 259.8" id="106"/>
-      <LegendEntry rgb="22,255,205" tooltip="259.8 – 260.2" id="107"/>
+      <LegendEntry rgb="22,255,205" tooltip="259.8 – 260.2" showTick="true" showLabel="true" label="260.0" id="107"/>
       <LegendEntry rgb="26,255,196" tooltip="260.2 – 260.6" id="108"/>
       <LegendEntry rgb="29,255,188" tooltip="260.6 – 260.9" id="109"/>
       <LegendEntry rgb="33,255,179" tooltip="260.9 – 261.3" id="110"/>
@@ -393,7 +393,7 @@
       <LegendEntry rgb="109,255,1" tooltip="268.7 – 269.1" id="131"/>
       <LegendEntry rgb="113,255,0" tooltip="269.1 – 269.4" id="132"/>
       <LegendEntry rgb="117,255,0" tooltip="269.4 – 269.8" id="133"/>
-      <LegendEntry rgb="120,255,0" tooltip="269.8 – 270.2" id="134"/>
+      <LegendEntry rgb="120,255,0" tooltip="269.8 – 270.2" showTick="true" id="134"/>
       <LegendEntry rgb="124,255,0" tooltip="270.2 – 270.6" id="135"/>
       <LegendEntry rgb="128,255,0" tooltip="270.6 – 270.9" id="136"/>
       <LegendEntry rgb="131,255,0" tooltip="270.9 – 271.3" id="137"/>
@@ -420,7 +420,7 @@
       <LegendEntry rgb="211,255,0" tooltip="278.7 – 279.1" id="158"/>
       <LegendEntry rgb="215,255,0" tooltip="279.1 – 279.4" id="159"/>
       <LegendEntry rgb="219,255,0" tooltip="279.4 – 279.8" id="160"/>
-      <LegendEntry rgb="222,255,0" tooltip="279.8 – 280.2" id="161"/>
+      <LegendEntry rgb="222,255,0" tooltip="279.8 – 280.2" showTick="true" showLabel="true" label="280.0" id="161"/>
       <LegendEntry rgb="226,255,0" tooltip="280.2 – 280.6" id="162"/>
       <LegendEntry rgb="230,255,0" tooltip="280.6 – 280.9" id="163"/>
       <LegendEntry rgb="233,255,0" tooltip="280.9 – 281.3" id="164"/>
@@ -447,7 +447,7 @@
       <LegendEntry rgb="255,211,0" tooltip="288.7 – 289.1" id="185"/>
       <LegendEntry rgb="255,208,0" tooltip="289.1 – 289.4" id="186"/>
       <LegendEntry rgb="255,205,0" tooltip="289.4 – 289.8" id="187"/>
-      <LegendEntry rgb="255,202,0" tooltip="289.8 – 290.2" id="188"/>
+      <LegendEntry rgb="255,202,0" tooltip="289.8 – 290.2" showTick="true" id="188"/>
       <LegendEntry rgb="255,199,0" tooltip="290.2 – 290.5" id="189"/>
       <LegendEntry rgb="255,196,0" tooltip="290.5 – 290.9" id="190"/>
       <LegendEntry rgb="255,193,0" tooltip="290.9 – 291.3" id="191"/>
@@ -474,7 +474,7 @@
       <LegendEntry rgb="255,127,0" tooltip="298.7 – 299.1" id="212"/>
       <LegendEntry rgb="255,124,0" tooltip="299.1 – 299.4" id="213"/>
       <LegendEntry rgb="255,121,0" tooltip="299.4 – 299.8" id="214"/>
-      <LegendEntry rgb="255,118,0" tooltip="299.8 – 300.2" id="215"/>
+      <LegendEntry rgb="255,118,0" tooltip="299.8 – 300.2" showTick="true" showLabel="true" label="300.0" id="215"/>
       <LegendEntry rgb="255,115,0" tooltip="300.2 – 300.5" id="216"/>
       <LegendEntry rgb="255,112,0" tooltip="300.5 – 300.9" id="217"/>
       <LegendEntry rgb="255,109,0" tooltip="300.9 – 301.3" id="218"/>
@@ -501,7 +501,7 @@
       <LegendEntry rgb="255,46,0" tooltip="308.7 – 309.0" id="239"/>
       <LegendEntry rgb="255,43,0" tooltip="309.0 – 309.4" id="240"/>
       <LegendEntry rgb="255,40,0" tooltip="309.4 – 309.8" id="241"/>
-      <LegendEntry rgb="255,37,0" tooltip="309.8 – 310.1" id="242"/>
+      <LegendEntry rgb="255,37,0" tooltip="309.8 – 310.1" showTick="true" id="242"/>
       <LegendEntry rgb="255,34,0" tooltip="310.1 – 310.5" id="243"/>
       <LegendEntry rgb="255,28,0" tooltip="310.5 – 310.9" id="244"/>
       <LegendEntry rgb="255,22,0" tooltip="310.9 – 311.3" id="245"/>

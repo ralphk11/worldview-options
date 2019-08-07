@@ -10,11 +10,7 @@
                     "title": "NASA EO / MODIS",
                     "description": "modis/BlueMarble",
                     "image": "",
-                    "settings": [
-                        "BlueMarble_NextGeneration",
-                        "BlueMarble_ShadedRelief",
-                        "BlueMarble_ShadedRelief_Bathymetry"
-                    ]
+                    "settings": []
                 }
             }
         }

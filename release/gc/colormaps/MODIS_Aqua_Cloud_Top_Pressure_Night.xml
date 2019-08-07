@@ -175,19 +175,19 @@
     <Legend type="continuous" minLabel="1" maxLabel="1100">
       <LegendEntry rgb="102,0,119" tooltip="1 - 250" id="1"/>
       <LegendEntry rgb="183,15,141" tooltip="250 - 300" id="2"/>
-      <LegendEntry rgb="0,0,100" tooltip="300 - 350" id="3"/>
+      <LegendEntry rgb="0,0,100" tooltip="300 - 350" showTick="true" showLabel="true" label="300" id="3"/>
       <LegendEntry rgb="0,0,170" tooltip="350 - 400" id="4"/>
-      <LegendEntry rgb="0,0,255" tooltip="400 - 450" id="5"/>
+      <LegendEntry rgb="0,0,255" tooltip="400 - 450" showTick="true" showLabel="true" label="400" id="5"/>
       <LegendEntry rgb="0,136,238" tooltip="450 - 500" id="6"/>
-      <LegendEntry rgb="0,80,0" tooltip="500 - 550" id="7"/>
+      <LegendEntry rgb="0,80,0" tooltip="500 - 550" showTick="true" showLabel="true" label="500" id="7"/>
       <LegendEntry rgb="0,136,0" tooltip="550 - 600" id="8"/>
-      <LegendEntry rgb="0,220,0" tooltip="600 - 650" id="9"/>
+      <LegendEntry rgb="0,220,0" tooltip="600 - 650" showTick="true" showLabel="true" label="600" id="9"/>
       <LegendEntry rgb="255,255,0" tooltip="650 - 700" id="10"/>
-      <LegendEntry rgb="240,190,64" tooltip="700 - 750" id="11"/>
+      <LegendEntry rgb="240,190,64" tooltip="700 - 750" showTick="true" showLabel="true" label="700" id="11"/>
       <LegendEntry rgb="187,136,0" tooltip="750 - 800" id="12"/>
-      <LegendEntry rgb="122,90,3" tooltip="800 - 850" id="13"/>
+      <LegendEntry rgb="122,90,3" tooltip="800 - 850" showTick="true" showLabel="true" label="800" id="13"/>
       <LegendEntry rgb="110,0,0" tooltip="850 - 900" id="14"/>
-      <LegendEntry rgb="170,0,0" tooltip="900 - 950" id="15"/>
+      <LegendEntry rgb="170,0,0" tooltip="900 - 950" showTick="true" showLabel="true" label="900" id="15"/>
       <LegendEntry rgb="255,0,0" tooltip="950 - 1100" id="16"/>
     </Legend>
   </ColorMap>
