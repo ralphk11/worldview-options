@@ -2,7 +2,7 @@
     "warnOnUnexpectedLayer": "true",
     "wv-options-fetch": [
         {
-            "from": "http://mayon.ssec.wisc.edu/onearth/wmts/epsg4326/wmts.cgi?request=GetCapabilities",
+            "from": "http://geoworldview.ssec.wisc.edu/onearth/wmts/epsg4326/wmts.cgi?request=GetCapabilities",
             "to": "gibs-geographic.xml"
         },
         {
