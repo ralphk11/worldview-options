@@ -6,12 +6,8 @@
             "subtitle": "NASA",
             "tags":     "blue_marble",
             "group":    "baselayers",
-
             "format":       "image/jpeg",
-            "period":       "daily",
-            "startDate":    "2011-01-01",
             "type":         "wmts",
-
             "projections": {
                 "geographic": {
                     "matrixSet":    "EPSG4326_1km",
