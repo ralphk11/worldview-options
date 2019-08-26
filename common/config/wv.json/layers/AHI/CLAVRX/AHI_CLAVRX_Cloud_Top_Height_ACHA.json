@@ -7,7 +7,7 @@
             "tags": "natural color cr",
             "group": "overlays",
             "format": "image/png",
-            "period": "daily",
+            "period": "subdaily",
             "startDate": "2011-01-01",
             "type": "wmts",
             "projections": {

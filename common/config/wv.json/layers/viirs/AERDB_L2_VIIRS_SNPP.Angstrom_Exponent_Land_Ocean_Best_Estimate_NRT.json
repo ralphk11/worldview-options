@@ -1,0 +1,26 @@
+{
+  "layers": {
+    "AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NRT": {
+      "id": "AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NRT",
+      "title": "Deep Blue NRT Aerosol Angstrom Exponent (Land and Ocean)",
+      "subtitle": "SNPP / VIIRS",
+      "group": "overlays",
+      "description": "viirs/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NRT",
+      "type": "wmts",
+      "period": "daily",
+      "startDate": "2015-08-25",
+      "format": "image/png",
+      "palette": {
+        "id": "AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate.colormap"
+      },
+
+      "projections": {
+         "geographic": {
+            "matrixSet":    "EPSG4326_1km",
+            "source":       "SIPS:geographic"
+        }
+      }
+    }
+  }
+}
+

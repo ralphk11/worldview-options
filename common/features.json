@@ -4,5 +4,8 @@
         "urlShortening": true,
         "animation": true,
 	"customPalettes": true
+    },
+    "imageDownload": {
+            "url": "https://radiance.ssec.wisc.edu:3002/api/v1/snapshot"
     }
 }

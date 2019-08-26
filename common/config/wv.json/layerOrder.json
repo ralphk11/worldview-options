@@ -173,6 +173,8 @@
         "VIIRS_SNPP_DayNightBand_ENCC",
         "VIIRS_Night_Lights",
         "VIIRS_SNPP_Brightness_Temp_BandI5_Day",
-        "VIIRS_SNPP_Brightness_Temp_BandI5_Night"
+        "VIIRS_SNPP_Brightness_Temp_BandI5_Night",
+	"AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NRT",
+	"AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NRT"
     ]
 }

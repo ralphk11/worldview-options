@@ -1,0 +1,1691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Capabilities xmlns="http://www.opengis.net/wmts/1.0"
+    xmlns:ows="http://www.opengis.net/ows/1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gml="http://www.opengis.net/gml"
+    xsi:schemaLocation="http://www.opengis.net/wmts/1.0
+    http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
+    version="1.0.0">
+    <ows:ServiceIdentification>
+        <ows:Title xml:lang="en">NASA Global Imagery Browse Services for EOSDIS</ows:Title>
+        <ows:Abstract xml:lang="en">
+            Near real time imagery from multiple NASA instruments
+        </ows:Abstract>
+        <ows:Keywords>
+            <ows:Keyword>World</ows:Keyword>
+            <ows:Keyword>Global</ows:Keyword>
+        </ows:Keywords>
+        <ows:ServiceType>OGC WMTS</ows:ServiceType>
+        <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
+        <ows:Fees>none</ows:Fees>
+        <ows:AccessConstraints>none</ows:AccessConstraints>
+    </ows:ServiceIdentification>
+    <ows:ServiceProvider>
+        <ows:ProviderName>National Aeronautics and Space Administration</ows:ProviderName>
+        <ows:ProviderSite xlink:href="http://earthdata.nasa.gov/"/>
+        <ows:ServiceContact>
+            <ows:IndividualName></ows:IndividualName>
+            <ows:PositionName></ows:PositionName>
+            <ows:ContactInfo>
+                <ows:Address>
+                    <ows:DeliveryPoint></ows:DeliveryPoint>
+                    <ows:City></ows:City>
+                    <ows:AdministrativeArea></ows:AdministrativeArea>
+                    <ows:PostalCode></ows:PostalCode>
+                    <ows:Country></ows:Country>
+                    <ows:ElectronicMailAddress></ows:ElectronicMailAddress>
+                </ows:Address>
+            </ows:ContactInfo>
+        </ows:ServiceContact>
+    </ows:ServiceProvider>
+    <ows:OperationsMetadata>
+        <ows:Operation name="GetCapabilities">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="http://localhost/onearth/wmts/epsg4326/1.0.0/WMTSCapabilities.xml">
+                        <ows:Constraint name="GetEncoding">
+                            <ows:AllowedValues>
+                                <ows:Value>RESTful</ows:Value>
+                            </ows:AllowedValues>
+                        </ows:Constraint>
+                    </ows:Get>
+                    <ows:Get xlink:href="http://localhost/onearth/wmts/epsg4326/wmts.cgi?">
+                        <ows:Constraint name="GetEncoding">
+                            <ows:AllowedValues>
+                                <ows:Value>KVP</ows:Value>
+                            </ows:AllowedValues>
+                        </ows:Constraint>
+                    </ows:Get>
+                </ows:HTTP>
+            </ows:DCP>
+        </ows:Operation>
+        <ows:Operation name="GetTile">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="http://localhost/onearth/wmts/epsg4326/">
+                        <ows:Constraint name="GetEncoding">
+                            <ows:AllowedValues>
+                                <ows:Value>RESTful</ows:Value>
+                            </ows:AllowedValues>
+                        </ows:Constraint>
+                    </ows:Get>
+                    <ows:Get xlink:href="http://localhost/onearth/wmts/epsg4326/wmts.cgi?">
+                        <ows:Constraint name="GetEncoding">
+                            <ows:AllowedValues>
+                                <ows:Value>KVP</ows:Value>
+                            </ows:AllowedValues>
+                        </ows:Constraint>
+                    </ows:Get>
+                </ows:HTTP>
+            </ows:DCP>
+        </ows:Operation>
+    </ows:OperationsMetadata>
+    <Contents>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue Aerosol Optical Thickness</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue Aerosol Optical Thickness Nearest Neighbor Interpolation</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NN</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue NRT Aerosol Optical Thickness</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NRT</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-08-26</Default>
+             <Current>false</Current>
+             <Value>2019-07-12/2019-08-26/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue Aerosol Angstrom Exponent</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue Aerosol Angstrom Exponent Nearest Neighbor Interpolation</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NN</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue NRT Aerosol Angstrom Exponent</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NRT</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-08-26</Default>
+             <Current>false</Current>
+             <Value>2019-07-12/2019-08-26/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">MODIS Aqua Cloud Mask Clear Sky Confidence Day Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_MODIS_Aqua.Clear_Sky_Confidence_day</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Clear_Sky_Confidence.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-03</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-03/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_MODIS_Aqua.Clear_Sky_Confidence_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">MODIS Aqua Cloud Mask Day Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_MODIS_Aqua.Integer_Cloud_Mask_day</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-03</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-03/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_MODIS_Aqua.Integer_Cloud_Mask_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">MODIS Aqua Cloud Mask Day Time Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_MODIS_Aqua.Integer_Cloud_Mask_day_NN</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_MODIS_Aqua.Integer_Cloud_Mask_day_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Clear Sky Confidence Day Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Clear_Sky_Confidence_day</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Clear_Sky_Confidence.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-03</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-03/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Clear_Sky_Confidence_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Day Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-03</Default>
+             <Current>false</Current>
+             <Value>2018-09-15/2019-06-03/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Day Time Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day_NN</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask NRT Day Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day_NRT</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-29</Default>
+             <Current>false</Current>
+             <Value>2019-04-17/2019-04-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Night Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-29</Default>
+             <Current>false</Current>
+             <Value>2019-02-28/2019-04-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Night Time Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night_NN</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask NRT Night Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night_NRT</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-28</Default>
+             <Current>false</Current>
+             <Value>2019-04-17/2019-04-28/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Day Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP_day</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2018-09-15/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask NRT Day Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP_day_NRT</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-29</Default>
+             <Current>false</Current>
+             <Value>2019-04-17/2019-04-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP_day_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-02-18</Default>
+             <Current>false</Current>
+             <Value>2019-02-16/2019-02-18/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Night Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP_night</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-29</Default>
+             <Current>false</Current>
+             <Value>2019-02-28/2019-04-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP_night/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask NRT Night Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP_night_NRT</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-28</Default>
+             <Current>false</Current>
+             <Value>2019-04-17/2019-04-28/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP_night_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">MODIS Aqua Cloud Effective Radius Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Effective_Radius</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-03</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-03/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Effective_Radius/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">MODIS Aqua Cloud Effective Radius Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Effective_Radius_NN</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Effective_Radius_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">MODIS Aqua Cloud Optical Thickness Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Optical_Thickness</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-03</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-03/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Optical_Thickness/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">MODIS Aqua Cloud Optical Thickness Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Optical_Thickness_NN</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Optical_Thickness_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">MODIS Aqua Cloud Top Height Day Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Top_Height_day</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-03</Default>
+             <Current>false</Current>
+             <Value>2019-04-22/2019-06-03/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Top_Height_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">MODIS Aqua Cloud Top Height Day Time Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Top_Height_day_NN</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Top_Height_day_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Effective Radius Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-03</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-03/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Effective Radius Ice Phase Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Ice</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Ice.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-05-11</Default>
+             <Current>false</Current>
+             <Value>2019-03-06/2019-05-11/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Ice/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Effective Radius Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_NN</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Effective Radius Water Phase Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Water</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Water.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-05-11</Default>
+             <Current>false</Current>
+             <Value>2019-03-06/2019-05-11/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Water/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Optical Thickness Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-03</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-03/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Optical Thickness Ice Phase Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Ice</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Ice.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-28</Default>
+             <Current>false</Current>
+             <Value>2019-03-06/2019-04-28/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Ice/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Optical Thickness Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_NN</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Optical Thickness Water Phase Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Water</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Water.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-28</Default>
+             <Current>false</Current>
+             <Value>2019-03-06/2019-04-28/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Water/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Top Height Day Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_day</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-03</Default>
+             <Current>false</Current>
+             <Value>2019-03-06/2019-06-03/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Top Height Day Time Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_day_NN</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_day_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Top Height Night Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_night</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-28</Default>
+             <Current>false</Current>
+             <Value>2019-03-06/2019-04-28/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_night/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">MYD06 Cloud Top Height Day Time Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>MYD06.Cloud_Top_Height_day</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-06-01</Default>
+             <Current>false</Current>
+             <Value>2019-06-01/2019-06-01/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/MYD06.Cloud_Top_Height_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Imagery</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>VNPCLDMK</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/VNPCLDMK.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2018-07-17</Default>
+             <Current>false</Current>
+             <Value>2018-07-16/2018-07-17/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/VNPCLDMK/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <TileMatrixSet>
+         <ows:Identifier>EPSG4326_16km</ows:Identifier>
+         <ows:SupportedCRS>urn:ogc:def:crs:OGC:1.3:CRS84</ows:SupportedCRS>
+         <TileMatrix>
+            <ows:Identifier>0</ows:Identifier>
+            <ScaleDenominator>223632905.6114871</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>2</MatrixWidth>
+            <MatrixHeight>1</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>1</ows:Identifier>
+            <ScaleDenominator>111816452.8057436</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>3</MatrixWidth>
+            <MatrixHeight>2</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>2</ows:Identifier>
+            <ScaleDenominator>55908226.40287178</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>5</MatrixWidth>
+            <MatrixHeight>3</MatrixHeight>
+         </TileMatrix>
+      </TileMatrixSet>
+      <TileMatrixSet>
+         <ows:Identifier>EPSG4326_2km</ows:Identifier>
+         <ows:SupportedCRS>urn:ogc:def:crs:OGC:1.3:CRS84</ows:SupportedCRS>
+         <TileMatrix>
+            <ows:Identifier>0</ows:Identifier>
+            <ScaleDenominator>223632905.6114871</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>2</MatrixWidth>
+            <MatrixHeight>1</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>1</ows:Identifier>
+            <ScaleDenominator>111816452.8057436</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>3</MatrixWidth>
+            <MatrixHeight>2</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>2</ows:Identifier>
+            <ScaleDenominator>55908226.40287178</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>5</MatrixWidth>
+            <MatrixHeight>3</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>3</ows:Identifier>
+            <ScaleDenominator>27954113.20143589</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>10</MatrixWidth>
+            <MatrixHeight>5</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>4</ows:Identifier>
+            <ScaleDenominator>13977056.60071795</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>20</MatrixWidth>
+            <MatrixHeight>10</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>5</ows:Identifier>
+            <ScaleDenominator>6988528.300358973</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>40</MatrixWidth>
+            <MatrixHeight>20</MatrixHeight>
+         </TileMatrix>
+      </TileMatrixSet>
+      <TileMatrixSet>
+         <ows:Identifier>EPSG4326_1km</ows:Identifier>
+         <ows:SupportedCRS>urn:ogc:def:crs:OGC:1.3:CRS84</ows:SupportedCRS>
+         <TileMatrix>
+            <ows:Identifier>0</ows:Identifier>
+            <ScaleDenominator>223632905.6114871</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>2</MatrixWidth>
+            <MatrixHeight>1</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>1</ows:Identifier>
+            <ScaleDenominator>111816452.8057436</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>3</MatrixWidth>
+            <MatrixHeight>2</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>2</ows:Identifier>
+            <ScaleDenominator>55908226.40287178</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>5</MatrixWidth>
+            <MatrixHeight>3</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>3</ows:Identifier>
+            <ScaleDenominator>27954113.20143589</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>10</MatrixWidth>
+            <MatrixHeight>5</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>4</ows:Identifier>
+            <ScaleDenominator>13977056.60071795</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>20</MatrixWidth>
+            <MatrixHeight>10</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>5</ows:Identifier>
+            <ScaleDenominator>6988528.300358973</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>40</MatrixWidth>
+            <MatrixHeight>20</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>6</ows:Identifier>
+            <ScaleDenominator>3494264.150179486</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>80</MatrixWidth>
+            <MatrixHeight>40</MatrixHeight>
+         </TileMatrix>
+      </TileMatrixSet>
+      <TileMatrixSet>
+         <ows:Identifier>EPSG4326_500m</ows:Identifier>
+         <ows:SupportedCRS>urn:ogc:def:crs:OGC:1.3:CRS84</ows:SupportedCRS>
+         <TileMatrix>
+            <ows:Identifier>0</ows:Identifier>
+            <ScaleDenominator>223632905.6114871</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>2</MatrixWidth>
+            <MatrixHeight>1</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>1</ows:Identifier>
+            <ScaleDenominator>111816452.8057436</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>3</MatrixWidth>
+            <MatrixHeight>2</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>2</ows:Identifier>
+            <ScaleDenominator>55908226.40287178</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>5</MatrixWidth>
+            <MatrixHeight>3</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>3</ows:Identifier>
+            <ScaleDenominator>27954113.20143589</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>10</MatrixWidth>
+            <MatrixHeight>5</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>4</ows:Identifier>
+            <ScaleDenominator>13977056.60071795</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>20</MatrixWidth>
+            <MatrixHeight>10</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>5</ows:Identifier>
+            <ScaleDenominator>6988528.300358973</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>40</MatrixWidth>
+            <MatrixHeight>20</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>6</ows:Identifier>
+            <ScaleDenominator>3494264.150179486</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>80</MatrixWidth>
+            <MatrixHeight>40</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>7</ows:Identifier>
+            <ScaleDenominator>1747132.075089743</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>160</MatrixWidth>
+            <MatrixHeight>80</MatrixHeight>
+         </TileMatrix>
+      </TileMatrixSet>
+      <TileMatrixSet>
+         <ows:Identifier>EPSG4326_250m</ows:Identifier>
+         <ows:SupportedCRS>urn:ogc:def:crs:OGC:1.3:CRS84</ows:SupportedCRS>
+         <TileMatrix>
+            <ows:Identifier>0</ows:Identifier>
+            <ScaleDenominator>223632905.6114871</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>2</MatrixWidth>
+            <MatrixHeight>1</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>1</ows:Identifier>
+            <ScaleDenominator>111816452.8057436</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>3</MatrixWidth>
+            <MatrixHeight>2</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>2</ows:Identifier>
+            <ScaleDenominator>55908226.40287178</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>5</MatrixWidth>
+            <MatrixHeight>3</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>3</ows:Identifier>
+            <ScaleDenominator>27954113.20143589</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>10</MatrixWidth>
+            <MatrixHeight>5</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>4</ows:Identifier>
+            <ScaleDenominator>13977056.60071795</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>20</MatrixWidth>
+            <MatrixHeight>10</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>5</ows:Identifier>
+            <ScaleDenominator>6988528.300358973</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>40</MatrixWidth>
+            <MatrixHeight>20</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>6</ows:Identifier>
+            <ScaleDenominator>3494264.150179486</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>80</MatrixWidth>
+            <MatrixHeight>40</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>7</ows:Identifier>
+            <ScaleDenominator>1747132.075089743</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>160</MatrixWidth>
+            <MatrixHeight>80</MatrixHeight>
+         </TileMatrix>
+         <TileMatrix>
+            <ows:Identifier>8</ows:Identifier>
+            <ScaleDenominator>873566.0375448716</ScaleDenominator>
+            <TopLeftCorner>-180 90</TopLeftCorner>
+            <TileWidth>512</TileWidth>
+            <TileHeight>512</TileHeight>
+            <MatrixWidth>320</MatrixWidth>
+            <MatrixHeight>160</MatrixHeight>
+         </TileMatrix>
+      </TileMatrixSet>
+	  <TileMatrixSet>
+	     <ows:Identifier>31.25m</ows:Identifier>
+	     <ows:SupportedCRS>urn:ogc:def:crs:OGC:1.3:CRS84</ows:SupportedCRS>
+	     <TileMatrix>
+	        <ows:Identifier>0</ows:Identifier>
+	        <ScaleDenominator>223632905.6114871</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>2</MatrixWidth>
+	        <MatrixHeight>1</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>1</ows:Identifier>
+	        <ScaleDenominator>111816452.8057436</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>3</MatrixWidth>
+	        <MatrixHeight>2</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>2</ows:Identifier>
+	        <ScaleDenominator>55908226.40287178</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>5</MatrixWidth>
+	        <MatrixHeight>3</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>3</ows:Identifier>
+	        <ScaleDenominator>27954113.20143589</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>10</MatrixWidth>
+	        <MatrixHeight>5</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>4</ows:Identifier>
+	        <ScaleDenominator>13977056.60071795</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>20</MatrixWidth>
+	        <MatrixHeight>10</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>5</ows:Identifier>
+	        <ScaleDenominator>6988528.300358973</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>40</MatrixWidth>
+	        <MatrixHeight>20</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>6</ows:Identifier>
+	        <ScaleDenominator>3494264.150179486</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>80</MatrixWidth>
+	        <MatrixHeight>40</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>7</ows:Identifier>
+	        <ScaleDenominator>1747132.075089743</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>160</MatrixWidth>
+	        <MatrixHeight>80</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>8</ows:Identifier>
+	        <ScaleDenominator>873566.0375448716</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>320</MatrixWidth>
+	        <MatrixHeight>160</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>9</ows:Identifier>
+	        <ScaleDenominator>436783.0187724358</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>640</MatrixWidth>
+	        <MatrixHeight>320</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>10</ows:Identifier>
+	        <ScaleDenominator>218391.5093862179</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>1280</MatrixWidth>
+	        <MatrixHeight>640</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>11</ows:Identifier>
+	        <ScaleDenominator>109195.75469310895</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>2560</MatrixWidth>
+	        <MatrixHeight>1280</MatrixHeight>
+	     </TileMatrix>
+	  </TileMatrixSet>
+	  <TileMatrixSet>
+	     <ows:Identifier>15.625m</ows:Identifier>
+	     <ows:SupportedCRS>urn:ogc:def:crs:OGC:1.3:CRS84</ows:SupportedCRS>
+	     <TileMatrix>
+	        <ows:Identifier>0</ows:Identifier>
+	        <ScaleDenominator>223632905.6114871</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>2</MatrixWidth>
+	        <MatrixHeight>1</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>1</ows:Identifier>
+	        <ScaleDenominator>111816452.8057436</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>3</MatrixWidth>
+	        <MatrixHeight>2</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>2</ows:Identifier>
+	        <ScaleDenominator>55908226.40287178</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>5</MatrixWidth>
+	        <MatrixHeight>3</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>3</ows:Identifier>
+	        <ScaleDenominator>27954113.20143589</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>10</MatrixWidth>
+	        <MatrixHeight>5</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>4</ows:Identifier>
+	        <ScaleDenominator>13977056.60071795</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>20</MatrixWidth>
+	        <MatrixHeight>10</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>5</ows:Identifier>
+	        <ScaleDenominator>6988528.300358973</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>40</MatrixWidth>
+	        <MatrixHeight>20</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>6</ows:Identifier>
+	        <ScaleDenominator>3494264.150179486</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>80</MatrixWidth>
+	        <MatrixHeight>40</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>7</ows:Identifier>
+	        <ScaleDenominator>1747132.075089743</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>160</MatrixWidth>
+	        <MatrixHeight>80</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>8</ows:Identifier>
+	        <ScaleDenominator>873566.0375448716</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>320</MatrixWidth>
+	        <MatrixHeight>160</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>9</ows:Identifier>
+	        <ScaleDenominator>436783.0187724358</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>640</MatrixWidth>
+	        <MatrixHeight>320</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>10</ows:Identifier>
+	        <ScaleDenominator>218391.5093862179</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>1280</MatrixWidth>
+	        <MatrixHeight>640</MatrixHeight>
+	     </TileMatrix>
+	     <TileMatrix>
+	        <ows:Identifier>11</ows:Identifier>
+	        <ScaleDenominator>109195.75469310895</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>2560</MatrixWidth>
+	        <MatrixHeight>1280</MatrixHeight>
+	     </TileMatrix>
+      	 <TileMatrix>
+	        <ows:Identifier>12</ows:Identifier>
+	        <ScaleDenominator>54597.877346554475</ScaleDenominator>
+	        <TopLeftCorner>-180 90</TopLeftCorner>
+	        <TileWidth>512</TileWidth>
+	        <TileHeight>512</TileHeight>
+	        <MatrixWidth>5120</MatrixWidth>
+	        <MatrixHeight>2560</MatrixHeight>
+	     </TileMatrix>
+	  </TileMatrixSet>
+    </Contents>
+    <ServiceMetadataURL xlink:href="http://localhost/onearth/wmts/epsg4326/1.0.0/WMTSCapabilities.xml"/>
+</Capabilities>

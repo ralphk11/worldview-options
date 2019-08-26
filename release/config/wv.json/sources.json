@@ -5,6 +5,9 @@
                 },
     "GIBS:geographic_nasa": {
     "url": "https://gibs-{a-c}.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi"
+	},
+    "SIPS:geographic": {
+    "url": "https://sips.ssec.wisc.edu/onearth/wmts/epsg4326/wmts.cgi"
 	}
     }
 }

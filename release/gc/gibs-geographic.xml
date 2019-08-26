@@ -99,9 +99,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-14T16:40:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2018-01-01T00:00:00Z/2019-08-14T16:40:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -125,9 +125,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-08T15:50:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2018-01-01T00:00:00Z/2019-08-08T15:50:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -151,9 +151,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-08T15:50:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2018-01-01T00:00:00Z/2019-08-08T15:50:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -177,9 +177,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-14T16:40:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2018-01-01T00:00:00Z/2019-08-14T16:40:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -203,9 +203,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-14T16:40:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2018-01-01T00:00:00Z/2019-08-14T16:40:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -229,9 +229,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-08T15:50:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2018-01-01T00:00:00Z/2019-08-08T15:50:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -255,9 +255,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-14T16:40:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2017-01-01T00:00:00Z/2019-08-14T16:40:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -281,9 +281,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-14T16:40:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2017-01-01T00:00:00Z/2019-08-14T16:40:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -307,9 +307,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-14T16:40:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2017-01-01T00:00:00Z/2019-08-14T16:40:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -333,9 +333,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-14T16:40:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2017-08-16T00:00:00Z/2019-08-14T16:40:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -359,9 +359,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-14T16:40:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2018-10-01T00:00:00Z/2019-08-14T16:40:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -385,9 +385,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-14T13:40:00Z</Default>
+             <Default>2021-01-01T00:00:00Z</Default>
              <Current>false</Current>
-             <Value>2016-01-01T00:00:00Z/2019-08-14T13:40:00Z/PT10M</Value>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
@@ -450,6 +450,60 @@
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
          <ResourceURL format="image/jpeg" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/blue_marble/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Cloud Identification CNN Red Green 11um (Patch 25)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_CNN_Red_Green_11um_p025</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2017-12-12</Default>
+             <Current>false</Current>
+             <Value>2017-12-12/2017-12-12/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_CNN_Red_Green_11um_p025/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Cloud Identification CNN Red Green 11um (Patch 100)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_CNN_Red_Green_11um_p100</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2017-12-12</Default>
+             <Current>false</Current>
+             <Value>2015-04-27/2015-04-27/P1D</Value>
+             <Value>2017-10-09/2017-10-09/P1D</Value>
+             <Value>2017-12-11/2017-12-12/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_CNN_Red_Green_11um_p100/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
          <ows:Title xml:lang="en">Coastlines</ows:Title>

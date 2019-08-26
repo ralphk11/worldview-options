@@ -1,0 +1,26 @@
+{
+  "layers": {
+    "AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NRT": {
+      "id": "AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NRT",
+      "title": "Deep Blue NRT Aersol Optical Depth (Land and Ocean)",
+      "subtitle": "SNPP / VIIRS",
+      "group": "overlays",
+      "description": "viirs/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NRT",
+      "type": "wmts",
+      "period": "daily",
+      "startDate": "2012-03-21",
+      "format": "image/png",
+      "palette": {
+        "id": "AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate.colormap"
+      },
+
+      "projections": {
+         "geographic": {
+            "matrixSet":    "EPSG4326_1km",
+            "source":       "SIPS:geographic"
+        }
+      }
+    }
+  }
+}
+
