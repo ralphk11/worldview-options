@@ -1,8 +1,8 @@
 {
     "layers": {
-        "AHI_CLAVRX_Cloud_Effective_Radius": {
-            "id": "AHI_CLAVRX_Cloud_Effective_Radius",
-            "title": "AHI CLAVRX Cloud Effective Radius",
+        "AHI_CLAVRX_Cloud_Effective_Radius_ACHA": {
+            "id": "AHI_CLAVRX_Cloud_Effective_Radius_ACHA",
+            "title": "AHI CLAVRX Cloud Effective Radius ACHA",
             "subtitle": "AHI",
             "tags": "natural color cr",
             "group": "overlays",

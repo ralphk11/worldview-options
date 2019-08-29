@@ -83,6 +83,32 @@
     </ows:OperationsMetadata>
     <Contents>
       <Layer>
+         <ows:Title xml:lang="en">AHI CLAVRX Cloud Effective Radius ACHA</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AHI_CLAVRX_Cloud_Effective_Radius_ACHA</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2021-01-01T00:00:00Z</Default>
+             <Current>false</Current>
+             <Value>2017-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_CLAVRX_Cloud_Effective_Radius_ACHA/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
          <ows:Title xml:lang="en">AHI CLAVRX Cloud Effective Radius DCOMP</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
@@ -107,6 +133,25 @@
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
          </TileMatrixSetLink>
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_CLAVRX_Cloud_Effective_Radius_DCOMP/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">AHI CLAVRX Cloud Effective Radius</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AHI_CLAVRX_Cloud_Effective_Radius</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_CLAVRX_Cloud_Effective_Radius/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
          <ows:Title xml:lang="en">AHI CLAVRX Cloud Optical Thickness ACHA</ows:Title>
@@ -393,6 +438,33 @@
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
          </TileMatrixSetLink>
          <ResourceURL format="image/jpeg" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_Himawari8_CorrectedReflectance_TrueColor/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">aircraft position</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>aircraft_position</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2021-01-01T00:00:00Z</Default>
+             <Current>false</Current>
+             <Value>2018-07-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+                <TileMatrixSet>EPSG4326_500m</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/aircraft_position/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
          <ows:Title xml:lang="en">AirWayPoints</ows:Title>
