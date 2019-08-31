@@ -10,7 +10,8 @@
                   "Blue Marble",
                   "Brightness Temperature",
                   "Cloud Top Height",
-                  "Corrected Reflectance"
+                  "Corrected Reflectance",
+                  "Navigation"
                 ]
             }
         }

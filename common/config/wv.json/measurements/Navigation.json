@@ -1,0 +1,21 @@
+{
+    "measurements": {
+        "Navigation": {
+            "id": "navigation",
+            "title":    "Navigation",
+            "subtitle": "Aids",
+            "sources": {
+                "reference": {
+                    "id": "reference",
+                    "title": "Navigation",
+                    "description": "Navigation aids",
+                    "image": "",
+                    "settings": [
+                        "AirWayPoints",
+                        "aircraft_position"
+                    ]
+                }
+            }
+        }
+    }
+}

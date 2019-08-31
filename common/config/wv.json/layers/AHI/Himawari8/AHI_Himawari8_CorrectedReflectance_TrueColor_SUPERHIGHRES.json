@@ -1,0 +1,24 @@
+{
+    "layers": {
+        "AHI_Himawari8_CorrectedReflectance_TrueColor_SUPERHIGHRES": {
+            "id":       "AHI_Himawari8_CorrectedReflectance_TrueColor_SUPERHIGHRES",
+            "title":    "Corrected Reflectance (True Color) 500 m resolution",
+            "subtitle": "AHI / Himawari8",
+            "tags":     "natural color cr",
+            "group":    "baselayers",
+
+            "format":       "image/jpeg",
+            "period":       "subdaily",
+            "startDate":    "2019-07-01",
+            "endDate":      "2021-12-31",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_500m",
+                    "source":       "GIBS:geographic"
+                }
+            }
+        }
+    }
+}

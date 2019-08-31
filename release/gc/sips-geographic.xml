@@ -144,10 +144,17 @@
              
          </Style>
          <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-08-29</Default>
+             <Current>false</Current>
+             <Value>2019-07-21/2019-08-29/P1D</Value>
+         </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NRT/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
          <ows:Title xml:lang="en">SNPP VIIRS Deep Blue Aerosol Angstrom Exponent</ows:Title>
@@ -211,10 +218,17 @@
              
          </Style>
          <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-08-29</Default>
+             <Current>false</Current>
+             <Value>2019-07-21/2019-08-29/P1D</Value>
+         </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NRT/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
          <ows:Title xml:lang="en">MODIS Aqua Cloud Mask Clear Sky Confidence Day Time Imagery</ows:Title>
@@ -342,9 +356,9 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-26</Default>
+             <Default>2019-08-29</Default>
              <Current>false</Current>
-             <Value>2019-08-23/2019-08-26/P1D</Value>
+             <Value>2019-08-23/2019-08-29/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>

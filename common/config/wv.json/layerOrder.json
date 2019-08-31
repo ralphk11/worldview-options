@@ -12,6 +12,8 @@
         "AHI_CHIMAERA_Cloud_Optical_Thickness",
 	"AHI_Dark_Target_AOD",
         "AHI_Himawari8_CorrectedReflectance_TrueColor",
+        "AHI_Himawari8_CorrectedReflectance_TrueColor_HIGHRES",
+        "AHI_Himawari8_CorrectedReflectance_TrueColor_SUPERHIGHRES",
         "AHI_Himawari8_CorrectedReflectance_LargeParticle",
         "AHI_Himawari8_Reflectance_Band03",
         "AHI_Himawari8_Reflectance_Band04",

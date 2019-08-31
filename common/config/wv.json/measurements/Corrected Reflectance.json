@@ -11,7 +11,9 @@
                     "description": "AHI/CorrectedReflectance",
                     "image": "",
                     "settings": [
-                	"AHI_Himawari8_CorrectedReflectance_TrueColor"
+                	"AHI_Himawari8_CorrectedReflectance_TrueColor",
+                	"AHI_Himawari8_CorrectedReflectance_TrueColor_HIGHRES",
+                	"AHI_Himawari8_CorrectedReflectance_TrueColor_SUPERHIGHRES"
                     ]
                 }
             }
