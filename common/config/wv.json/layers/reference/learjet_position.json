@@ -1,8 +1,8 @@
 {
     "layers": {
-        "aircraft_position": {
-            "id":       "aircraft_position",
-            "title":    "P3 position",
+        "learjet_position": {
+            "id":       "learjet_position",
+            "title":    "LearJet position",
             "subtitle": "latitude / longitude",
             "tags":     "location",
             "group":    "overlays",

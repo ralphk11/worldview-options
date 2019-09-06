@@ -23,6 +23,7 @@
         "AHI_Himawari8_Brightness_Temperature_Band14",
         "PISTON_ship_position",
         "aircraft_position",
+        "learjet_position",
         "ICAP_MME_Total_Mean_AOD",
         "NAVGEM_850mb_winds",
         "CloudIdentification",

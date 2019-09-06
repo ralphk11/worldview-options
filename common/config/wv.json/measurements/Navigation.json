@@ -12,7 +12,9 @@
                     "image": "",
                     "settings": [
                         "AirWayPoints",
-                        "aircraft_position"
+                        "aircraft_position",
+                        "learjet_position",
+                        "PISTON_ship_position"
                     ]
                 }
             }
