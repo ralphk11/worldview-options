@@ -11,6 +11,7 @@
                     "description": "AHI/BrightnessTemperature",
                     "image": "",
                     "settings": [
+                        "AHI_Himawari8_Brightness_Temperature_Band07",
                         "AHI_Himawari8_Brightness_Temperature_Band08",
                         "AHI_Himawari8_Brightness_Temperature_Band09",
                         "AHI_Himawari8_Brightness_Temperature_Band10",

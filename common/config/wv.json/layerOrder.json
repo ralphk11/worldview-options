@@ -17,6 +17,7 @@
         "AHI_Himawari8_CorrectedReflectance_LargeParticle",
         "AHI_Himawari8_Reflectance_Band03",
         "AHI_Himawari8_Reflectance_Band04",
+        "AHI_Himawari8_Brightness_Temperature_Band07",
         "AHI_Himawari8_Brightness_Temperature_Band08",
         "AHI_Himawari8_Brightness_Temperature_Band09",
         "AHI_Himawari8_Brightness_Temperature_Band10",
