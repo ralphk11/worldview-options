@@ -27,6 +27,7 @@
         "learjet_position",
         "ICAP_MME_Total_Mean_AOD",
         "NAVGEM_850mb_winds",
+        "NAVGEM_200mb_winds",
         "CloudIdentification",
         "ABI_L1b_BT_M3C14",
         "ABI_L1b_Rad_M3C02",
