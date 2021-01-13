@@ -125,7 +125,7 @@
       <ColorMapEntry rgb="251,241,241" transparent="false" sourceValue="[119]" value="[119]" ref="119"/>
       <ColorMapEntry rgb="254,254,254" transparent="false" sourceValue="[120,240]" value="[120,240]" ref="120"/>
     </Entries>
-    <Legend type="continuous" minLabel="0" maxLabel="&gt;= 120">
+    <Legend type="continuous" minLabel="0" maxLabel="&#8805; 120">
       <LegendEntry rgb="17,17,17" tooltip="0" id="0"/>
       <LegendEntry rgb="183,000,195" tooltip="1" id="1"/>
       <LegendEntry rgb="174,000,198" tooltip="2" id="2"/>

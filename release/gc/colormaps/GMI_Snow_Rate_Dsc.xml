@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ColorMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:noNamespaceSchemaLocation="http://gibs.earthdata.nasa.gov/schemas/ColorMap_v1.3.xsd">
-  <ColorMap title="No Data">
+  <ColorMap title="Classifications">
     <Entries>
       <ColorMapEntry rgb="128,128,128" transparent="true" nodata="true" ref="0"/>
+      <ColorMapEntry rgb="191,191,191" transparent="false" value="[-INF,0.1)" ref="1"/>
     </Entries>
     <Legend type="classification">
       <LegendEntry rgb="128,128,128" tooltip="No Data" id="0"/>
+      <LegendEntry rgb="191,191,191" tooltip="Insignificant" id="1"/>
     </Legend>
   </ColorMap>
   <ColorMap title="Snow" units="mm/hr">
     <Entries>
-      <ColorMapEntry rgb="191,191,191" transparent="false" value="[-INF,0.1)" ref="1"/>
       <ColorMapEntry rgb="177,250,238" transparent="false" value="[0.1,0.110069)" ref="2"/>
       <ColorMapEntry rgb="171,249,239" transparent="false" value="[0.110069,0.121153)" ref="3"/>
       <ColorMapEntry rgb="166,248,240" transparent="false" value="[0.121153,0.133352)" ref="4"/>
@@ -79,8 +80,7 @@
       <ColorMapEntry rgb="66,3,58" transparent="false" value="[46.4159,51.0897)" ref="66"/>
       <ColorMapEntry rgb="58,3,48" transparent="false" value="[51.0897,+INF)" ref="67"/>
     </Entries>
-    <Legend type="continuous" minLabel="&lt; 0.1" maxLabel="&gt;= 51.0">
-      <LegendEntry rgb="191,191,191" tooltip="&lt; 0.1" id="1"/>
+    <Legend type="continuous" minLabel="0.1" maxLabel="&#8805; 51.0">
       <LegendEntry rgb="177,250,238" tooltip="0.1 - 0.110069" id="2"/>
       <LegendEntry rgb="171,249,239" tooltip="0.110069 - 0.121153" id="3"/>
       <LegendEntry rgb="166,248,240" tooltip="0.121153 - 0.133352" id="4"/>
@@ -146,7 +146,7 @@
       <LegendEntry rgb="84,4,79" tooltip="38.3119 - 42.1697" showTick="true" id="64"/>
       <LegendEntry rgb="75,3,69" tooltip="42.1697 - 46.4159" id="65"/>
       <LegendEntry rgb="66,3,58" tooltip="46.4159 - 51.0897" id="66"/>
-      <LegendEntry rgb="58,3,48" tooltip="&gt;= 51.0897" id="67"/>
+      <LegendEntry rgb="58,3,48" tooltip="&#8805; 51.0897" id="67"/>
     </Legend>
   </ColorMap>
 </ColorMaps>

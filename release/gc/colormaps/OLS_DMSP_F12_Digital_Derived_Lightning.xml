@@ -52,47 +52,47 @@
       <ColorMapEntry rgb="212,2,20" transparent="false" sourceValue="[39]" value="[39]" ref="39"/>
       <ColorMapEntry rgb="207,2,11" transparent="false" sourceValue="[40,+INF)" value="[40,+INF)" ref="40"/>
     </Entries>
-    <Legend type="discrete" minLabel="1" maxLabel="&gt;= 40">
+    <Legend type="discrete" minLabel="1" maxLabel="&#8805; 40">
       <LegendEntry rgb="91,41,204" tooltip="1" id="1"/>
       <LegendEntry rgb="101,42,209" tooltip="2" id="2"/>
       <LegendEntry rgb="106,40,209" tooltip="3" id="3"/>
       <LegendEntry rgb="116,41,214" tooltip="4" id="4"/>
-      <LegendEntry rgb="123,39,214" tooltip="5" id="5"/>
+      <LegendEntry rgb="123,39,214" tooltip="5" showTick="true" id="5"/>
       <LegendEntry rgb="133,39,219" tooltip="6" id="6"/>
       <LegendEntry rgb="140,37,219" tooltip="7" id="7"/>
       <LegendEntry rgb="151,38,224" tooltip="8" id="8"/>
       <LegendEntry rgb="158,36,224" tooltip="9" id="9"/>
-      <LegendEntry rgb="170,37,230" tooltip="10" id="10"/>
+      <LegendEntry rgb="170,37,230" tooltip="10" showTick="true" showLabel="true" label="10" id="10"/>
       <LegendEntry rgb="177,34,230" tooltip="11" id="11"/>
       <LegendEntry rgb="190,35,235" tooltip="12" id="12"/>
       <LegendEntry rgb="198,33,235" tooltip="13" id="13"/>
       <LegendEntry rgb="211,34,240" tooltip="14" id="14"/>
-      <LegendEntry rgb="219,31,240" tooltip="15" id="15"/>
+      <LegendEntry rgb="219,31,240" tooltip="15" showTick="true" id="15"/>
       <LegendEntry rgb="233,32,245" tooltip="16" id="16"/>
       <LegendEntry rgb="242,29,245" tooltip="17" id="17"/>
       <LegendEntry rgb="250,30,244" tooltip="18" id="18"/>
       <LegendEntry rgb="250,27,234" tooltip="19" id="19"/>
-      <LegendEntry rgb="255,28,230" tooltip="20" id="20"/>
+      <LegendEntry rgb="255,28,230" tooltip="20" showTick="true" showLabel="true" label="20" id="20"/>
       <LegendEntry rgb="255,26,220" tooltip="21" id="21"/>
       <LegendEntry rgb="252,25,208" tooltip="22" id="22"/>
       <LegendEntry rgb="252,23,198" tooltip="23" id="23"/>
       <LegendEntry rgb="247,22,184" tooltip="24" id="24"/>
-      <LegendEntry rgb="247,20,174" tooltip="25" id="25"/>
+      <LegendEntry rgb="247,20,174" tooltip="25" showTick="true" id="25"/>
       <LegendEntry rgb="242,19,161" tooltip="26" id="26"/>
       <LegendEntry rgb="242,17,150" tooltip="27" id="27"/>
       <LegendEntry rgb="237,17,138" tooltip="28" id="28"/>
       <LegendEntry rgb="237,14,127" tooltip="29" id="29"/>
-      <LegendEntry rgb="232,14,115" tooltip="30" id="30"/>
+      <LegendEntry rgb="232,14,115" tooltip="30" showTick="true" showLabel="true" label="30" id="30"/>
       <LegendEntry rgb="232,12,105" tooltip="31" id="31"/>
       <LegendEntry rgb="227,11,93" tooltip="32" id="32"/>
       <LegendEntry rgb="227,9,83" tooltip="33" id="33"/>
       <LegendEntry rgb="222,9,72" tooltip="34" id="34"/>
-      <LegendEntry rgb="222,7,61" tooltip="35" id="35"/>
+      <LegendEntry rgb="222,7,61" tooltip="35" showTick="true" id="35"/>
       <LegendEntry rgb="217,7,51" tooltip="36" id="36"/>
       <LegendEntry rgb="217,4,40" tooltip="37" id="37"/>
       <LegendEntry rgb="212,4,31" tooltip="38" id="38"/>
       <LegendEntry rgb="212,2,20" tooltip="39" id="39"/>
-      <LegendEntry rgb="207,2,11" tooltip="&gt;= 40" id="40"/>
+      <LegendEntry rgb="207,2,11" tooltip="&#8805; 40" id="40"/>
     </Legend>
   </ColorMap>
 </ColorMaps>

@@ -318,7 +318,7 @@
       <LegendEntry rgb="172,231,172" tooltip="47" id="48"/>
       <LegendEntry rgb="171,231,171" tooltip="48" id="49"/>
       <LegendEntry rgb="170,230,170" tooltip="49" id="50"/>
-      <LegendEntry rgb="169,230,169" tooltip="50" id="51"/>
+      <LegendEntry rgb="169,230,169" tooltip="50" showTick="true" showLabel="true" label="50" id="51"/>
       <LegendEntry rgb="168,229,168" tooltip="51" id="52"/>
       <LegendEntry rgb="168,228,168" tooltip="52" id="53"/>
       <LegendEntry rgb="167,228,167" tooltip="53" id="54"/>
@@ -368,7 +368,7 @@
       <LegendEntry rgb="130,206,131" tooltip="97" id="98"/>
       <LegendEntry rgb="130,206,130" tooltip="98" id="99"/>
       <LegendEntry rgb="129,205,129" tooltip="99" id="100"/>
-      <LegendEntry rgb="128,205,128" tooltip="100" id="101"/>
+      <LegendEntry rgb="128,205,128" tooltip="100" showTick="true" showLabel="true" label="100" id="101"/>
       <LegendEntry rgb="127,204,127" tooltip="101" id="102"/>
       <LegendEntry rgb="126,204,126" tooltip="102" id="103"/>
       <LegendEntry rgb="125,203,126" tooltip="103" id="104"/>
@@ -418,7 +418,7 @@
       <LegendEntry rgb="89,181,89" tooltip="147" id="148"/>
       <LegendEntry rgb="88,181,88" tooltip="148" id="149"/>
       <LegendEntry rgb="87,180,87" tooltip="149" id="150"/>
-      <LegendEntry rgb="86,180,86" tooltip="150" id="151"/>
+      <LegendEntry rgb="86,180,86" tooltip="150" showTick="true" showLabel="true" label="150" id="151"/>
       <LegendEntry rgb="85,179,86" tooltip="151" id="152"/>
       <LegendEntry rgb="85,179,85" tooltip="152" id="153"/>
       <LegendEntry rgb="84,178,84" tooltip="153" id="154"/>
@@ -468,7 +468,7 @@
       <LegendEntry rgb="47,156,47" tooltip="197" id="198"/>
       <LegendEntry rgb="46,156,46" tooltip="198" id="199"/>
       <LegendEntry rgb="45,155,46" tooltip="199" id="200"/>
-      <LegendEntry rgb="45,155,45" tooltip="200" id="201"/>
+      <LegendEntry rgb="45,155,45" tooltip="200" showTick="true" showLabel="true" label="200" id="201"/>
       <LegendEntry rgb="44,154,44" tooltip="201" id="202"/>
       <LegendEntry rgb="43,154,43" tooltip="202" id="203"/>
       <LegendEntry rgb="42,153,42" tooltip="203" id="204"/>

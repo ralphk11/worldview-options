@@ -124,7 +124,7 @@
       <ColorMapEntry rgb="57,0,0" transparent="false" sourceValue="[50.1187,53.0884)" value="[50.1187,53.0884)" ref="110"/>
       <ColorMapEntry rgb="51,0,0" transparent="false" sourceValue="[53.0884,+INF)" value="[53.0884,+INF)" ref="111"/>
     </Entries>
-    <Legend type="continuous" minLabel="0.1" maxLabel="&gt;= 53.0">
+    <Legend type="continuous" minLabel="0.1" maxLabel="&#8805; 53.0">
       <LegendEntry rgb="0,118,78" tooltip="0.1 - 0.106" id="2"/>
       <LegendEntry rgb="0,120,75" tooltip="0.106 - 0.112" id="3"/>
       <LegendEntry rgb="0,123,72" tooltip="0.112 - 0.119" id="4"/>
@@ -234,7 +234,7 @@
       <LegendEntry rgb="69,0,0" tooltip="44.668 - 47.315" id="108"/>
       <LegendEntry rgb="63,0,0" tooltip="47.315 - 50.119" id="109"/>
       <LegendEntry rgb="57,0,0" tooltip="50.119 - 53.088" id="110"/>
-      <LegendEntry rgb="51,0,0" tooltip="&gt;= 53.088" id="111"/>
+      <LegendEntry rgb="51,0,0" tooltip="&#8805; 53.088" id="111"/>
     </Legend>
   </ColorMap>
   <ColorMap title="Snow Rate" units="mm/hr">
@@ -350,7 +350,7 @@
       <ColorMapEntry rgb="63,3,54" transparent="false" sourceValue="[50.1187,53.0884)" value="[50.1187,53.0884)" ref="220"/>
       <ColorMapEntry rgb="58,3,48" transparent="false" sourceValue="[53.0884,+INF)" value="[53.0884,+INF)" ref="221"/>
     </Entries>
-    <Legend type="continuous" minLabel="0.1" maxLabel="&gt;= 53.0">
+    <Legend type="continuous" minLabel="0.1" maxLabel="&#8805; 53.0">
       <LegendEntry rgb="177,250,238" tooltip="0.1 - 0.106" id="112"/>
       <LegendEntry rgb="174,250,239" tooltip="0.106 - 0.112" id="113"/>
       <LegendEntry rgb="170,249,239" tooltip="0.112 - 0.119" id="114"/>
@@ -460,7 +460,7 @@
       <LegendEntry rgb="73,3,66" tooltip="44.668 - 47.315" id="218"/>
       <LegendEntry rgb="68,3,60" tooltip="47.315 - 50.119" id="219"/>
       <LegendEntry rgb="63,3,54" tooltip="50.119 - 53.088" id="220"/>
-      <LegendEntry rgb="58,3,48" tooltip="&gt;= 53.088" id="221"/>
+      <LegendEntry rgb="58,3,48" tooltip="&#8805; 53.088" id="221"/>
     </Legend>
   </ColorMap>
 </ColorMaps>

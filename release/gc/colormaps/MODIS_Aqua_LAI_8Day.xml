@@ -66,7 +66,7 @@
       <ColorMapEntry rgb="255,1,0" transparent="false" sourceValue="[60]" value="[6.0]" ref="60"/>
       <ColorMapEntry rgb="255,0,0" transparent="false" sourceValue="[61,+INF)" value="[6.1,+INF)" ref="61"/>
     </Entries>
-    <Legend type="continuous" minLabel="0.0" maxLabel="&gt;= 6.1">
+    <Legend type="continuous" minLabel="0.0" maxLabel="&#8805; 6.1">
       <LegendEntry rgb="255,249,97" tooltip="0.0" id="0"/>
       <LegendEntry rgb="255,242,73" tooltip="0.1" id="1"/>
       <LegendEntry rgb="243,235,49" tooltip="0.2" id="2"/>
@@ -128,7 +128,7 @@
       <LegendEntry rgb="247,4,0" tooltip="5.8" id="58"/>
       <LegendEntry rgb="253,2,0" tooltip="5.9" id="59"/>
       <LegendEntry rgb="255,1,0" tooltip="6.0" id="60"/>
-      <LegendEntry rgb="255,0,0" tooltip="&gt;= 6.1" id="61"/>
+      <LegendEntry rgb="255,0,0" tooltip="&#8805; 6.1" id="61"/>
     </Legend>
   </ColorMap>
   <ColorMap title="Classifications">

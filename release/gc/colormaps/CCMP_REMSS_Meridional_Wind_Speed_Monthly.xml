@@ -211,7 +211,7 @@
       <ColorMapEntry rgb="255,5,0" transparent="false" sourceValue="[14.8,15.0)" value="[14.8,15.0)" ref="198"/>
       <ColorMapEntry rgb="255,0,0" transparent="false" sourceValue="[15.0,+INF)" value="[15.0,+INF)" ref="199"/>
     </Entries>
-    <Legend type="continuous" minLabel="&lt; -15" maxLabel="&gt;= 15">
+    <Legend type="continuous" minLabel="&lt; -15" maxLabel="&#8805; 15">
       <LegendEntry rgb="87,0,136" tooltip="&lt; -15.0" id="1"/>
       <LegendEntry rgb="84,0,140" tooltip="-15.0 – -14.8" id="2"/>
       <LegendEntry rgb="82,0,143" tooltip="-14.8 – -14.7" id="3"/>
@@ -410,7 +410,7 @@
       <LegendEntry rgb="255,15,0" tooltip="14.5 – 14.7" id="196"/>
       <LegendEntry rgb="255,10,0" tooltip="14.7 – 14.8" id="197"/>
       <LegendEntry rgb="255,5,0" tooltip="14.8 – 15.0" id="198"/>
-      <LegendEntry rgb="255,0,0" tooltip="&gt;= 15.2" id="199"/>
+      <LegendEntry rgb="255,0,0" tooltip="&#8805; 15.2" id="199"/>
     </Legend>
   </ColorMap>
 </ColorMaps>

@@ -18,9 +18,9 @@
       <ColorMapEntry rgb="0,128,0" transparent="false" sourceValue="[3]" value="[3]" ref="4"/>
     </Entries>
     <Legend type="discrete" minLabel="1" maxLabel="3">
-      <LegendEntry rgb="179,255,179" tooltip="1" id="2"/>
-      <LegendEntry rgb="89,191,89" tooltip="2" id="3"/>
-      <LegendEntry rgb="0,128,0" tooltip="3" id="4"/>
+      <LegendEntry rgb="179,255,179" tooltip="1" showTick="true" showLabel="true" label="1" id="2"/>
+      <LegendEntry rgb="89,191,89" tooltip="2" showTick="true" showLabel="true" label="2" id="3"/>
+      <LegendEntry rgb="0,128,0" tooltip="3" showTick="true" showLabel="true" label="3" id="4"/>
     </Legend>
   </ColorMap>
 </ColorMaps>

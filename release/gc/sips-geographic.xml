@@ -83,33 +83,13 @@
     </ows:OperationsMetadata>
     <Contents>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue Aerosol Optical Thickness</ows:Title>
+         <ows:Title xml:lang="en">Cloud Mask Clear Sky Confidence Day</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
-         <Style isDefault="true">
-             <ows:Title xml:lang="en">default</ows:Title>
-             <ows:Identifier>default</ows:Identifier>
-             
-             
-         </Style>
-         <Format>image/png</Format>
-         <TileMatrixSetLink>
-             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
-         </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
-      </Layer>
-      <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue Aerosol Optical Thickness Nearest Neighbor Interpolation</ows:Title>
-         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
-            <ows:LowerCorner>-180 -90</ows:LowerCorner>
-            <ows:UpperCorner>180 90</ows:UpperCorner>
-        </ows:WGS84BoundingBox>
-         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NN</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDMSK_L2_MODIS_Aqua-Clear_Sky_Confidence-aqua-day-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/Reds" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -120,23 +100,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-11-28</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2019-11-01/2020-11-28/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_MODIS_Aqua-Clear_Sky_Confidence-aqua-day-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue NRT Aerosol Optical Thickness</ows:Title>
+         <ows:Title xml:lang="en">Cloud Mask Clear Sky Confidence Night</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NRT</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDMSK_L2_MODIS_Aqua-Clear_Sky_Confidence-aqua-night-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/Reds" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -147,43 +127,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-29</Default>
+             <Default>2020-11-28</Default>
              <Current>false</Current>
-             <Value>2019-07-21/2019-08-29/P1D</Value>
+             <Value>2019-11-01/2020-11-28/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_MODIS_Aqua-Clear_Sky_Confidence-aqua-night-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue Aerosol Angstrom Exponent</ows:Title>
+         <ows:Title xml:lang="en">Cloud Mask Clear Sky Confidence Day</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
-         <Style isDefault="true">
-             <ows:Title xml:lang="en">default</ows:Title>
-             <ows:Identifier>default</ows:Identifier>
-             
-             
-         </Style>
-         <Format>image/png</Format>
-         <TileMatrixSetLink>
-             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
-         </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
-      </Layer>
-      <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue Aerosol Angstrom Exponent Nearest Neighbor Interpolation</ows:Title>
-         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
-            <ows:LowerCorner>-180 -90</ows:LowerCorner>
-            <ows:UpperCorner>180 90</ows:UpperCorner>
-        </ows:WGS84BoundingBox>
-         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NN</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDMSK_L2_VIIRS_NOAA20-Clear_Sky_Confidence-noaa20-day-std-1.2.2dev1</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/Reds" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -194,23 +154,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-05-31</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2020-04-01/2020-05-31/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_NOAA20-Clear_Sky_Confidence-noaa20-day-std-1.2.2dev1/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Deep Blue NRT Aerosol Angstrom Exponent</ows:Title>
+         <ows:Title xml:lang="en">Cloud Mask Clear Sky Confidence Night</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NRT</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDMSK_L2_VIIRS_NOAA20-Clear_Sky_Confidence-noaa20-night-std-1.2.2dev1</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/Reds" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -221,23 +181,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-29</Default>
+             <Default>2020-04-07</Default>
              <Current>false</Current>
-             <Value>2019-07-21/2019-08-29/P1D</Value>
+             <Value>2020-04-01/2020-04-07/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AERDB_L2_VIIRS_SNPP.Angstrom_Exponent_Land_Ocean_Best_Estimate_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_NOAA20-Clear_Sky_Confidence-noaa20-night-std-1.2.2dev1/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">MODIS Aqua Cloud Mask Clear Sky Confidence Day Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Scan Angle Day Time</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_MODIS_Aqua.Clear_Sky_Confidence_day</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Clear_Sky_Confidence.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP-Scan_Angle-snpp-day-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/Wistia" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -248,23 +208,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-03</Default>
+             <Default>2020-09-24</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-03/P1D</Value>
+             <Value>2020-04-25/2020-09-24/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_MODIS_Aqua.Clear_Sky_Confidence_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP-Scan_Angle-snpp-day-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">MODIS Aqua Cloud Mask Day Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Scan Angle Night Time</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_MODIS_Aqua.Integer_Cloud_Mask_day</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP-Scan_Angle-snpp-night-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/Wistia" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -275,23 +235,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-03</Default>
+             <Default>2020-09-24</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-03/P1D</Value>
+             <Value>2020-04-25/2020-09-24/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_MODIS_Aqua.Integer_Cloud_Mask_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP-Scan_Angle-snpp-night-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">MODIS Aqua Cloud Mask Day Time Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:Title xml:lang="en">Scan Hour Day Time</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_MODIS_Aqua.Integer_Cloud_Mask_day_NN</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP-Scan_Hour-snpp-day-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/rainbow" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -302,23 +262,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-09-24</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2020-04-25/2020-09-24/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_MODIS_Aqua.Integer_Cloud_Mask_day_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP-Scan_Hour-snpp-day-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Clear Sky Confidence Day Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Scan Hour Night Time</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Clear_Sky_Confidence_day</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Clear_Sky_Confidence.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP-Scan_Hour-snpp-night-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/rainbow" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -329,23 +289,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-03</Default>
+             <Default>2020-09-24</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-03/P1D</Value>
+             <Value>2020-04-25/2020-09-24/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Clear_Sky_Confidence_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP-Scan_Hour-snpp-night-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Clear Sky Confidence Day Time NRT Imagery</ows:Title>
+         <ows:Title xml:lang="en">Sensor Zenith Angle Day Time</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Clear_Sky_Confidence_day_NRT</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Clear_Sky_Confidence.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP-Sensor_Zenith_Angle-snpp-day-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/winter" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -356,23 +316,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-08-29</Default>
+             <Default>2020-09-24</Default>
              <Current>false</Current>
-             <Value>2019-08-23/2019-08-29/P1D</Value>
+             <Value>2020-04-25/2020-09-24/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Clear_Sky_Confidence_day_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP-Sensor_Zenith_Angle-snpp-day-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Day Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Sensor Zenith Angle Night Time</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP-Sensor_Zenith_Angle-snpp-night-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/winter" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -383,23 +343,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-03</Default>
+             <Default>2020-09-24</Default>
              <Current>false</Current>
-             <Value>2018-09-15/2019-06-03/P1D</Value>
+             <Value>2020-04-25/2020-09-24/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP-Sensor_Zenith_Angle-snpp-night-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Day Time Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:Title xml:lang="en">Cloud Effective Radius</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day_NN</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDPROP_L2_MODIS_Aqua-Cloud_Effective_Radius-aqua-day-std-1.1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -410,23 +370,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-11-28</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2019-11-01/2020-11-28/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua-Cloud_Effective_Radius-aqua-day-std-1.1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask NRT Day Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Cloud Optical Thickness</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day_NRT</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDPROP_L2_MODIS_Aqua-Cloud_Optical_Thickness-aqua-day-std-1.1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -437,23 +397,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-29</Default>
+             <Default>2020-11-28</Default>
              <Current>false</Current>
-             <Value>2019-04-17/2019-04-29/P1D</Value>
+             <Value>2019-11-01/2020-11-28/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_day_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua-Cloud_Optical_Thickness-aqua-day-std-1.1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Night Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Cloud Top Height Day</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDPROP_L2_MODIS_Aqua-Cloud_Top_Height-aqua-day-std-1.1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -464,23 +424,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-29</Default>
+             <Default>2020-11-28</Default>
              <Current>false</Current>
-             <Value>2019-02-28/2019-04-29/P1D</Value>
+             <Value>2019-11-01/2020-11-28/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua-Cloud_Top_Height-aqua-day-std-1.1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Night Time Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:Title xml:lang="en">Cloud Top Height Night</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night_NN</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDPROP_L2_MODIS_Aqua-Cloud_Top_Height-aqua-night-std-1.1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -491,23 +451,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-11-28</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2019-11-01/2020-11-28/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua-Cloud_Top_Height-aqua-night-std-1.1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask NRT Night Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Cloud Top Height Day (v1.2.0dev0)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night_NRT</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDPROP_L2_VIIRS_NOAA20-Cloud_Top_Height-noaa20-day-std-1.2.0dev0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -518,148 +478,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-28</Default>
+             <Default>2019-02-28</Default>
              <Current>false</Current>
-             <Value>2019-04-17/2019-04-28/P1D</Value>
+             <Value>2019-02-01/2019-02-28/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask_night_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_NOAA20-Cloud_Top_Height-noaa20-day-std-1.2.0dev0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Day Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Cloud Top Height Night (v1.2.0dev0)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP_day</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
-         <Style isDefault="true">
-             <ows:Title xml:lang="en">default</ows:Title>
-             <ows:Identifier>default</ows:Identifier>
-         </Style>
-         <Format>image/png</Format>
-         <Dimension>
-             <ows:Identifier>time</ows:Identifier>
-             <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
-             <Current>false</Current>
-             <Value>2018-09-15/2019-06-01/P1D</Value>
-         </Dimension>
-         <TileMatrixSetLink>
-             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
-         </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
-      </Layer>
-      <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask NRT Day Time Imagery</ows:Title>
-         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
-            <ows:LowerCorner>-180 -90</ows:LowerCorner>
-            <ows:UpperCorner>180 90</ows:UpperCorner>
-        </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP_day_NRT</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
-         <Style isDefault="true">
-             <ows:Title xml:lang="en">default</ows:Title>
-             <ows:Identifier>default</ows:Identifier>
-         </Style>
-         <Format>image/png</Format>
-         <Dimension>
-             <ows:Identifier>time</ows:Identifier>
-             <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-29</Default>
-             <Current>false</Current>
-             <Value>2019-04-17/2019-04-29/P1D</Value>
-         </Dimension>
-         <TileMatrixSetLink>
-             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
-         </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP_day_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
-      </Layer>
-      <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Imagery</ows:Title>
-         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
-            <ows:LowerCorner>-180 -90</ows:LowerCorner>
-            <ows:UpperCorner>180 90</ows:UpperCorner>
-        </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
-         <Style isDefault="true">
-             <ows:Title xml:lang="en">default</ows:Title>
-             <ows:Identifier>default</ows:Identifier>
-         </Style>
-         <Format>image/png</Format>
-         <Dimension>
-             <ows:Identifier>time</ows:Identifier>
-             <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-02-18</Default>
-             <Current>false</Current>
-             <Value>2019-02-16/2019-02-18/P1D</Value>
-         </Dimension>
-         <TileMatrixSetLink>
-             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
-         </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
-      </Layer>
-      <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Night Time Imagery</ows:Title>
-         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
-            <ows:LowerCorner>-180 -90</ows:LowerCorner>
-            <ows:UpperCorner>180 90</ows:UpperCorner>
-        </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP_night</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
-         <Style isDefault="true">
-             <ows:Title xml:lang="en">default</ows:Title>
-             <ows:Identifier>default</ows:Identifier>
-         </Style>
-         <Format>image/png</Format>
-         <Dimension>
-             <ows:Identifier>time</ows:Identifier>
-             <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-29</Default>
-             <Current>false</Current>
-             <Value>2019-02-28/2019-04-29/P1D</Value>
-         </Dimension>
-         <TileMatrixSetLink>
-             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
-         </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP_night/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
-      </Layer>
-      <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask NRT Night Time Imagery</ows:Title>
-         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
-            <ows:LowerCorner>-180 -90</ows:LowerCorner>
-            <ows:UpperCorner>180 90</ows:UpperCorner>
-        </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDMSK_L2_VIIRS_SNPP_night_NRT</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDMSK_L2_VIIRS_SNPP.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
-         <Style isDefault="true">
-             <ows:Title xml:lang="en">default</ows:Title>
-             <ows:Identifier>default</ows:Identifier>
-         </Style>
-         <Format>image/png</Format>
-         <Dimension>
-             <ows:Identifier>time</ows:Identifier>
-             <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-28</Default>
-             <Current>false</Current>
-             <Value>2019-04-17/2019-04-28/P1D</Value>
-         </Dimension>
-         <TileMatrixSetLink>
-             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
-         </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDMSK_L2_VIIRS_SNPP_night_NRT/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
-      </Layer>
-      <Layer>
-         <ows:Title xml:lang="en">MODIS Aqua Cloud Effective Radius Imagery</ows:Title>
-         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
-            <ows:LowerCorner>-180 -90</ows:LowerCorner>
-            <ows:UpperCorner>180 90</ows:UpperCorner>
-        </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Effective_Radius</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>CLDPROP_L2_VIIRS_NOAA20-Cloud_Top_Height-noaa20-night-std-1.2.0dev0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -670,23 +505,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-03</Default>
+             <Default>2019-02-28</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-03/P1D</Value>
+             <Value>2019-02-01/2019-02-28/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Effective_Radius/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_NOAA20-Cloud_Top_Height-noaa20-night-std-1.2.0dev0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">MODIS Aqua Cloud Effective Radius Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Day)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Effective_Radius_NN</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-aqua-day-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -697,23 +532,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-11-28</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2018-04-10/2020-11-28/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Effective_Radius_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-aqua-day-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">MODIS Aqua Cloud Optical Thickness Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Night)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Optical_Thickness</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-aqua-night-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -724,23 +559,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-03</Default>
+             <Default>2020-11-28</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-03/P1D</Value>
+             <Value>2018-04-10/2020-11-28/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Optical_Thickness/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-aqua-night-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">MODIS Aqua Cloud Optical Thickness Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Day) (Version 1.0.1)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Optical_Thickness_NN</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-noaa20-day-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -751,23 +586,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-11-29</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Optical_Thickness_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-noaa20-day-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">MODIS Aqua Cloud Top Height Day Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Day) (Version 1.1.0dev0)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Top_Height_day</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-noaa20-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -778,23 +613,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-03</Default>
+             <Default>2020-01-20</Default>
              <Current>false</Current>
-             <Value>2019-04-22/2019-06-03/P1D</Value>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Top_Height_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-noaa20-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">MODIS Aqua Cloud Top Height Day Time Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Day) (Version 1.1.0dev1)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_MODIS_Aqua.Cloud_Top_Height_day_NN</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-noaa20-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -805,23 +640,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-01-20</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_MODIS_Aqua.Cloud_Top_Height_day_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-noaa20-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Effective Radius Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Night) (Version 1.0.1)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-noaa20-night-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -832,23 +667,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-03</Default>
+             <Default>2020-11-29</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-03/P1D</Value>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-noaa20-night-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Effective Radius Ice Phase Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Night) (Version 1.1.0dev0)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Ice</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Ice.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-noaa20-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -859,23 +694,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-05-11</Default>
+             <Default>2020-01-20</Default>
              <Current>false</Current>
-             <Value>2019-03-06/2019-05-11/P1D</Value>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Ice/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-noaa20-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Effective Radius Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_NN</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-noaa20-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -886,23 +721,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-01-20</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-noaa20-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Effective Radius Water Phase Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Day) (Version 1.1.0dev0)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Water</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Water.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-snpp-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -913,23 +748,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-05-11</Default>
+             <Default>2020-01-20</Default>
              <Current>false</Current>
-             <Value>2019-03-06/2019-05-11/P1D</Value>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Effective_Radius_Water/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-snpp-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Optical Thickness Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Day) (Version 1.1.0dev1)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-snpp-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -940,23 +775,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-03</Default>
+             <Default>2020-01-20</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-03/P1D</Value>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-snpp-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Optical Thickness Ice Phase Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Day) (Version 1.0.0)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Ice</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Ice.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-snpp-day-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -967,23 +802,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-28</Default>
+             <Default>2020-11-29</Default>
              <Current>false</Current>
-             <Value>2019-03-06/2019-04-28/P1D</Value>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Ice/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-snpp-day-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Optical Thickness Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Night) (Version 1.1.0dev0)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_NN</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-snpp-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -994,23 +829,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-01-20</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-snpp-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Optical Thickness Water Phase Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Water</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Water.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-snpp-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -1021,23 +856,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-28</Default>
+             <Default>2020-01-20</Default>
              <Current>false</Current>
-             <Value>2019-03-06/2019-04-28/P1D</Value>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Optical_Thickness_Water/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-snpp-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Top Height Day Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 27 Fusion Brightness Temperature (Night) (Version 1.0.0)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_day</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS27-snpp-night-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS27.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -1048,23 +883,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-03</Default>
+             <Default>2020-11-29</Default>
              <Current>false</Current>
-             <Value>2019-03-06/2019-06-03/P1D</Value>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS27-snpp-night-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Top Height Day Time Nearest Neighbor Interpolation Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Day)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_day_NN</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS28-aqua-day-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -1075,23 +910,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-01-20</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_day_NN/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-aqua-day-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Top Height Night Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Night)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_night</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS28-aqua-night-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -1102,23 +937,23 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-04-28</Default>
+             <Default>2020-01-20</Default>
              <Current>false</Current>
-             <Value>2019-03-06/2019-04-28/P1D</Value>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height_night/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-aqua-night-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">MYD06 Cloud Top Height Day Time Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Day) (Version 1.0.1)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>MYD06.Cloud_Top_Height_day</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/CLDPROP_L2_VIIRS_SNPP.Cloud_Top_Height.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS28-noaa20-day-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
@@ -1129,39 +964,1823 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-06-01</Default>
+             <Default>2020-11-29</Default>
              <Current>false</Current>
-             <Value>2019-06-01/2019-06-01/P1D</Value>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/MYD06.Cloud_Top_Height_day/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-noaa20-day-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
-         <ows:Title xml:lang="en">SNPP VIIRS Cloud Mask Imagery</ows:Title>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Day) (Version 1.1.0dev0)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
             <ows:UpperCorner>180 90</ows:UpperCorner>
         </ows:WGS84BoundingBox>
-         <ows:Identifier>VNPCLDMK</ows:Identifier>
-         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/VNPCLDMK.Integer_Cloud_Mask.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <ows:Identifier>IFF-MODIS28-noaa20-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
          <Style isDefault="true">
              <ows:Title xml:lang="en">default</ows:Title>
              <ows:Identifier>default</ows:Identifier>
+             
+             
          </Style>
          <Format>image/png</Format>
          <Dimension>
-             <ows:Identifier>time</ows:Identifier>
+             <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2018-07-17</Default>
+             <Default>2020-01-20</Default>
              <Current>false</Current>
-             <Value>2018-07-16/2018-07-17/P1D</Value>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/VNPCLDMK/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-noaa20-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Day) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS28-noaa20-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-noaa20-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Night) (Version 1.0.1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS28-noaa20-night-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-noaa20-night-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Night) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS28-noaa20-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-noaa20-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS28-noaa20-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-noaa20-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Day) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS28-snpp-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-snpp-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Day) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS28-snpp-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-snpp-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Day) (Version 1.0.0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS28-snpp-day-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-snpp-day-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Night) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS28-snpp-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-snpp-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS28-snpp-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-snpp-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 28 Fusion Brightness Temperature (Night) (Version 1.0.0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS28-snpp-night-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS28.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS28-snpp-night-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Day)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-aqua-day-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-28</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-28/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-aqua-day-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Night)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-aqua-night-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-28</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-28/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-aqua-night-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Day) (Version 1.0.1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-noaa20-day-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-noaa20-day-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Day) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-noaa20-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-noaa20-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Day) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-noaa20-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-noaa20-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Night) (Version 1.0.1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-noaa20-night-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-noaa20-night-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Night) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-noaa20-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-noaa20-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-noaa20-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-noaa20-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Day) (Version 1.1.0dev)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-snpp-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-snpp-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Day) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-snpp-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-snpp-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Day) (Version 1.0.0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-snpp-day-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-snpp-day-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Night) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-snpp-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-snpp-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-snpp-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-snpp-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Night) (Version 1.0.0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS33-snpp-night-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS33-snpp-night-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Day)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-aqua-day-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-aqua-day-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Night)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-aqua-night-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-aqua-night-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Day) (Version 1.0.1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-noaa20-day-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-noaa20-day-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Day) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-noaa20-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-noaa20-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-noaa20-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-noaa20-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Night) (Version 1.0.1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-noaa20-night-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-noaa20-night-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Night) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-noaa20-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-noaa20-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-noaa20-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-noaa20-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Day) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-snpp-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-snpp-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Day) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-snpp-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-snpp-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 33 Fusion Brightness Temperature (Day) (Version 1.0.0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-snpp-day-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS33.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-snpp-day-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Night) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-snpp-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-snpp-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-snpp-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-snpp-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 34 Fusion Brightness Temperature (Night) (Version 1.0.0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS34-snpp-night-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS34.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS34-snpp-night-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Day)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-aqua-day-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-aqua-day-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Night)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-aqua-night-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-aqua-night-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Day) (Version 1.0.1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-noaa20-day-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-noaa20-day-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Day) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-noaa20-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-noaa20-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Day) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-noaa20-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-noaa20-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Night) (Version 1.0.1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-noaa20-night-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-noaa20-night-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Night) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-noaa20-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-noaa20-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-noaa20-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-noaa20-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Day) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-snpp-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-snpp-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Day) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-snpp-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-snpp-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Day) (Version 1.0.0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-snpp-day-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-snpp-day-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Night) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-snpp-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-snpp-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-snpp-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-snpp-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 35 Fusion Brightness Temperature (Night) (Version 1.0.0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS35-snpp-night-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS35.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS35-snpp-night-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Day)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-aqua-day-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-aqua-day-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Night)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-aqua-night-std-1.0</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-aqua-night-std-1.0/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Day) (Version 1.0.1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-noaa20-day-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-noaa20-day-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Day) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-noaa20-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-noaa20-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Day) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-noaa20-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-noaa20-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Night) (Version 1.0.1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-noaa20-night-std-0.1dev10</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-noaa20-night-std-0.1dev10/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Night) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-noaa20-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-noaa20-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-noaa20-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-noaa20-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Day) (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-snpp-day-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-snpp-day-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Day) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-snpp-day-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-snpp-day-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Day) (Version 1.0.0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-snpp-day-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-snpp-day-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Night)  (Version 1.1.0dev0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-snpp-night-std-0.1dev11</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-snpp-night-std-0.1dev11/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Night) (Version 1.1.0dev1)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-snpp-night-std-0.1dev12</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-01-20</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-01-20/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-snpp-night-std-0.1dev12/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Band 36 Fusion Brightness Temperature (Night) (Version 1.0.0)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>IFF-MODIS36-snpp-night-std-0.1dev9</ows:Identifier>
+         <ows:Metadata xlink:type="simple" xlink:role="http://earthdata.nasa.gov/gibs/metadata-type/colormap" xlink:href="http://localhost/colormaps/IFF.MODIS36.colormap.xml" xlink:title="GIBS Color Map: Data - RGB Mapping"/>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2020-11-29</Default>
+             <Current>false</Current>
+             <Value>2018-04-10/2020-11-29/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/IFF-MODIS36-snpp-night-std-0.1dev9/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <TileMatrixSet>
          <ows:Identifier>EPSG4326_16km</ows:Identifier>

@@ -83,6 +83,58 @@
     </ows:OperationsMetadata>
     <Contents>
       <Layer>
+         <ows:Title xml:lang="en">AHI Himawari 8 CHIMAERA Cloud Effective Radius</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AHI_CHIMAERA_Cloud_Effective_Radius</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2021-01-01T00:00:00Z</Default>
+             <Current>false</Current>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_CHIMAERA_Cloud_Effective_Radius/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">AHI Himawari 8 CHIMAERA Cloud Optical Thickness</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AHI_CHIMAERA_Cloud_Optical_Thickness</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2021-01-01T00:00:00Z</Default>
+             <Current>false</Current>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_CHIMAERA_Cloud_Optical_Thickness/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
          <ows:Title xml:lang="en">AHI CLAVRX Cloud Effective Radius ACHA</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
@@ -284,6 +336,32 @@
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_Dark_Target_AOD/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
+         <ows:Title xml:lang="en">AHI Himawari8 Brightness Temperature Band 07</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AHI_Himawari8_Brightness_Temperature_Band07</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/jpeg</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2021-01-01T00:00:00Z</Default>
+             <Current>false</Current>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/jpeg" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_Himawari8_Brightness_Temperature_Band07/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg"/>
+      </Layer>
+      <Layer>
          <ows:Title xml:lang="en">AHI Himawari8 Brightness Temperature Band 08</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
@@ -453,10 +531,17 @@
              
          </Style>
          <Format>image/jpeg</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2021-01-01T00:00:00Z</Default>
+             <Current>false</Current>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
+         </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_500m</TileMatrixSet>
          </TileMatrixSetLink>
-         <ResourceURL format="image/jpeg" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_Himawari8_CorrectedReflectance_TrueColor_SUPERHIGHRES/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg"/>
+         <ResourceURL format="image/jpeg" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_Himawari8_CorrectedReflectance_TrueColor_SUPERHIGHRES/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg"/>
       </Layer>
       <Layer>
          <ows:Title xml:lang="en">AHI Himawari 8 Corrected Reflectance True Color</ows:Title>
@@ -483,6 +568,32 @@
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
          </TileMatrixSetLink>
          <ResourceURL format="image/jpeg" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_Himawari8_CorrectedReflectance_TrueColor/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">AHI MURI AOD</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>AHI_MURI_AOD</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2021-01-01T00:00:00Z</Default>
+             <Current>false</Current>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/AHI_MURI_AOD/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
          <ows:Title xml:lang="en">aircraft position</ows:Title>
@@ -568,6 +679,818 @@
          <ResourceURL format="image/jpeg" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/blue_marble/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg"/>
       </Layer>
       <Layer>
+         <ows:Title xml:lang="en">Cloud Identification CNN Red Green 11um Aqua MODIS (Patch 25)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_CNN_Red_Green_11um_aqua-modis_p025</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-07-24</Default>
+             <Current>false</Current>
+             <Value>2012-03-01/2012-03-04/P1D</Value>
+             <Value>2012-03-21/2012-03-25/P1D</Value>
+             <Value>2012-03-27/2012-03-28/P1D</Value>
+             <Value>2012-03-30/2012-04-01/P1D</Value>
+             <Value>2012-04-03/2012-04-06/P1D</Value>
+             <Value>2012-04-08/2012-04-08/P1D</Value>
+             <Value>2012-04-12/2012-04-14/P1D</Value>
+             <Value>2012-04-16/2012-04-17/P1D</Value>
+             <Value>2012-04-19/2012-04-19/P1D</Value>
+             <Value>2012-04-21/2012-04-29/P1D</Value>
+             <Value>2012-05-02/2012-05-03/P1D</Value>
+             <Value>2012-05-05/2012-05-10/P1D</Value>
+             <Value>2012-05-12/2012-05-15/P1D</Value>
+             <Value>2012-05-25/2012-05-25/P1D</Value>
+             <Value>2012-05-27/2012-05-29/P1D</Value>
+             <Value>2012-05-31/2012-06-02/P1D</Value>
+             <Value>2012-06-04/2012-06-07/P1D</Value>
+             <Value>2012-06-10/2012-06-13/P1D</Value>
+             <Value>2012-06-16/2012-06-17/P1D</Value>
+             <Value>2012-06-21/2012-06-23/P1D</Value>
+             <Value>2012-06-26/2012-06-27/P1D</Value>
+             <Value>2012-06-29/2012-06-30/P1D</Value>
+             <Value>2012-07-02/2012-07-04/P1D</Value>
+             <Value>2012-07-06/2012-07-12/P1D</Value>
+             <Value>2012-07-24/2012-07-24/P1D</Value>
+             <Value>2012-07-29/2012-08-01/P1D</Value>
+             <Value>2012-08-03/2012-08-03/P1D</Value>
+             <Value>2012-08-05/2012-08-07/P1D</Value>
+             <Value>2012-08-09/2012-08-13/P1D</Value>
+             <Value>2012-08-15/2012-08-22/P1D</Value>
+             <Value>2012-08-24/2012-08-26/P1D</Value>
+             <Value>2012-08-29/2012-09-02/P1D</Value>
+             <Value>2012-09-07/2012-09-07/P1D</Value>
+             <Value>2012-09-09/2012-09-09/P1D</Value>
+             <Value>2012-09-11/2012-09-11/P1D</Value>
+             <Value>2012-09-13/2012-09-14/P1D</Value>
+             <Value>2012-09-16/2012-09-16/P1D</Value>
+             <Value>2012-09-18/2012-09-21/P1D</Value>
+             <Value>2012-09-23/2012-09-25/P1D</Value>
+             <Value>2012-09-29/2012-09-29/P1D</Value>
+             <Value>2012-10-03/2012-10-03/P1D</Value>
+             <Value>2012-10-05/2012-10-06/P1D</Value>
+             <Value>2012-10-10/2012-10-12/P1D</Value>
+             <Value>2012-10-14/2012-10-14/P1D</Value>
+             <Value>2012-10-19/2012-10-19/P1D</Value>
+             <Value>2012-10-21/2012-10-21/P1D</Value>
+             <Value>2012-10-25/2012-10-25/P1D</Value>
+             <Value>2012-10-27/2012-10-28/P1D</Value>
+             <Value>2012-11-04/2012-11-04/P1D</Value>
+             <Value>2012-11-06/2012-11-06/P1D</Value>
+             <Value>2012-11-08/2012-11-09/P1D</Value>
+             <Value>2012-12-04/2012-12-04/P1D</Value>
+             <Value>2012-12-07/2012-12-07/P1D</Value>
+             <Value>2012-12-09/2012-12-09/P1D</Value>
+             <Value>2012-12-16/2012-12-16/P1D</Value>
+             <Value>2012-12-20/2012-12-21/P1D</Value>
+             <Value>2012-12-23/2012-12-25/P1D</Value>
+             <Value>2012-12-28/2012-12-30/P1D</Value>
+             <Value>2013-01-08/2013-01-11/P1D</Value>
+             <Value>2013-01-13/2013-01-13/P1D</Value>
+             <Value>2013-01-17/2013-01-18/P1D</Value>
+             <Value>2013-01-20/2013-01-20/P1D</Value>
+             <Value>2013-01-23/2013-01-23/P1D</Value>
+             <Value>2013-01-27/2013-01-31/P1D</Value>
+             <Value>2013-02-02/2013-02-09/P1D</Value>
+             <Value>2013-02-11/2013-02-12/P1D</Value>
+             <Value>2013-02-14/2013-02-14/P1D</Value>
+             <Value>2013-02-17/2013-02-17/P1D</Value>
+             <Value>2013-02-19/2013-02-21/P1D</Value>
+             <Value>2013-02-24/2013-02-24/P1D</Value>
+             <Value>2013-02-26/2013-02-28/P1D</Value>
+             <Value>2013-03-05/2013-03-05/P1D</Value>
+             <Value>2013-03-07/2013-03-10/P1D</Value>
+             <Value>2013-03-12/2013-03-16/P1D</Value>
+             <Value>2013-03-23/2013-03-23/P1D</Value>
+             <Value>2013-03-25/2013-03-31/P1D</Value>
+             <Value>2013-04-02/2013-04-04/P1D</Value>
+             <Value>2013-04-06/2013-04-08/P1D</Value>
+             <Value>2013-04-17/2013-04-17/P1D</Value>
+             <Value>2013-04-19/2013-04-20/P1D</Value>
+             <Value>2013-04-22/2013-04-22/P1D</Value>
+             <Value>2013-04-26/2013-04-29/P1D</Value>
+             <Value>2013-05-01/2013-05-01/P1D</Value>
+             <Value>2013-05-05/2013-05-07/P1D</Value>
+             <Value>2013-05-09/2013-05-12/P1D</Value>
+             <Value>2013-05-14/2013-05-14/P1D</Value>
+             <Value>2013-05-29/2013-05-30/P1D</Value>
+             <Value>2013-06-02/2013-06-02/P1D</Value>
+             <Value>2013-06-04/2013-06-04/P1D</Value>
+             <Value>2013-06-06/2013-06-10/P1D</Value>
+             <Value>2013-06-12/2013-06-13/P1D</Value>
+             <Value>2013-06-15/2013-06-15/P1D</Value>
+             <Value>2013-06-19/2013-06-20/P1D</Value>
+             <Value>2013-06-23/2013-06-25/P1D</Value>
+             <Value>2013-07-01/2013-07-07/P1D</Value>
+             <Value>2013-07-10/2013-07-14/P1D</Value>
+             <Value>2013-07-21/2013-07-23/P1D</Value>
+             <Value>2013-07-28/2013-07-28/P1D</Value>
+             <Value>2013-07-30/2013-07-30/P1D</Value>
+             <Value>2013-08-01/2013-08-04/P1D</Value>
+             <Value>2013-08-06/2013-08-07/P1D</Value>
+             <Value>2013-08-09/2013-08-10/P1D</Value>
+             <Value>2013-08-13/2013-08-13/P1D</Value>
+             <Value>2013-08-15/2013-08-20/P1D</Value>
+             <Value>2013-08-22/2013-08-25/P1D</Value>
+             <Value>2013-08-27/2013-08-31/P1D</Value>
+             <Value>2013-09-02/2013-09-05/P1D</Value>
+             <Value>2013-09-07/2013-09-08/P1D</Value>
+             <Value>2013-09-10/2013-09-10/P1D</Value>
+             <Value>2013-09-12/2013-09-15/P1D</Value>
+             <Value>2013-09-18/2013-09-18/P1D</Value>
+             <Value>2013-09-21/2013-09-22/P1D</Value>
+             <Value>2013-09-27/2013-09-29/P1D</Value>
+             <Value>2013-10-26/2013-10-26/P1D</Value>
+             <Value>2013-10-29/2013-10-29/P1D</Value>
+             <Value>2013-11-09/2013-11-09/P1D</Value>
+             <Value>2014-01-22/2014-01-23/P1D</Value>
+             <Value>2014-01-28/2014-01-30/P1D</Value>
+             <Value>2014-02-03/2014-02-03/P1D</Value>
+             <Value>2014-02-09/2014-02-10/P1D</Value>
+             <Value>2014-02-12/2014-02-13/P1D</Value>
+             <Value>2014-02-15/2014-02-15/P1D</Value>
+             <Value>2014-03-11/2014-03-11/P1D</Value>
+             <Value>2014-03-14/2014-03-20/P1D</Value>
+             <Value>2014-03-22/2014-03-26/P1D</Value>
+             <Value>2014-03-28/2014-03-28/P1D</Value>
+             <Value>2014-04-01/2014-04-01/P1D</Value>
+             <Value>2014-04-03/2014-04-04/P1D</Value>
+             <Value>2014-05-20/2014-05-20/P1D</Value>
+             <Value>2014-05-22/2014-05-22/P1D</Value>
+             <Value>2014-05-24/2014-05-28/P1D</Value>
+             <Value>2014-06-02/2014-06-06/P1D</Value>
+             <Value>2014-06-09/2014-06-15/P1D</Value>
+             <Value>2014-06-17/2014-06-21/P1D</Value>
+             <Value>2014-06-23/2014-06-23/P1D</Value>
+             <Value>2014-06-25/2014-07-01/P1D</Value>
+             <Value>2014-07-03/2014-07-10/P1D</Value>
+             <Value>2014-07-12/2014-07-14/P1D</Value>
+             <Value>2014-07-16/2014-07-18/P1D</Value>
+             <Value>2014-07-21/2014-07-21/P1D</Value>
+             <Value>2014-07-24/2014-07-29/P1D</Value>
+             <Value>2014-07-31/2014-07-31/P1D</Value>
+             <Value>2014-08-02/2014-08-03/P1D</Value>
+             <Value>2014-08-05/2014-08-09/P1D</Value>
+             <Value>2014-08-11/2014-08-14/P1D</Value>
+             <Value>2014-08-16/2014-08-19/P1D</Value>
+             <Value>2014-08-22/2014-08-28/P1D</Value>
+             <Value>2014-08-30/2014-08-31/P1D</Value>
+             <Value>2014-09-03/2014-09-03/P1D</Value>
+             <Value>2014-09-05/2014-09-06/P1D</Value>
+             <Value>2014-09-08/2014-09-08/P1D</Value>
+             <Value>2014-09-10/2014-09-10/P1D</Value>
+             <Value>2014-09-17/2014-09-17/P1D</Value>
+             <Value>2014-09-19/2014-09-20/P1D</Value>
+             <Value>2014-09-23/2014-09-23/P1D</Value>
+             <Value>2014-09-25/2014-09-26/P1D</Value>
+             <Value>2014-09-29/2014-10-02/P1D</Value>
+             <Value>2014-10-04/2014-10-05/P1D</Value>
+             <Value>2014-10-07/2014-10-07/P1D</Value>
+             <Value>2014-10-11/2014-10-11/P1D</Value>
+             <Value>2014-10-13/2014-10-13/P1D</Value>
+             <Value>2014-10-15/2014-10-15/P1D</Value>
+             <Value>2014-10-18/2014-10-18/P1D</Value>
+             <Value>2014-10-24/2014-10-25/P1D</Value>
+             <Value>2014-11-01/2014-11-04/P1D</Value>
+             <Value>2014-11-10/2014-11-10/P1D</Value>
+             <Value>2014-11-12/2014-11-12/P1D</Value>
+             <Value>2014-11-22/2014-11-22/P1D</Value>
+             <Value>2014-11-26/2014-11-28/P1D</Value>
+             <Value>2014-12-05/2014-12-05/P1D</Value>
+             <Value>2014-12-07/2014-12-07/P1D</Value>
+             <Value>2014-12-14/2014-12-14/P1D</Value>
+             <Value>2014-12-17/2014-12-18/P1D</Value>
+             <Value>2014-12-20/2014-12-21/P1D</Value>
+             <Value>2014-12-28/2014-12-28/P1D</Value>
+             <Value>2014-12-30/2015-01-02/P1D</Value>
+             <Value>2015-01-07/2015-01-10/P1D</Value>
+             <Value>2015-01-12/2015-01-16/P1D</Value>
+             <Value>2015-01-18/2015-01-20/P1D</Value>
+             <Value>2015-01-22/2015-01-22/P1D</Value>
+             <Value>2015-01-25/2015-01-27/P1D</Value>
+             <Value>2015-01-31/2015-01-31/P1D</Value>
+             <Value>2015-02-02/2015-02-02/P1D</Value>
+             <Value>2015-02-04/2015-02-04/P1D</Value>
+             <Value>2015-02-07/2015-02-07/P1D</Value>
+             <Value>2015-02-09/2015-02-09/P1D</Value>
+             <Value>2015-02-11/2015-02-12/P1D</Value>
+             <Value>2015-02-14/2015-02-17/P1D</Value>
+             <Value>2015-02-21/2015-02-21/P1D</Value>
+             <Value>2015-02-23/2015-02-23/P1D</Value>
+             <Value>2015-02-26/2015-03-05/P1D</Value>
+             <Value>2015-03-07/2015-03-08/P1D</Value>
+             <Value>2015-03-10/2015-03-14/P1D</Value>
+             <Value>2015-03-16/2015-03-16/P1D</Value>
+             <Value>2015-03-20/2015-03-20/P1D</Value>
+             <Value>2015-03-22/2015-03-25/P1D</Value>
+             <Value>2015-03-27/2015-04-05/P1D</Value>
+             <Value>2015-04-10/2015-04-15/P1D</Value>
+             <Value>2015-04-17/2015-04-22/P1D</Value>
+             <Value>2015-04-25/2015-05-02/P1D</Value>
+             <Value>2015-05-04/2015-05-09/P1D</Value>
+             <Value>2015-05-11/2015-05-21/P1D</Value>
+             <Value>2015-05-24/2015-05-24/P1D</Value>
+             <Value>2015-05-28/2015-05-28/P1D</Value>
+             <Value>2015-05-30/2015-05-30/P1D</Value>
+             <Value>2015-06-01/2015-06-01/P1D</Value>
+             <Value>2015-06-03/2015-06-04/P1D</Value>
+             <Value>2015-06-12/2015-06-12/P1D</Value>
+             <Value>2015-06-15/2015-06-17/P1D</Value>
+             <Value>2015-06-30/2015-07-05/P1D</Value>
+             <Value>2015-07-07/2015-07-07/P1D</Value>
+             <Value>2015-07-09/2015-07-09/P1D</Value>
+             <Value>2015-07-13/2015-07-13/P1D</Value>
+             <Value>2015-09-23/2015-09-23/P1D</Value>
+             <Value>2015-09-25/2015-09-25/P1D</Value>
+             <Value>2015-10-05/2015-10-05/P1D</Value>
+             <Value>2015-10-08/2015-10-08/P1D</Value>
+             <Value>2015-10-12/2015-10-12/P1D</Value>
+             <Value>2015-10-14/2015-10-16/P1D</Value>
+             <Value>2015-10-19/2015-10-19/P1D</Value>
+             <Value>2015-10-21/2015-10-21/P1D</Value>
+             <Value>2015-10-23/2015-10-23/P1D</Value>
+             <Value>2015-11-05/2015-11-05/P1D</Value>
+             <Value>2015-11-08/2015-11-08/P1D</Value>
+             <Value>2015-11-12/2015-11-16/P1D</Value>
+             <Value>2015-11-19/2015-11-20/P1D</Value>
+             <Value>2015-11-26/2015-11-26/P1D</Value>
+             <Value>2015-11-28/2015-11-28/P1D</Value>
+             <Value>2015-12-01/2015-12-01/P1D</Value>
+             <Value>2015-12-03/2015-12-03/P1D</Value>
+             <Value>2015-12-05/2015-12-10/P1D</Value>
+             <Value>2015-12-16/2015-12-19/P1D</Value>
+             <Value>2015-12-21/2015-12-21/P1D</Value>
+             <Value>2015-12-23/2015-12-23/P1D</Value>
+             <Value>2015-12-25/2015-12-26/P1D</Value>
+             <Value>2015-12-29/2016-01-05/P1D</Value>
+             <Value>2016-01-08/2016-01-08/P1D</Value>
+             <Value>2016-01-10/2016-01-10/P1D</Value>
+             <Value>2016-01-12/2016-01-13/P1D</Value>
+             <Value>2016-01-15/2016-01-15/P1D</Value>
+             <Value>2016-01-17/2016-01-20/P1D</Value>
+             <Value>2016-01-22/2016-01-22/P1D</Value>
+             <Value>2016-01-24/2016-01-26/P1D</Value>
+             <Value>2016-03-15/2016-03-16/P1D</Value>
+             <Value>2016-03-19/2016-03-20/P1D</Value>
+             <Value>2016-03-22/2016-03-29/P1D</Value>
+             <Value>2016-03-31/2016-03-31/P1D</Value>
+             <Value>2016-04-04/2016-04-06/P1D</Value>
+             <Value>2016-04-08/2016-04-08/P1D</Value>
+             <Value>2016-04-11/2016-04-13/P1D</Value>
+             <Value>2016-04-15/2016-04-20/P1D</Value>
+             <Value>2016-04-23/2016-04-25/P1D</Value>
+             <Value>2016-04-27/2016-04-28/P1D</Value>
+             <Value>2016-04-30/2016-04-30/P1D</Value>
+             <Value>2016-05-02/2016-05-03/P1D</Value>
+             <Value>2016-05-06/2016-05-07/P1D</Value>
+             <Value>2016-05-09/2016-05-10/P1D</Value>
+             <Value>2016-05-14/2016-05-14/P1D</Value>
+             <Value>2016-05-16/2016-05-16/P1D</Value>
+             <Value>2016-05-18/2016-05-18/P1D</Value>
+             <Value>2016-05-23/2016-05-23/P1D</Value>
+             <Value>2016-05-27/2016-05-27/P1D</Value>
+             <Value>2016-05-29/2016-05-30/P1D</Value>
+             <Value>2016-06-01/2016-06-05/P1D</Value>
+             <Value>2016-06-08/2016-06-10/P1D</Value>
+             <Value>2016-06-12/2016-06-12/P1D</Value>
+             <Value>2016-06-14/2016-06-14/P1D</Value>
+             <Value>2016-06-16/2016-06-18/P1D</Value>
+             <Value>2016-06-20/2016-06-24/P1D</Value>
+             <Value>2016-06-26/2016-06-26/P1D</Value>
+             <Value>2016-06-28/2016-06-29/P1D</Value>
+             <Value>2016-07-04/2016-07-04/P1D</Value>
+             <Value>2016-07-06/2016-07-11/P1D</Value>
+             <Value>2016-07-15/2016-07-16/P1D</Value>
+             <Value>2016-07-18/2016-07-22/P1D</Value>
+             <Value>2016-07-24/2016-07-25/P1D</Value>
+             <Value>2016-07-31/2016-07-31/P1D</Value>
+             <Value>2016-08-02/2016-08-07/P1D</Value>
+             <Value>2016-08-10/2016-08-10/P1D</Value>
+             <Value>2016-08-12/2016-08-16/P1D</Value>
+             <Value>2016-08-21/2016-08-28/P1D</Value>
+             <Value>2016-08-30/2016-08-30/P1D</Value>
+             <Value>2016-09-01/2016-09-05/P1D</Value>
+             <Value>2016-09-08/2016-09-08/P1D</Value>
+             <Value>2016-09-11/2016-09-12/P1D</Value>
+             <Value>2016-09-15/2016-09-15/P1D</Value>
+             <Value>2016-09-18/2016-09-21/P1D</Value>
+             <Value>2016-09-24/2016-09-28/P1D</Value>
+             <Value>2016-09-30/2016-09-30/P1D</Value>
+             <Value>2016-10-07/2016-10-10/P1D</Value>
+             <Value>2016-10-12/2016-10-12/P1D</Value>
+             <Value>2016-10-14/2016-10-16/P1D</Value>
+             <Value>2016-10-20/2016-10-20/P1D</Value>
+             <Value>2016-10-23/2016-10-23/P1D</Value>
+             <Value>2016-10-25/2016-10-25/P1D</Value>
+             <Value>2016-10-30/2016-11-01/P1D</Value>
+             <Value>2016-11-03/2016-11-03/P1D</Value>
+             <Value>2016-11-06/2016-11-06/P1D</Value>
+             <Value>2016-11-08/2016-11-08/P1D</Value>
+             <Value>2016-11-10/2016-11-10/P1D</Value>
+             <Value>2016-11-12/2016-11-12/P1D</Value>
+             <Value>2016-11-15/2016-11-15/P1D</Value>
+             <Value>2016-11-19/2016-11-19/P1D</Value>
+             <Value>2016-11-26/2016-11-26/P1D</Value>
+             <Value>2016-11-28/2016-11-28/P1D</Value>
+             <Value>2016-12-01/2016-12-01/P1D</Value>
+             <Value>2016-12-05/2016-12-05/P1D</Value>
+             <Value>2016-12-09/2016-12-09/P1D</Value>
+             <Value>2016-12-11/2016-12-12/P1D</Value>
+             <Value>2016-12-17/2016-12-17/P1D</Value>
+             <Value>2016-12-20/2016-12-22/P1D</Value>
+             <Value>2016-12-24/2016-12-29/P1D</Value>
+             <Value>2017-01-02/2017-01-04/P1D</Value>
+             <Value>2017-01-07/2017-01-07/P1D</Value>
+             <Value>2017-01-10/2017-01-10/P1D</Value>
+             <Value>2017-01-12/2017-01-12/P1D</Value>
+             <Value>2017-01-21/2017-01-21/P1D</Value>
+             <Value>2017-01-24/2017-01-24/P1D</Value>
+             <Value>2017-01-29/2017-01-30/P1D</Value>
+             <Value>2017-02-01/2017-02-01/P1D</Value>
+             <Value>2017-02-04/2017-02-07/P1D</Value>
+             <Value>2017-02-09/2017-02-09/P1D</Value>
+             <Value>2017-02-12/2017-02-13/P1D</Value>
+             <Value>2017-02-16/2017-02-19/P1D</Value>
+             <Value>2017-02-24/2017-02-24/P1D</Value>
+             <Value>2017-02-26/2017-02-28/P1D</Value>
+             <Value>2017-03-03/2017-03-07/P1D</Value>
+             <Value>2017-03-10/2017-03-11/P1D</Value>
+             <Value>2017-03-14/2017-03-16/P1D</Value>
+             <Value>2017-03-18/2017-03-20/P1D</Value>
+             <Value>2017-03-22/2017-03-25/P1D</Value>
+             <Value>2017-03-27/2017-04-03/P1D</Value>
+             <Value>2017-04-07/2017-04-11/P1D</Value>
+             <Value>2017-04-15/2017-04-26/P1D</Value>
+             <Value>2017-04-28/2017-05-03/P1D</Value>
+             <Value>2017-05-08/2017-05-08/P1D</Value>
+             <Value>2017-05-10/2017-05-11/P1D</Value>
+             <Value>2017-05-16/2017-05-16/P1D</Value>
+             <Value>2017-08-06/2017-08-06/P1D</Value>
+             <Value>2017-08-10/2017-08-11/P1D</Value>
+             <Value>2017-08-13/2017-08-17/P1D</Value>
+             <Value>2017-08-20/2017-08-20/P1D</Value>
+             <Value>2017-08-22/2017-08-22/P1D</Value>
+             <Value>2017-08-24/2017-08-24/P1D</Value>
+             <Value>2017-08-26/2017-08-27/P1D</Value>
+             <Value>2017-08-29/2017-08-30/P1D</Value>
+             <Value>2017-10-09/2017-10-09/P1D</Value>
+             <Value>2017-12-11/2017-12-12/P1D</Value>
+             <Value>2018-01-01/2018-01-07/P1D</Value>
+             <Value>2018-01-10/2018-01-10/P1D</Value>
+             <Value>2018-01-13/2018-01-16/P1D</Value>
+             <Value>2018-01-20/2018-01-25/P1D</Value>
+             <Value>2018-01-27/2018-01-27/P1D</Value>
+             <Value>2018-01-29/2018-02-04/P1D</Value>
+             <Value>2018-02-12/2018-02-13/P1D</Value>
+             <Value>2018-02-15/2018-02-15/P1D</Value>
+             <Value>2018-02-17/2018-02-17/P1D</Value>
+             <Value>2018-03-01/2018-03-01/P1D</Value>
+             <Value>2018-03-03/2018-03-06/P1D</Value>
+             <Value>2018-03-08/2018-03-12/P1D</Value>
+             <Value>2018-03-14/2018-03-14/P1D</Value>
+             <Value>2018-03-20/2018-03-21/P1D</Value>
+             <Value>2018-03-23/2018-03-23/P1D</Value>
+             <Value>2018-03-27/2018-03-29/P1D</Value>
+             <Value>2018-04-01/2018-04-02/P1D</Value>
+             <Value>2018-04-04/2018-04-04/P1D</Value>
+             <Value>2018-04-06/2018-04-07/P1D</Value>
+             <Value>2018-04-09/2018-04-11/P1D</Value>
+             <Value>2018-04-14/2018-04-14/P1D</Value>
+             <Value>2018-04-18/2018-04-18/P1D</Value>
+             <Value>2018-04-20/2018-04-20/P1D</Value>
+             <Value>2018-04-22/2018-04-25/P1D</Value>
+             <Value>2018-04-30/2018-05-02/P1D</Value>
+             <Value>2018-05-04/2018-05-06/P1D</Value>
+             <Value>2018-05-13/2018-05-13/P1D</Value>
+             <Value>2018-05-17/2018-05-17/P1D</Value>
+             <Value>2018-05-22/2018-05-27/P1D</Value>
+             <Value>2018-11-04/2018-11-04/P1D</Value>
+             <Value>2019-04-08/2019-04-08/P1D</Value>
+             <Value>2019-04-12/2019-04-12/P1D</Value>
+             <Value>2019-07-24/2019-07-24/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_CNN_Red_Green_11um_aqua-modis_p025/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Cloud Identification CNN Red Green 11um Aqua MODIS (Patch 100)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_CNN_Red_Green_11um_aqua-modis_p100</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-07-24</Default>
+             <Current>false</Current>
+             <Value>2012-03-01/2012-03-05/P1D</Value>
+             <Value>2012-03-21/2012-03-25/P1D</Value>
+             <Value>2012-03-27/2012-03-28/P1D</Value>
+             <Value>2012-03-30/2012-04-01/P1D</Value>
+             <Value>2012-04-03/2012-04-06/P1D</Value>
+             <Value>2012-04-08/2012-04-08/P1D</Value>
+             <Value>2012-04-12/2012-04-14/P1D</Value>
+             <Value>2012-04-16/2012-04-17/P1D</Value>
+             <Value>2012-04-19/2012-04-19/P1D</Value>
+             <Value>2012-04-21/2012-04-29/P1D</Value>
+             <Value>2012-05-02/2012-05-03/P1D</Value>
+             <Value>2012-05-05/2012-05-10/P1D</Value>
+             <Value>2012-05-12/2012-05-15/P1D</Value>
+             <Value>2012-05-25/2012-05-25/P1D</Value>
+             <Value>2012-05-27/2012-05-29/P1D</Value>
+             <Value>2012-05-31/2012-06-02/P1D</Value>
+             <Value>2012-06-04/2012-06-07/P1D</Value>
+             <Value>2012-06-10/2012-06-13/P1D</Value>
+             <Value>2012-06-15/2012-06-17/P1D</Value>
+             <Value>2012-06-21/2012-06-23/P1D</Value>
+             <Value>2012-06-26/2012-06-27/P1D</Value>
+             <Value>2012-06-29/2012-06-30/P1D</Value>
+             <Value>2012-07-02/2012-07-04/P1D</Value>
+             <Value>2012-07-06/2012-07-12/P1D</Value>
+             <Value>2012-07-24/2012-07-24/P1D</Value>
+             <Value>2012-07-29/2012-08-01/P1D</Value>
+             <Value>2012-08-03/2012-08-03/P1D</Value>
+             <Value>2012-08-05/2012-08-07/P1D</Value>
+             <Value>2012-08-09/2012-08-13/P1D</Value>
+             <Value>2012-08-15/2012-08-22/P1D</Value>
+             <Value>2012-08-24/2012-08-26/P1D</Value>
+             <Value>2012-08-29/2012-09-02/P1D</Value>
+             <Value>2012-09-07/2012-09-07/P1D</Value>
+             <Value>2012-09-09/2012-09-09/P1D</Value>
+             <Value>2012-09-11/2012-09-11/P1D</Value>
+             <Value>2012-09-13/2012-09-14/P1D</Value>
+             <Value>2012-09-16/2012-09-16/P1D</Value>
+             <Value>2012-09-18/2012-09-21/P1D</Value>
+             <Value>2012-09-23/2012-09-25/P1D</Value>
+             <Value>2012-09-29/2012-09-29/P1D</Value>
+             <Value>2012-10-03/2012-10-03/P1D</Value>
+             <Value>2012-10-05/2012-10-06/P1D</Value>
+             <Value>2012-10-10/2012-10-12/P1D</Value>
+             <Value>2012-10-14/2012-10-14/P1D</Value>
+             <Value>2012-10-19/2012-10-19/P1D</Value>
+             <Value>2012-10-21/2012-10-21/P1D</Value>
+             <Value>2012-10-25/2012-10-25/P1D</Value>
+             <Value>2012-10-27/2012-10-28/P1D</Value>
+             <Value>2012-11-04/2012-11-04/P1D</Value>
+             <Value>2012-11-06/2012-11-06/P1D</Value>
+             <Value>2012-11-08/2012-11-09/P1D</Value>
+             <Value>2012-12-04/2012-12-04/P1D</Value>
+             <Value>2012-12-07/2012-12-07/P1D</Value>
+             <Value>2012-12-09/2012-12-09/P1D</Value>
+             <Value>2012-12-16/2012-12-16/P1D</Value>
+             <Value>2012-12-20/2012-12-21/P1D</Value>
+             <Value>2012-12-23/2012-12-25/P1D</Value>
+             <Value>2012-12-28/2012-12-30/P1D</Value>
+             <Value>2013-01-08/2013-01-11/P1D</Value>
+             <Value>2013-01-13/2013-01-13/P1D</Value>
+             <Value>2013-01-17/2013-01-17/P1D</Value>
+             <Value>2013-01-20/2013-01-20/P1D</Value>
+             <Value>2013-01-23/2013-01-23/P1D</Value>
+             <Value>2013-01-27/2013-01-31/P1D</Value>
+             <Value>2013-02-02/2013-02-09/P1D</Value>
+             <Value>2013-02-11/2013-02-12/P1D</Value>
+             <Value>2013-02-14/2013-02-14/P1D</Value>
+             <Value>2013-02-17/2013-02-17/P1D</Value>
+             <Value>2013-02-19/2013-02-21/P1D</Value>
+             <Value>2013-02-24/2013-02-24/P1D</Value>
+             <Value>2013-02-26/2013-02-28/P1D</Value>
+             <Value>2013-03-05/2013-03-05/P1D</Value>
+             <Value>2013-03-07/2013-03-10/P1D</Value>
+             <Value>2013-03-12/2013-03-16/P1D</Value>
+             <Value>2013-03-23/2013-03-23/P1D</Value>
+             <Value>2013-03-25/2013-03-31/P1D</Value>
+             <Value>2013-04-02/2013-04-04/P1D</Value>
+             <Value>2013-04-06/2013-04-08/P1D</Value>
+             <Value>2013-04-17/2013-04-17/P1D</Value>
+             <Value>2013-04-19/2013-04-20/P1D</Value>
+             <Value>2013-04-22/2013-04-22/P1D</Value>
+             <Value>2013-04-26/2013-04-29/P1D</Value>
+             <Value>2013-05-01/2013-05-01/P1D</Value>
+             <Value>2013-05-05/2013-05-07/P1D</Value>
+             <Value>2013-05-09/2013-05-12/P1D</Value>
+             <Value>2013-05-14/2013-05-14/P1D</Value>
+             <Value>2013-05-29/2013-05-30/P1D</Value>
+             <Value>2013-06-02/2013-06-02/P1D</Value>
+             <Value>2013-06-04/2013-06-04/P1D</Value>
+             <Value>2013-06-06/2013-06-10/P1D</Value>
+             <Value>2013-06-12/2013-06-13/P1D</Value>
+             <Value>2013-06-15/2013-06-15/P1D</Value>
+             <Value>2013-06-19/2013-06-20/P1D</Value>
+             <Value>2013-06-23/2013-06-25/P1D</Value>
+             <Value>2013-07-01/2013-07-07/P1D</Value>
+             <Value>2013-07-10/2013-07-14/P1D</Value>
+             <Value>2013-07-21/2013-07-23/P1D</Value>
+             <Value>2013-07-28/2013-07-28/P1D</Value>
+             <Value>2013-07-30/2013-07-30/P1D</Value>
+             <Value>2013-08-01/2013-08-04/P1D</Value>
+             <Value>2013-08-06/2013-08-07/P1D</Value>
+             <Value>2013-08-09/2013-08-10/P1D</Value>
+             <Value>2013-08-13/2013-08-13/P1D</Value>
+             <Value>2013-08-15/2013-08-20/P1D</Value>
+             <Value>2013-08-22/2013-08-25/P1D</Value>
+             <Value>2013-08-27/2013-08-31/P1D</Value>
+             <Value>2013-09-02/2013-09-05/P1D</Value>
+             <Value>2013-09-07/2013-09-08/P1D</Value>
+             <Value>2013-09-10/2013-09-10/P1D</Value>
+             <Value>2013-09-12/2013-09-15/P1D</Value>
+             <Value>2013-09-18/2013-09-18/P1D</Value>
+             <Value>2013-09-21/2013-09-22/P1D</Value>
+             <Value>2013-09-27/2013-09-29/P1D</Value>
+             <Value>2013-10-26/2013-10-26/P1D</Value>
+             <Value>2013-10-29/2013-10-29/P1D</Value>
+             <Value>2013-11-09/2013-11-09/P1D</Value>
+             <Value>2014-01-22/2014-01-23/P1D</Value>
+             <Value>2014-01-28/2014-01-30/P1D</Value>
+             <Value>2014-02-03/2014-02-03/P1D</Value>
+             <Value>2014-02-09/2014-02-10/P1D</Value>
+             <Value>2014-02-12/2014-02-13/P1D</Value>
+             <Value>2014-02-15/2014-02-15/P1D</Value>
+             <Value>2014-03-11/2014-03-11/P1D</Value>
+             <Value>2014-03-14/2014-03-20/P1D</Value>
+             <Value>2014-03-22/2014-03-26/P1D</Value>
+             <Value>2014-03-28/2014-03-28/P1D</Value>
+             <Value>2014-04-01/2014-04-01/P1D</Value>
+             <Value>2014-04-03/2014-04-04/P1D</Value>
+             <Value>2014-05-20/2014-05-20/P1D</Value>
+             <Value>2014-05-22/2014-05-22/P1D</Value>
+             <Value>2014-05-24/2014-05-28/P1D</Value>
+             <Value>2014-06-02/2014-06-06/P1D</Value>
+             <Value>2014-06-09/2014-06-15/P1D</Value>
+             <Value>2014-06-17/2014-06-21/P1D</Value>
+             <Value>2014-06-23/2014-06-23/P1D</Value>
+             <Value>2014-06-25/2014-07-01/P1D</Value>
+             <Value>2014-07-03/2014-07-10/P1D</Value>
+             <Value>2014-07-12/2014-07-14/P1D</Value>
+             <Value>2014-07-16/2014-07-18/P1D</Value>
+             <Value>2014-07-21/2014-07-21/P1D</Value>
+             <Value>2014-07-24/2014-07-29/P1D</Value>
+             <Value>2014-07-31/2014-07-31/P1D</Value>
+             <Value>2014-08-02/2014-08-03/P1D</Value>
+             <Value>2014-08-05/2014-08-09/P1D</Value>
+             <Value>2014-08-11/2014-08-14/P1D</Value>
+             <Value>2014-08-16/2014-08-19/P1D</Value>
+             <Value>2014-08-22/2014-08-28/P1D</Value>
+             <Value>2014-08-30/2014-08-31/P1D</Value>
+             <Value>2014-09-03/2014-09-03/P1D</Value>
+             <Value>2014-09-05/2014-09-06/P1D</Value>
+             <Value>2014-09-08/2014-09-08/P1D</Value>
+             <Value>2014-09-10/2014-09-10/P1D</Value>
+             <Value>2014-09-17/2014-09-17/P1D</Value>
+             <Value>2014-09-19/2014-09-20/P1D</Value>
+             <Value>2014-09-23/2014-09-23/P1D</Value>
+             <Value>2014-09-25/2014-09-26/P1D</Value>
+             <Value>2014-09-29/2014-10-02/P1D</Value>
+             <Value>2014-10-04/2014-10-05/P1D</Value>
+             <Value>2014-10-07/2014-10-07/P1D</Value>
+             <Value>2014-10-11/2014-10-11/P1D</Value>
+             <Value>2014-10-13/2014-10-13/P1D</Value>
+             <Value>2014-10-15/2014-10-15/P1D</Value>
+             <Value>2014-10-18/2014-10-18/P1D</Value>
+             <Value>2014-10-24/2014-10-25/P1D</Value>
+             <Value>2014-11-01/2014-11-04/P1D</Value>
+             <Value>2014-11-10/2014-11-10/P1D</Value>
+             <Value>2014-11-12/2014-11-12/P1D</Value>
+             <Value>2014-11-22/2014-11-22/P1D</Value>
+             <Value>2014-11-26/2014-11-28/P1D</Value>
+             <Value>2014-12-05/2014-12-05/P1D</Value>
+             <Value>2014-12-07/2014-12-07/P1D</Value>
+             <Value>2014-12-14/2014-12-14/P1D</Value>
+             <Value>2014-12-17/2014-12-18/P1D</Value>
+             <Value>2014-12-20/2014-12-21/P1D</Value>
+             <Value>2014-12-28/2014-12-28/P1D</Value>
+             <Value>2014-12-30/2015-01-02/P1D</Value>
+             <Value>2015-01-07/2015-01-10/P1D</Value>
+             <Value>2015-01-12/2015-01-16/P1D</Value>
+             <Value>2015-01-18/2015-01-20/P1D</Value>
+             <Value>2015-01-22/2015-01-22/P1D</Value>
+             <Value>2015-01-25/2015-01-27/P1D</Value>
+             <Value>2015-01-31/2015-01-31/P1D</Value>
+             <Value>2015-02-02/2015-02-02/P1D</Value>
+             <Value>2015-02-04/2015-02-04/P1D</Value>
+             <Value>2015-02-07/2015-02-07/P1D</Value>
+             <Value>2015-02-09/2015-02-09/P1D</Value>
+             <Value>2015-02-11/2015-02-12/P1D</Value>
+             <Value>2015-02-14/2015-02-17/P1D</Value>
+             <Value>2015-02-21/2015-02-21/P1D</Value>
+             <Value>2015-02-23/2015-02-23/P1D</Value>
+             <Value>2015-02-26/2015-03-05/P1D</Value>
+             <Value>2015-03-07/2015-03-08/P1D</Value>
+             <Value>2015-03-10/2015-03-14/P1D</Value>
+             <Value>2015-03-16/2015-03-16/P1D</Value>
+             <Value>2015-03-20/2015-03-20/P1D</Value>
+             <Value>2015-03-22/2015-03-25/P1D</Value>
+             <Value>2015-03-27/2015-04-05/P1D</Value>
+             <Value>2015-04-10/2015-04-15/P1D</Value>
+             <Value>2015-04-17/2015-04-22/P1D</Value>
+             <Value>2015-04-25/2015-05-02/P1D</Value>
+             <Value>2015-05-04/2015-05-09/P1D</Value>
+             <Value>2015-05-11/2015-05-21/P1D</Value>
+             <Value>2015-05-24/2015-05-24/P1D</Value>
+             <Value>2015-05-28/2015-05-28/P1D</Value>
+             <Value>2015-05-30/2015-05-30/P1D</Value>
+             <Value>2015-06-01/2015-06-01/P1D</Value>
+             <Value>2015-06-03/2015-06-04/P1D</Value>
+             <Value>2015-06-12/2015-06-12/P1D</Value>
+             <Value>2015-06-15/2015-06-17/P1D</Value>
+             <Value>2015-06-30/2015-07-05/P1D</Value>
+             <Value>2015-07-07/2015-07-07/P1D</Value>
+             <Value>2015-07-09/2015-07-09/P1D</Value>
+             <Value>2015-07-13/2015-07-13/P1D</Value>
+             <Value>2015-09-23/2015-09-23/P1D</Value>
+             <Value>2015-09-25/2015-09-25/P1D</Value>
+             <Value>2015-10-05/2015-10-05/P1D</Value>
+             <Value>2015-10-08/2015-10-08/P1D</Value>
+             <Value>2015-10-12/2015-10-12/P1D</Value>
+             <Value>2015-10-14/2015-10-16/P1D</Value>
+             <Value>2015-10-19/2015-10-19/P1D</Value>
+             <Value>2015-10-21/2015-10-21/P1D</Value>
+             <Value>2015-10-23/2015-10-23/P1D</Value>
+             <Value>2015-11-05/2015-11-05/P1D</Value>
+             <Value>2015-11-08/2015-11-08/P1D</Value>
+             <Value>2015-11-12/2015-11-16/P1D</Value>
+             <Value>2015-11-19/2015-11-20/P1D</Value>
+             <Value>2015-11-26/2015-11-26/P1D</Value>
+             <Value>2015-11-28/2015-11-28/P1D</Value>
+             <Value>2015-12-01/2015-12-01/P1D</Value>
+             <Value>2015-12-03/2015-12-03/P1D</Value>
+             <Value>2015-12-05/2015-12-10/P1D</Value>
+             <Value>2015-12-16/2015-12-18/P1D</Value>
+             <Value>2015-12-21/2015-12-21/P1D</Value>
+             <Value>2015-12-23/2015-12-23/P1D</Value>
+             <Value>2015-12-25/2015-12-26/P1D</Value>
+             <Value>2015-12-29/2016-01-05/P1D</Value>
+             <Value>2016-01-08/2016-01-08/P1D</Value>
+             <Value>2016-01-10/2016-01-10/P1D</Value>
+             <Value>2016-01-12/2016-01-13/P1D</Value>
+             <Value>2016-01-15/2016-01-15/P1D</Value>
+             <Value>2016-01-17/2016-01-20/P1D</Value>
+             <Value>2016-01-22/2016-01-22/P1D</Value>
+             <Value>2016-01-24/2016-01-26/P1D</Value>
+             <Value>2016-03-15/2016-03-16/P1D</Value>
+             <Value>2016-03-19/2016-03-20/P1D</Value>
+             <Value>2016-03-22/2016-03-29/P1D</Value>
+             <Value>2016-03-31/2016-03-31/P1D</Value>
+             <Value>2016-04-04/2016-04-06/P1D</Value>
+             <Value>2016-04-08/2016-04-08/P1D</Value>
+             <Value>2016-04-11/2016-04-13/P1D</Value>
+             <Value>2016-04-15/2016-04-20/P1D</Value>
+             <Value>2016-04-23/2016-04-25/P1D</Value>
+             <Value>2016-04-27/2016-04-28/P1D</Value>
+             <Value>2016-04-30/2016-04-30/P1D</Value>
+             <Value>2016-05-02/2016-05-03/P1D</Value>
+             <Value>2016-05-06/2016-05-07/P1D</Value>
+             <Value>2016-05-09/2016-05-10/P1D</Value>
+             <Value>2016-05-14/2016-05-14/P1D</Value>
+             <Value>2016-05-16/2016-05-16/P1D</Value>
+             <Value>2016-05-18/2016-05-18/P1D</Value>
+             <Value>2016-05-23/2016-05-23/P1D</Value>
+             <Value>2016-05-27/2016-05-27/P1D</Value>
+             <Value>2016-05-29/2016-05-30/P1D</Value>
+             <Value>2016-06-01/2016-06-05/P1D</Value>
+             <Value>2016-06-08/2016-06-10/P1D</Value>
+             <Value>2016-06-12/2016-06-12/P1D</Value>
+             <Value>2016-06-14/2016-06-14/P1D</Value>
+             <Value>2016-06-16/2016-06-18/P1D</Value>
+             <Value>2016-06-20/2016-06-24/P1D</Value>
+             <Value>2016-06-26/2016-06-26/P1D</Value>
+             <Value>2016-06-28/2016-06-29/P1D</Value>
+             <Value>2016-07-04/2016-07-04/P1D</Value>
+             <Value>2016-07-06/2016-07-11/P1D</Value>
+             <Value>2016-07-15/2016-07-16/P1D</Value>
+             <Value>2016-07-18/2016-07-22/P1D</Value>
+             <Value>2016-07-24/2016-07-25/P1D</Value>
+             <Value>2016-07-31/2016-07-31/P1D</Value>
+             <Value>2016-08-02/2016-08-07/P1D</Value>
+             <Value>2016-08-10/2016-08-10/P1D</Value>
+             <Value>2016-08-12/2016-08-16/P1D</Value>
+             <Value>2016-08-21/2016-08-28/P1D</Value>
+             <Value>2016-08-30/2016-08-30/P1D</Value>
+             <Value>2016-09-01/2016-09-05/P1D</Value>
+             <Value>2016-09-08/2016-09-08/P1D</Value>
+             <Value>2016-09-11/2016-09-12/P1D</Value>
+             <Value>2016-09-15/2016-09-15/P1D</Value>
+             <Value>2016-09-18/2016-09-21/P1D</Value>
+             <Value>2016-09-24/2016-09-28/P1D</Value>
+             <Value>2016-09-30/2016-09-30/P1D</Value>
+             <Value>2016-10-07/2016-10-10/P1D</Value>
+             <Value>2016-10-12/2016-10-12/P1D</Value>
+             <Value>2016-10-14/2016-10-16/P1D</Value>
+             <Value>2016-10-20/2016-10-20/P1D</Value>
+             <Value>2016-10-23/2016-10-23/P1D</Value>
+             <Value>2016-10-25/2016-10-25/P1D</Value>
+             <Value>2016-10-30/2016-11-01/P1D</Value>
+             <Value>2016-11-03/2016-11-03/P1D</Value>
+             <Value>2016-11-06/2016-11-06/P1D</Value>
+             <Value>2016-11-08/2016-11-08/P1D</Value>
+             <Value>2016-11-10/2016-11-10/P1D</Value>
+             <Value>2016-11-12/2016-11-12/P1D</Value>
+             <Value>2016-11-15/2016-11-15/P1D</Value>
+             <Value>2016-11-19/2016-11-19/P1D</Value>
+             <Value>2016-11-26/2016-11-26/P1D</Value>
+             <Value>2016-11-28/2016-11-28/P1D</Value>
+             <Value>2016-12-01/2016-12-01/P1D</Value>
+             <Value>2016-12-05/2016-12-05/P1D</Value>
+             <Value>2016-12-09/2016-12-09/P1D</Value>
+             <Value>2016-12-11/2016-12-12/P1D</Value>
+             <Value>2016-12-17/2016-12-17/P1D</Value>
+             <Value>2016-12-20/2016-12-22/P1D</Value>
+             <Value>2016-12-24/2016-12-29/P1D</Value>
+             <Value>2017-01-02/2017-01-04/P1D</Value>
+             <Value>2017-01-07/2017-01-07/P1D</Value>
+             <Value>2017-01-10/2017-01-10/P1D</Value>
+             <Value>2017-01-12/2017-01-12/P1D</Value>
+             <Value>2017-01-21/2017-01-21/P1D</Value>
+             <Value>2017-01-24/2017-01-24/P1D</Value>
+             <Value>2017-01-29/2017-01-30/P1D</Value>
+             <Value>2017-02-01/2017-02-01/P1D</Value>
+             <Value>2017-02-04/2017-02-07/P1D</Value>
+             <Value>2017-02-09/2017-02-09/P1D</Value>
+             <Value>2017-02-12/2017-02-13/P1D</Value>
+             <Value>2017-02-16/2017-02-19/P1D</Value>
+             <Value>2017-02-24/2017-02-24/P1D</Value>
+             <Value>2017-02-26/2017-02-28/P1D</Value>
+             <Value>2017-03-03/2017-03-07/P1D</Value>
+             <Value>2017-03-10/2017-03-11/P1D</Value>
+             <Value>2017-03-14/2017-03-16/P1D</Value>
+             <Value>2017-03-18/2017-03-20/P1D</Value>
+             <Value>2017-03-22/2017-03-25/P1D</Value>
+             <Value>2017-03-27/2017-04-03/P1D</Value>
+             <Value>2017-04-07/2017-04-11/P1D</Value>
+             <Value>2017-04-15/2017-04-26/P1D</Value>
+             <Value>2017-04-28/2017-05-03/P1D</Value>
+             <Value>2017-05-08/2017-05-08/P1D</Value>
+             <Value>2017-05-10/2017-05-11/P1D</Value>
+             <Value>2017-05-16/2017-05-16/P1D</Value>
+             <Value>2017-08-06/2017-08-06/P1D</Value>
+             <Value>2017-08-10/2017-08-11/P1D</Value>
+             <Value>2017-08-13/2017-08-17/P1D</Value>
+             <Value>2017-08-20/2017-08-20/P1D</Value>
+             <Value>2017-08-22/2017-08-22/P1D</Value>
+             <Value>2017-08-24/2017-08-24/P1D</Value>
+             <Value>2017-08-26/2017-08-27/P1D</Value>
+             <Value>2017-08-29/2017-08-30/P1D</Value>
+             <Value>2017-10-09/2017-10-09/P1D</Value>
+             <Value>2017-12-11/2017-12-12/P1D</Value>
+             <Value>2018-01-01/2018-01-07/P1D</Value>
+             <Value>2018-01-10/2018-01-10/P1D</Value>
+             <Value>2018-01-13/2018-01-16/P1D</Value>
+             <Value>2018-01-20/2018-01-25/P1D</Value>
+             <Value>2018-01-27/2018-01-27/P1D</Value>
+             <Value>2018-01-29/2018-02-04/P1D</Value>
+             <Value>2018-02-12/2018-02-13/P1D</Value>
+             <Value>2018-02-15/2018-02-15/P1D</Value>
+             <Value>2018-02-17/2018-02-17/P1D</Value>
+             <Value>2018-03-01/2018-03-01/P1D</Value>
+             <Value>2018-03-03/2018-03-06/P1D</Value>
+             <Value>2018-03-08/2018-03-12/P1D</Value>
+             <Value>2018-03-14/2018-03-14/P1D</Value>
+             <Value>2018-03-20/2018-03-21/P1D</Value>
+             <Value>2018-03-23/2018-03-23/P1D</Value>
+             <Value>2018-03-27/2018-03-29/P1D</Value>
+             <Value>2018-04-01/2018-04-02/P1D</Value>
+             <Value>2018-04-04/2018-04-04/P1D</Value>
+             <Value>2018-04-06/2018-04-07/P1D</Value>
+             <Value>2018-04-09/2018-04-11/P1D</Value>
+             <Value>2018-04-14/2018-04-14/P1D</Value>
+             <Value>2018-04-18/2018-04-18/P1D</Value>
+             <Value>2018-04-20/2018-04-20/P1D</Value>
+             <Value>2018-04-22/2018-04-25/P1D</Value>
+             <Value>2018-04-30/2018-05-02/P1D</Value>
+             <Value>2018-05-04/2018-05-06/P1D</Value>
+             <Value>2018-05-13/2018-05-13/P1D</Value>
+             <Value>2018-05-17/2018-05-17/P1D</Value>
+             <Value>2018-05-22/2018-05-27/P1D</Value>
+             <Value>2018-11-04/2018-11-04/P1D</Value>
+             <Value>2019-04-08/2019-04-08/P1D</Value>
+             <Value>2019-04-12/2019-04-12/P1D</Value>
+             <Value>2019-07-24/2019-07-24/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_CNN_Red_Green_11um_aqua-modis_p100/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
          <ows:Title xml:lang="en">Cloud Identification CNN Red Green 11um (Patch 25)</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
@@ -622,6 +1545,492 @@
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_CNN_Red_Green_11um_p100/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
+         <ows:Title xml:lang="en">Cloud Identification CNN Red Green 11um Terra MODIS (Patch 25)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_CNN_Red_Green_11um_terra-modis_p025</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-06</Default>
+             <Current>false</Current>
+             <Value>2019-04-06/2019-04-06/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_CNN_Red_Green_11um_terra-modis_p025/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Cloud Identification CNN Red Green 11um Terra MODIS (Patch 100)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_CNN_Red_Green_11um_terra-modis_p100</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-06</Default>
+             <Current>false</Current>
+             <Value>2019-04-06/2019-04-06/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_CNN_Red_Green_11um_terra-modis_p100/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Cloud Identification Fine Tune VGG16 Red Green 11um Aqua MODIS (Patch 25)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_FineTuneAGG16_Red_Green_11um_aqua-modis_p025</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-09-13</Default>
+             <Current>false</Current>
+             <Value>2012-03-01/2012-03-05/P1D</Value>
+             <Value>2012-03-21/2012-03-25/P1D</Value>
+             <Value>2012-03-27/2012-03-28/P1D</Value>
+             <Value>2012-03-30/2012-04-01/P1D</Value>
+             <Value>2012-04-03/2012-04-06/P1D</Value>
+             <Value>2012-04-08/2012-04-08/P1D</Value>
+             <Value>2012-04-12/2012-04-14/P1D</Value>
+             <Value>2012-04-16/2012-04-17/P1D</Value>
+             <Value>2012-04-19/2012-04-19/P1D</Value>
+             <Value>2012-04-21/2012-04-29/P1D</Value>
+             <Value>2012-05-02/2012-05-03/P1D</Value>
+             <Value>2012-05-05/2012-05-10/P1D</Value>
+             <Value>2012-05-12/2012-05-15/P1D</Value>
+             <Value>2012-05-25/2012-05-25/P1D</Value>
+             <Value>2012-05-27/2012-05-29/P1D</Value>
+             <Value>2012-05-31/2012-06-02/P1D</Value>
+             <Value>2012-06-04/2012-06-07/P1D</Value>
+             <Value>2012-06-10/2012-06-13/P1D</Value>
+             <Value>2012-06-15/2012-06-17/P1D</Value>
+             <Value>2012-06-21/2012-06-23/P1D</Value>
+             <Value>2012-06-26/2012-06-27/P1D</Value>
+             <Value>2012-06-29/2012-06-30/P1D</Value>
+             <Value>2012-07-02/2012-07-04/P1D</Value>
+             <Value>2012-07-06/2012-07-12/P1D</Value>
+             <Value>2012-07-24/2012-07-24/P1D</Value>
+             <Value>2012-07-29/2012-08-01/P1D</Value>
+             <Value>2012-08-03/2012-08-03/P1D</Value>
+             <Value>2012-08-05/2012-08-07/P1D</Value>
+             <Value>2012-08-09/2012-08-13/P1D</Value>
+             <Value>2012-08-15/2012-08-22/P1D</Value>
+             <Value>2012-08-24/2012-08-26/P1D</Value>
+             <Value>2012-08-29/2012-09-02/P1D</Value>
+             <Value>2012-09-07/2012-09-07/P1D</Value>
+             <Value>2012-09-09/2012-09-09/P1D</Value>
+             <Value>2012-09-11/2012-09-11/P1D</Value>
+             <Value>2012-09-13/2012-09-14/P1D</Value>
+             <Value>2012-09-16/2012-09-16/P1D</Value>
+             <Value>2012-09-18/2012-09-21/P1D</Value>
+             <Value>2012-09-23/2012-09-25/P1D</Value>
+             <Value>2012-09-29/2012-09-29/P1D</Value>
+             <Value>2012-10-03/2012-10-03/P1D</Value>
+             <Value>2012-10-05/2012-10-06/P1D</Value>
+             <Value>2012-10-10/2012-10-12/P1D</Value>
+             <Value>2012-10-14/2012-10-14/P1D</Value>
+             <Value>2012-10-19/2012-10-19/P1D</Value>
+             <Value>2012-10-21/2012-10-21/P1D</Value>
+             <Value>2012-10-25/2012-10-25/P1D</Value>
+             <Value>2012-10-27/2012-10-28/P1D</Value>
+             <Value>2012-11-04/2012-11-04/P1D</Value>
+             <Value>2012-11-06/2012-11-06/P1D</Value>
+             <Value>2012-11-08/2012-11-09/P1D</Value>
+             <Value>2012-12-04/2012-12-04/P1D</Value>
+             <Value>2012-12-07/2012-12-07/P1D</Value>
+             <Value>2012-12-09/2012-12-09/P1D</Value>
+             <Value>2012-12-16/2012-12-16/P1D</Value>
+             <Value>2012-12-20/2012-12-21/P1D</Value>
+             <Value>2012-12-23/2012-12-25/P1D</Value>
+             <Value>2012-12-28/2012-12-30/P1D</Value>
+             <Value>2013-01-08/2013-01-11/P1D</Value>
+             <Value>2013-01-13/2013-01-13/P1D</Value>
+             <Value>2013-01-17/2013-01-18/P1D</Value>
+             <Value>2013-01-20/2013-01-20/P1D</Value>
+             <Value>2013-01-23/2013-01-23/P1D</Value>
+             <Value>2013-01-27/2013-01-31/P1D</Value>
+             <Value>2013-02-02/2013-02-09/P1D</Value>
+             <Value>2013-02-11/2013-02-12/P1D</Value>
+             <Value>2013-02-14/2013-02-14/P1D</Value>
+             <Value>2013-02-17/2013-02-17/P1D</Value>
+             <Value>2013-02-19/2013-02-21/P1D</Value>
+             <Value>2013-02-24/2013-02-24/P1D</Value>
+             <Value>2013-02-26/2013-02-28/P1D</Value>
+             <Value>2013-03-05/2013-03-05/P1D</Value>
+             <Value>2013-03-07/2013-03-10/P1D</Value>
+             <Value>2013-03-12/2013-03-16/P1D</Value>
+             <Value>2013-03-23/2013-03-23/P1D</Value>
+             <Value>2013-03-25/2013-03-31/P1D</Value>
+             <Value>2013-04-02/2013-04-04/P1D</Value>
+             <Value>2013-04-06/2013-04-08/P1D</Value>
+             <Value>2013-04-17/2013-04-17/P1D</Value>
+             <Value>2013-04-19/2013-04-20/P1D</Value>
+             <Value>2013-04-22/2013-04-22/P1D</Value>
+             <Value>2013-04-26/2013-04-29/P1D</Value>
+             <Value>2013-05-01/2013-05-01/P1D</Value>
+             <Value>2013-05-05/2013-05-07/P1D</Value>
+             <Value>2013-05-09/2013-05-12/P1D</Value>
+             <Value>2013-05-14/2013-05-14/P1D</Value>
+             <Value>2013-05-29/2013-05-30/P1D</Value>
+             <Value>2013-06-02/2013-06-02/P1D</Value>
+             <Value>2013-06-04/2013-06-04/P1D</Value>
+             <Value>2013-06-06/2013-06-10/P1D</Value>
+             <Value>2013-06-12/2013-06-13/P1D</Value>
+             <Value>2013-06-15/2013-06-15/P1D</Value>
+             <Value>2013-06-19/2013-06-20/P1D</Value>
+             <Value>2013-06-23/2013-06-25/P1D</Value>
+             <Value>2013-07-01/2013-07-07/P1D</Value>
+             <Value>2013-07-10/2013-07-14/P1D</Value>
+             <Value>2013-07-21/2013-07-23/P1D</Value>
+             <Value>2013-07-28/2013-07-28/P1D</Value>
+             <Value>2013-07-30/2013-07-30/P1D</Value>
+             <Value>2013-08-01/2013-08-04/P1D</Value>
+             <Value>2013-08-06/2013-08-07/P1D</Value>
+             <Value>2013-08-09/2013-08-10/P1D</Value>
+             <Value>2013-08-13/2013-08-13/P1D</Value>
+             <Value>2013-08-15/2013-08-20/P1D</Value>
+             <Value>2013-08-22/2013-08-25/P1D</Value>
+             <Value>2013-08-27/2013-08-31/P1D</Value>
+             <Value>2013-09-02/2013-09-05/P1D</Value>
+             <Value>2013-09-07/2013-09-08/P1D</Value>
+             <Value>2013-09-10/2013-09-10/P1D</Value>
+             <Value>2013-09-12/2013-09-15/P1D</Value>
+             <Value>2013-09-18/2013-09-18/P1D</Value>
+             <Value>2013-09-21/2013-09-22/P1D</Value>
+             <Value>2013-09-27/2013-09-29/P1D</Value>
+             <Value>2013-10-26/2013-10-26/P1D</Value>
+             <Value>2013-10-29/2013-10-29/P1D</Value>
+             <Value>2013-11-09/2013-11-09/P1D</Value>
+             <Value>2014-01-22/2014-01-23/P1D</Value>
+             <Value>2014-01-28/2014-01-30/P1D</Value>
+             <Value>2014-02-03/2014-02-03/P1D</Value>
+             <Value>2014-02-09/2014-02-10/P1D</Value>
+             <Value>2014-02-12/2014-02-13/P1D</Value>
+             <Value>2014-02-15/2014-02-15/P1D</Value>
+             <Value>2014-03-11/2014-03-11/P1D</Value>
+             <Value>2014-03-14/2014-03-20/P1D</Value>
+             <Value>2014-03-22/2014-03-26/P1D</Value>
+             <Value>2014-03-28/2014-03-28/P1D</Value>
+             <Value>2014-04-01/2014-04-01/P1D</Value>
+             <Value>2014-04-03/2014-04-04/P1D</Value>
+             <Value>2014-05-20/2014-05-20/P1D</Value>
+             <Value>2014-05-22/2014-05-22/P1D</Value>
+             <Value>2014-05-24/2014-05-28/P1D</Value>
+             <Value>2014-06-02/2014-06-06/P1D</Value>
+             <Value>2014-06-09/2014-06-15/P1D</Value>
+             <Value>2014-06-17/2014-06-21/P1D</Value>
+             <Value>2014-06-23/2014-06-23/P1D</Value>
+             <Value>2014-06-25/2014-07-01/P1D</Value>
+             <Value>2014-07-03/2014-07-10/P1D</Value>
+             <Value>2014-07-12/2014-07-14/P1D</Value>
+             <Value>2014-07-16/2014-07-18/P1D</Value>
+             <Value>2014-07-21/2014-07-21/P1D</Value>
+             <Value>2014-07-24/2014-07-29/P1D</Value>
+             <Value>2014-07-31/2014-07-31/P1D</Value>
+             <Value>2014-08-02/2014-08-03/P1D</Value>
+             <Value>2014-08-05/2014-08-09/P1D</Value>
+             <Value>2014-08-11/2014-08-14/P1D</Value>
+             <Value>2014-08-16/2014-08-19/P1D</Value>
+             <Value>2014-08-22/2014-08-28/P1D</Value>
+             <Value>2014-08-30/2014-08-31/P1D</Value>
+             <Value>2014-09-03/2014-09-03/P1D</Value>
+             <Value>2014-09-05/2014-09-06/P1D</Value>
+             <Value>2014-09-08/2014-09-08/P1D</Value>
+             <Value>2014-09-10/2014-09-10/P1D</Value>
+             <Value>2014-09-17/2014-09-17/P1D</Value>
+             <Value>2014-09-19/2014-09-20/P1D</Value>
+             <Value>2014-09-23/2014-09-23/P1D</Value>
+             <Value>2014-09-25/2014-09-26/P1D</Value>
+             <Value>2014-09-29/2014-10-02/P1D</Value>
+             <Value>2014-10-04/2014-10-05/P1D</Value>
+             <Value>2014-10-07/2014-10-07/P1D</Value>
+             <Value>2014-10-11/2014-10-11/P1D</Value>
+             <Value>2014-10-13/2014-10-13/P1D</Value>
+             <Value>2014-10-15/2014-10-15/P1D</Value>
+             <Value>2014-10-18/2014-10-18/P1D</Value>
+             <Value>2014-10-24/2014-10-25/P1D</Value>
+             <Value>2014-11-01/2014-11-04/P1D</Value>
+             <Value>2014-11-10/2014-11-10/P1D</Value>
+             <Value>2014-11-12/2014-11-12/P1D</Value>
+             <Value>2014-11-22/2014-11-22/P1D</Value>
+             <Value>2014-11-26/2014-11-28/P1D</Value>
+             <Value>2014-12-05/2014-12-05/P1D</Value>
+             <Value>2014-12-07/2014-12-07/P1D</Value>
+             <Value>2014-12-14/2014-12-14/P1D</Value>
+             <Value>2014-12-17/2014-12-18/P1D</Value>
+             <Value>2014-12-20/2014-12-21/P1D</Value>
+             <Value>2014-12-28/2014-12-28/P1D</Value>
+             <Value>2014-12-30/2015-01-02/P1D</Value>
+             <Value>2015-01-07/2015-01-10/P1D</Value>
+             <Value>2015-01-12/2015-01-16/P1D</Value>
+             <Value>2015-01-18/2015-01-20/P1D</Value>
+             <Value>2015-01-22/2015-01-22/P1D</Value>
+             <Value>2015-01-25/2015-01-27/P1D</Value>
+             <Value>2015-01-31/2015-01-31/P1D</Value>
+             <Value>2015-02-02/2015-02-02/P1D</Value>
+             <Value>2015-02-04/2015-02-04/P1D</Value>
+             <Value>2015-02-07/2015-02-07/P1D</Value>
+             <Value>2015-02-09/2015-02-09/P1D</Value>
+             <Value>2015-02-11/2015-02-12/P1D</Value>
+             <Value>2015-02-14/2015-02-17/P1D</Value>
+             <Value>2015-02-21/2015-02-21/P1D</Value>
+             <Value>2015-02-23/2015-02-23/P1D</Value>
+             <Value>2015-02-26/2015-03-05/P1D</Value>
+             <Value>2015-03-07/2015-03-08/P1D</Value>
+             <Value>2015-03-10/2015-03-14/P1D</Value>
+             <Value>2015-03-16/2015-03-16/P1D</Value>
+             <Value>2015-03-20/2015-03-20/P1D</Value>
+             <Value>2015-03-22/2015-03-25/P1D</Value>
+             <Value>2015-03-27/2015-04-05/P1D</Value>
+             <Value>2015-04-10/2015-04-15/P1D</Value>
+             <Value>2015-04-17/2015-04-22/P1D</Value>
+             <Value>2015-04-25/2015-05-02/P1D</Value>
+             <Value>2015-05-04/2015-05-09/P1D</Value>
+             <Value>2015-05-11/2015-05-21/P1D</Value>
+             <Value>2015-05-24/2015-05-24/P1D</Value>
+             <Value>2015-05-28/2015-05-28/P1D</Value>
+             <Value>2015-05-30/2015-05-30/P1D</Value>
+             <Value>2015-06-01/2015-06-01/P1D</Value>
+             <Value>2015-06-03/2015-06-04/P1D</Value>
+             <Value>2015-06-12/2015-06-12/P1D</Value>
+             <Value>2015-06-15/2015-06-17/P1D</Value>
+             <Value>2015-06-30/2015-07-05/P1D</Value>
+             <Value>2015-07-07/2015-07-07/P1D</Value>
+             <Value>2015-07-09/2015-07-09/P1D</Value>
+             <Value>2015-07-13/2015-07-13/P1D</Value>
+             <Value>2015-09-23/2015-09-23/P1D</Value>
+             <Value>2015-09-25/2015-09-25/P1D</Value>
+             <Value>2015-10-05/2015-10-05/P1D</Value>
+             <Value>2015-10-08/2015-10-08/P1D</Value>
+             <Value>2015-10-12/2015-10-12/P1D</Value>
+             <Value>2015-10-14/2015-10-16/P1D</Value>
+             <Value>2015-10-19/2015-10-19/P1D</Value>
+             <Value>2015-10-21/2015-10-21/P1D</Value>
+             <Value>2015-10-23/2015-10-23/P1D</Value>
+             <Value>2015-11-05/2015-11-05/P1D</Value>
+             <Value>2015-11-08/2015-11-08/P1D</Value>
+             <Value>2015-11-12/2015-11-16/P1D</Value>
+             <Value>2015-11-19/2015-11-20/P1D</Value>
+             <Value>2015-11-26/2015-11-26/P1D</Value>
+             <Value>2015-11-28/2015-11-28/P1D</Value>
+             <Value>2015-12-01/2015-12-01/P1D</Value>
+             <Value>2015-12-03/2015-12-03/P1D</Value>
+             <Value>2015-12-05/2015-12-10/P1D</Value>
+             <Value>2015-12-16/2015-12-19/P1D</Value>
+             <Value>2015-12-21/2015-12-21/P1D</Value>
+             <Value>2015-12-23/2015-12-23/P1D</Value>
+             <Value>2015-12-25/2015-12-26/P1D</Value>
+             <Value>2015-12-29/2016-01-05/P1D</Value>
+             <Value>2016-01-08/2016-01-08/P1D</Value>
+             <Value>2016-01-10/2016-01-10/P1D</Value>
+             <Value>2016-01-12/2016-01-13/P1D</Value>
+             <Value>2016-01-15/2016-01-15/P1D</Value>
+             <Value>2016-01-17/2016-01-20/P1D</Value>
+             <Value>2016-01-22/2016-01-22/P1D</Value>
+             <Value>2016-01-24/2016-01-26/P1D</Value>
+             <Value>2016-03-15/2016-03-16/P1D</Value>
+             <Value>2016-03-19/2016-03-20/P1D</Value>
+             <Value>2016-03-22/2016-03-29/P1D</Value>
+             <Value>2016-03-31/2016-03-31/P1D</Value>
+             <Value>2016-04-04/2016-04-06/P1D</Value>
+             <Value>2016-04-08/2016-04-08/P1D</Value>
+             <Value>2016-04-11/2016-04-13/P1D</Value>
+             <Value>2016-04-15/2016-04-20/P1D</Value>
+             <Value>2016-04-23/2016-04-25/P1D</Value>
+             <Value>2016-04-27/2016-04-28/P1D</Value>
+             <Value>2016-04-30/2016-04-30/P1D</Value>
+             <Value>2016-05-02/2016-05-03/P1D</Value>
+             <Value>2016-05-06/2016-05-07/P1D</Value>
+             <Value>2016-05-09/2016-05-10/P1D</Value>
+             <Value>2016-05-14/2016-05-14/P1D</Value>
+             <Value>2016-05-16/2016-05-16/P1D</Value>
+             <Value>2016-05-18/2016-05-18/P1D</Value>
+             <Value>2016-05-23/2016-05-23/P1D</Value>
+             <Value>2016-05-27/2016-05-27/P1D</Value>
+             <Value>2016-05-29/2016-05-30/P1D</Value>
+             <Value>2016-06-01/2016-06-05/P1D</Value>
+             <Value>2016-06-08/2016-06-10/P1D</Value>
+             <Value>2016-06-12/2016-06-12/P1D</Value>
+             <Value>2016-06-14/2016-06-14/P1D</Value>
+             <Value>2016-06-16/2016-06-18/P1D</Value>
+             <Value>2016-06-20/2016-06-24/P1D</Value>
+             <Value>2016-06-26/2016-06-26/P1D</Value>
+             <Value>2016-06-28/2016-06-29/P1D</Value>
+             <Value>2016-07-04/2016-07-04/P1D</Value>
+             <Value>2016-07-06/2016-07-11/P1D</Value>
+             <Value>2016-07-15/2016-07-16/P1D</Value>
+             <Value>2016-07-18/2016-07-22/P1D</Value>
+             <Value>2016-07-24/2016-07-25/P1D</Value>
+             <Value>2016-07-31/2016-07-31/P1D</Value>
+             <Value>2016-08-02/2016-08-07/P1D</Value>
+             <Value>2016-08-10/2016-08-10/P1D</Value>
+             <Value>2016-08-12/2016-08-16/P1D</Value>
+             <Value>2016-08-21/2016-08-28/P1D</Value>
+             <Value>2016-08-30/2016-08-30/P1D</Value>
+             <Value>2016-09-01/2016-09-05/P1D</Value>
+             <Value>2016-09-08/2016-09-08/P1D</Value>
+             <Value>2016-09-11/2016-09-12/P1D</Value>
+             <Value>2016-09-15/2016-09-15/P1D</Value>
+             <Value>2016-09-18/2016-09-21/P1D</Value>
+             <Value>2016-09-24/2016-09-28/P1D</Value>
+             <Value>2016-09-30/2016-09-30/P1D</Value>
+             <Value>2016-10-07/2016-10-10/P1D</Value>
+             <Value>2016-10-12/2016-10-12/P1D</Value>
+             <Value>2016-10-14/2016-10-16/P1D</Value>
+             <Value>2016-10-20/2016-10-20/P1D</Value>
+             <Value>2016-10-23/2016-10-23/P1D</Value>
+             <Value>2016-10-25/2016-10-25/P1D</Value>
+             <Value>2016-10-30/2016-11-01/P1D</Value>
+             <Value>2016-11-03/2016-11-03/P1D</Value>
+             <Value>2016-11-06/2016-11-06/P1D</Value>
+             <Value>2016-11-08/2016-11-08/P1D</Value>
+             <Value>2016-11-10/2016-11-10/P1D</Value>
+             <Value>2016-11-12/2016-11-12/P1D</Value>
+             <Value>2016-11-15/2016-11-15/P1D</Value>
+             <Value>2016-11-19/2016-11-19/P1D</Value>
+             <Value>2016-11-26/2016-11-26/P1D</Value>
+             <Value>2016-11-28/2016-11-28/P1D</Value>
+             <Value>2016-12-01/2016-12-01/P1D</Value>
+             <Value>2016-12-05/2016-12-05/P1D</Value>
+             <Value>2016-12-09/2016-12-09/P1D</Value>
+             <Value>2016-12-11/2016-12-12/P1D</Value>
+             <Value>2016-12-17/2016-12-17/P1D</Value>
+             <Value>2016-12-20/2016-12-22/P1D</Value>
+             <Value>2016-12-24/2016-12-29/P1D</Value>
+             <Value>2017-01-02/2017-01-04/P1D</Value>
+             <Value>2017-01-07/2017-01-07/P1D</Value>
+             <Value>2017-01-10/2017-01-10/P1D</Value>
+             <Value>2017-01-12/2017-01-12/P1D</Value>
+             <Value>2017-01-21/2017-01-21/P1D</Value>
+             <Value>2017-01-24/2017-01-24/P1D</Value>
+             <Value>2017-01-29/2017-01-30/P1D</Value>
+             <Value>2017-02-01/2017-02-01/P1D</Value>
+             <Value>2017-02-04/2017-02-07/P1D</Value>
+             <Value>2017-02-09/2017-02-09/P1D</Value>
+             <Value>2017-02-12/2017-02-13/P1D</Value>
+             <Value>2017-02-16/2017-02-19/P1D</Value>
+             <Value>2017-02-24/2017-02-24/P1D</Value>
+             <Value>2017-02-26/2017-02-28/P1D</Value>
+             <Value>2017-03-03/2017-03-07/P1D</Value>
+             <Value>2017-03-10/2017-03-11/P1D</Value>
+             <Value>2017-03-14/2017-03-16/P1D</Value>
+             <Value>2017-03-18/2017-03-20/P1D</Value>
+             <Value>2017-03-22/2017-03-25/P1D</Value>
+             <Value>2017-03-27/2017-04-03/P1D</Value>
+             <Value>2017-04-07/2017-04-11/P1D</Value>
+             <Value>2017-04-15/2017-04-26/P1D</Value>
+             <Value>2017-04-28/2017-05-03/P1D</Value>
+             <Value>2017-05-08/2017-05-08/P1D</Value>
+             <Value>2017-05-10/2017-05-11/P1D</Value>
+             <Value>2017-05-16/2017-05-16/P1D</Value>
+             <Value>2017-08-06/2017-08-06/P1D</Value>
+             <Value>2017-08-10/2017-08-11/P1D</Value>
+             <Value>2017-08-13/2017-08-17/P1D</Value>
+             <Value>2017-08-20/2017-08-20/P1D</Value>
+             <Value>2017-08-22/2017-08-22/P1D</Value>
+             <Value>2017-08-24/2017-08-24/P1D</Value>
+             <Value>2017-08-26/2017-08-27/P1D</Value>
+             <Value>2017-08-29/2017-08-30/P1D</Value>
+             <Value>2017-10-09/2017-10-09/P1D</Value>
+             <Value>2017-12-11/2017-12-12/P1D</Value>
+             <Value>2018-01-01/2018-01-07/P1D</Value>
+             <Value>2018-01-10/2018-01-10/P1D</Value>
+             <Value>2018-01-13/2018-01-16/P1D</Value>
+             <Value>2018-01-20/2018-01-25/P1D</Value>
+             <Value>2018-01-27/2018-01-27/P1D</Value>
+             <Value>2018-01-29/2018-02-04/P1D</Value>
+             <Value>2018-02-12/2018-02-13/P1D</Value>
+             <Value>2018-02-15/2018-02-15/P1D</Value>
+             <Value>2018-02-17/2018-02-17/P1D</Value>
+             <Value>2018-03-01/2018-03-01/P1D</Value>
+             <Value>2018-03-03/2018-03-06/P1D</Value>
+             <Value>2018-03-08/2018-03-12/P1D</Value>
+             <Value>2018-03-14/2018-03-14/P1D</Value>
+             <Value>2018-03-20/2018-03-21/P1D</Value>
+             <Value>2018-03-23/2018-03-23/P1D</Value>
+             <Value>2018-03-27/2018-03-29/P1D</Value>
+             <Value>2018-04-01/2018-04-02/P1D</Value>
+             <Value>2018-04-04/2018-04-04/P1D</Value>
+             <Value>2018-04-06/2018-04-07/P1D</Value>
+             <Value>2018-04-09/2018-04-11/P1D</Value>
+             <Value>2018-04-14/2018-04-14/P1D</Value>
+             <Value>2018-04-18/2018-04-18/P1D</Value>
+             <Value>2018-04-20/2018-04-20/P1D</Value>
+             <Value>2018-04-22/2018-04-25/P1D</Value>
+             <Value>2018-04-30/2018-05-02/P1D</Value>
+             <Value>2018-05-04/2018-05-06/P1D</Value>
+             <Value>2018-05-13/2018-05-13/P1D</Value>
+             <Value>2018-05-17/2018-05-17/P1D</Value>
+             <Value>2018-05-22/2018-05-27/P1D</Value>
+             <Value>2018-11-04/2018-11-04/P1D</Value>
+             <Value>2019-04-08/2019-04-08/P1D</Value>
+             <Value>2019-04-12/2019-04-12/P1D</Value>
+             <Value>2019-07-24/2019-07-24/P1D</Value>
+             <Value>2019-08-26/2019-08-26/P1D</Value>
+             <Value>2019-09-13/2019-09-13/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_FineTuneAGG16_Red_Green_11um_aqua-modis_p025/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">Cloud Identification Fine Tune VGG16 Red Green 11um Terra MODIS (Patch 25)</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>CloudIdentification_FineTuneAGG16_Red_Green_11um_terra-modis_p025</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-04-06</Default>
+             <Current>false</Current>
+             <Value>2019-04-06/2019-04-06/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/CloudIdentification_FineTuneAGG16_Red_Green_11um_terra-modis_p025/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
          <ows:Title xml:lang="en">Coastlines</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
@@ -657,9 +2066,11 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-03-09</Default>
+             <Default>2019-09-17</Default>
              <Current>false</Current>
              <Value>2019-03-09/2019-03-09/P1D</Value>
+             <Value>2019-09-15/2019-09-15/P1D</Value>
+             <Value>2019-09-17/2019-09-17/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_16km</TileMatrixSet>
@@ -686,6 +2097,58 @@
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/ICOA_regions/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
+         <ows:Title xml:lang="en">learjet position</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>learjet_position</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2021-01-01T00:00:00Z</Default>
+             <Current>false</Current>
+             <Value>2018-07-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_500m</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/learjet_position/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">NAVGEM_200mb_winds</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>NAVGEM_200mb_winds</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2019-10-23</Default>
+             <Current>false</Current>
+             <Value>2019-09-16/2019-10-23/P1D</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_8km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/NAVGEM_200mb_winds/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
          <ows:Title xml:lang="en">NAVGEM_850mb_winds</ows:Title>
          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
             <ows:LowerCorner>-180 -90</ows:LowerCorner>
@@ -702,14 +2165,41 @@
          <Dimension>
              <ows:Identifier>Time</ows:Identifier>
              <ows:UOM>ISO8601</ows:UOM>
-             <Default>2019-03-08</Default>
+             <Default>2019-10-23</Default>
              <Current>false</Current>
              <Value>2019-03-08/2019-03-08/P1D</Value>
+             <Value>2019-09-10/2019-10-23/P1D</Value>
          </Dimension>
          <TileMatrixSetLink>
              <TileMatrixSet>EPSG4326_8km</TileMatrixSet>
          </TileMatrixSetLink>
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/NAVGEM_850mb_winds/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">PISTON ship position</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>PISTON_ship_position</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2022-01-01T00:00:00Z</Default>
+             <Current>false</Current>
+             <Value>2018-07-01T00:00:00Z/2022-01-01T00:00:00Z/PT10M</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/PISTON_ship_position/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <Layer>
          <ows:Title xml:lang="en">RangeRingKM</ows:Title>
@@ -767,6 +2257,32 @@
              <TileMatrixSet>EPSG4326_2km</TileMatrixSet>
          </TileMatrixSetLink>
          <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/SallyRideRegion/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
+      </Layer>
+      <Layer>
+         <ows:Title xml:lang="en">SEAPOL_DBZ</ows:Title>
+         <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+            <ows:LowerCorner>-180 -90</ows:LowerCorner>
+            <ows:UpperCorner>180 90</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+         <ows:Identifier>SEAPOL_DBZ</ows:Identifier>
+         <Style isDefault="true">
+             <ows:Title xml:lang="en">default</ows:Title>
+             <ows:Identifier>default</ows:Identifier>
+             
+             
+         </Style>
+         <Format>image/png</Format>
+         <Dimension>
+             <ows:Identifier>Time</ows:Identifier>
+             <ows:UOM>ISO8601</ows:UOM>
+             <Default>2021-01-01T00:00:00Z</Default>
+             <Current>false</Current>
+             <Value>2019-01-01T00:00:00Z/2021-01-01T00:00:00Z/PT10M</Value>
+         </Dimension>
+         <TileMatrixSetLink>
+             <TileMatrixSet>EPSG4326_1km</TileMatrixSet>
+         </TileMatrixSetLink>
+         <ResourceURL format="image/png" resourceType="tile" template="http://localhost/onearth/wmts/epsg4326/SEAPOL_DBZ/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"/>
       </Layer>
       <TileMatrixSet>
          <ows:Identifier>EPSG4326_16km</ows:Identifier>

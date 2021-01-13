@@ -20,7 +20,7 @@
       <ColorMapEntry rgb="252,78,32" transparent="false" sourceValue="[8]" value="[8]" ref="7"/>
       <ColorMapEntry rgb="177,0,38" transparent="false" sourceValue="[9,255)" value="[9,255)" ref="8"/>
     </Entries>
-    <Legend type="classification" minLabel="2" maxLabel="&gt;= 9">
+    <Legend type="classification" minLabel="2" maxLabel="&#8805; 9">
       <LegendEntry rgb="254,254,254" tooltip="Negligible to Very Low" id="1"/>
       <LegendEntry rgb="255,254,204" tooltip="Low" id="2"/>
       <LegendEntry rgb="255,237,160" tooltip="Low to Moderate" id="3"/>

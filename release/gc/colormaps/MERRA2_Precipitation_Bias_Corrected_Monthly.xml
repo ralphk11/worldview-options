@@ -224,7 +224,7 @@
       <ColorMapEntry rgb="0,109,44" transparent="false" sourceValue="[2.09e-04,2.10e-04)" value="[2.09e-04,2.10e-04)" ref="211"/>
       <ColorMapEntry rgb="0,68,27" transparent="false" sourceValue="[2.10e-04,+INF)" value="[2.10e-04,+INF)" ref="212"/>
     </Entries>
-    <Legend type="continuous" minLabel="&lt; 0.00e-05" maxLabel="&gt;= 2.10e-04">
+    <Legend type="continuous" minLabel="&lt; 0.00e-05" maxLabel="&#8805; 2.10e-04">
       <LegendEntry rgb="247,252,253" tooltip="&lt; 0.00" id="1"/>
       <LegendEntry rgb="229,245,249" tooltip="0.00 - 1.00e-06" id="2"/>
       <LegendEntry rgb="228,244,248" tooltip="1.00e-06 - 2.00e-06" id="3"/>
@@ -436,7 +436,7 @@
       <LegendEntry rgb="2,110,45" tooltip="2.07e-04 - 2.08e-04" id="209"/>
       <LegendEntry rgb="1,109,44" tooltip="2.08e-04 - 2.09e-04" id="210"/>
       <LegendEntry rgb="0,109,44" tooltip="2.09e-04 - 2.10e-04" id="211"/>
-      <LegendEntry rgb="0,68,27" tooltip="&gt;= 2.10e-04" id="212"/>
+      <LegendEntry rgb="0,68,27" tooltip="&#8805; 2.10e-04" id="212"/>
     </Legend>
   </ColorMap>
 </ColorMaps>

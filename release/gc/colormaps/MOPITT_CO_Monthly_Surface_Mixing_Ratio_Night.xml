@@ -214,23 +214,23 @@
       <ColorMapEntry rgb="228,36,50" transparent="false" sourceValue="[398.00,400.00)" value="[398.00,400.00)" ref="15"/>
       <ColorMapEntry rgb="228,23,3" transparent="false" sourceValue="[400.00,+INF)" value="[400.00,+INF)" ref="16"/>
     </Entries>
-    <Legend type="continuous" minLabel="&lt; 0.00" maxLabel="&gt;= 400.00">
+    <Legend type="continuous" minLabel="&lt; 0.0" maxLabel="&#8805; 400.0">
       <LegendEntry rgb="0,0,255" tooltip="&lt; 0.00" id="1"/>
-      <LegendEntry rgb="1,0,255" tooltip="0.00 - 60.00" id="2"/>
-      <LegendEntry rgb="50,50,255" tooltip="60.00 - 80.00" id="3"/>
+      <LegendEntry rgb="1,0,255" tooltip="0.00 - 60.00" showTick="true" id="2"/>
+      <LegendEntry rgb="50,50,255" tooltip="60.00 - 80.00" showTick="true" showLabel="true" label="60.0" id="3"/>
       <LegendEntry rgb="76,66,254" tooltip="80.00 - 100.00" id="4"/>
-      <LegendEntry rgb="109,101,254" tooltip="100.00 - 120.00" id="5"/>
+      <LegendEntry rgb="109,101,254" tooltip="100.00 - 120.00" showTick="true" id="5"/>
       <LegendEntry rgb="141,136,254" tooltip="120.00 - 140.00" id="6"/>
-      <LegendEntry rgb="177,175,255" tooltip="140.00 - 160.00" id="7"/>
+      <LegendEntry rgb="177,175,255" tooltip="140.00 - 160.00" showTick="true" showLabel="true" label="140.0" id="7"/>
       <LegendEntry rgb="215,214,255" tooltip="160.00 - 180.00" id="8"/>
-      <LegendEntry rgb="255,255,255" tooltip="180.00 - 200.00" id="9"/>
+      <LegendEntry rgb="255,255,255" tooltip="180.00 - 200.00" showTick="true" id="9"/>
       <LegendEntry rgb="248,224,224" tooltip="200.00 - 220.00" id="10"/>
-      <LegendEntry rgb="242,184,186" tooltip="220.00 - 240.00" id="11"/>
+      <LegendEntry rgb="242,184,186" tooltip="220.00 - 240.00" showTick="true" showLabel="true" label="220.0" id="11"/>
       <LegendEntry rgb="237,147,151" tooltip="240.00 - 260.00" id="12"/>
-      <LegendEntry rgb="233,112,119" tooltip="260.00 - 280.00" id="13"/>
+      <LegendEntry rgb="233,112,119" tooltip="260.00 - 280.00" showTick="true" id="13"/>
       <LegendEntry rgb="230,79,87" tooltip="280.00 - 300.00" id="14"/>
-      <LegendEntry rgb="228,85,99" tooltip="300.00 - 400.00" id="15"/>
-      <LegendEntry rgb="228,23,3" tooltip="&gt;= 400.00" id="16"/>
+      <LegendEntry rgb="228,85,99" tooltip="300.00 - 400.00" showTick="true" showLabel="true" label="300.0" id="15"/>
+      <LegendEntry rgb="228,23,3" tooltip="&#8805; 400.00" id="16"/>
     </Legend>
   </ColorMap>
 </ColorMaps>

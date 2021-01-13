@@ -29,7 +29,7 @@
       <ColorMapEntry rgb="160,0,0" transparent="false" sourceValue="28" value="28" ref="24"/>
       <ColorMapEntry rgb="131,0,0" transparent="false" sourceValue="29" value="29" ref="25"/>
       <ColorMapEntry rgb="102,0,0" transparent="false" sourceValue="30" value="30" ref="26"/>
-      <ColorMapEntry rgb="0,0,0" transparent="true" sourceValue="[-9999]" nodata="true" ref="27"/>
+      <ColorMapEntry rgb="0,0,0" transparent="true" sourceValue="[-9999,1)" nodata="true" ref="27"/>
     </Entries>
     <Legend type="discrete" minLabel="4" maxLabel="30">
         <LegendEntry rgb="255,255,0" tooltip="4" id="0"/>

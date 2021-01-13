@@ -137,7 +137,7 @@
       <ColorMapEntry rgb="0,248,12" transparent="false" sourceValue="[963.252,1000.000)" value="[963.252,1000.000)" ref="124"/>
       <ColorMapEntry rgb="0,255,0" transparent="false" sourceValue="[1000.000,10000.000)" value="[1000.000,10000.000)" ref="125"/>
     </Entries>
-    <Legend type="continuous" minLabel="0.0" maxLabel="&gt;= 1000.0">
+    <Legend type="continuous" minLabel="0.0" maxLabel="&#8805; 1000.0">
       <LegendEntry rgb="182,0,184" tooltip="0.0 - 10.0" id="1"/>
       <LegendEntry rgb="180,0,183" tooltip="10.0 - 10.382" id="2"/>
       <LegendEntry rgb="178,0,182" tooltip="10.382 - 10.778" id="3"/>
@@ -262,7 +262,7 @@
       <LegendEntry rgb="0,242,24" tooltip="893.757 - 927.854" showTick="true" id="122"/>
       <LegendEntry rgb="0,245,18" tooltip="927.854 - 963.252" id="123"/>
       <LegendEntry rgb="0,248,12" tooltip="963.252 - 1000.0" id="124"/>
-      <LegendEntry rgb="0,255,0" tooltip="&gt;= 1000.0" id="125"/>
+      <LegendEntry rgb="0,255,0" tooltip="&#8805; 1000.0" id="125"/>
     </Legend>
   </ColorMap>
   <ColorMap title="Cloud Water Path - Water Phase" units="g/m²">
@@ -393,7 +393,7 @@
       <ColorMapEntry rgb="147,0,0" transparent="false" sourceValue="[963.252,1000.000)" value="[963.252,1000.000)" ref="249"/>
       <ColorMapEntry rgb="141,0,0" transparent="false" sourceValue="[1000.000,10000.000)" value="[1000.000,10000.000)" ref="250"/>
     </Entries>
-    <Legend type="continuous" minLabel="0.0" maxLabel="&gt;= 1000.0">
+    <Legend type="continuous" minLabel="0.0" maxLabel="&#8805; 1000.0">
       <LegendEntry rgb="255,255,0" tooltip="0.0 - 10.0" id="126"/>
       <LegendEntry rgb="255,255,4" tooltip="10.0 - 10.382" id="127"/>
       <LegendEntry rgb="255,255,8" tooltip="10.382 - 10.778" id="128"/>
@@ -518,7 +518,7 @@
       <LegendEntry rgb="158,0,0" tooltip="893.757 - 927.854" showTick="true" id="247"/>
       <LegendEntry rgb="152,0,0" tooltip="927.854 - 963.252" id="248"/>
       <LegendEntry rgb="147,0,0" tooltip="963.252 - 1000.0" id="249"/>
-      <LegendEntry rgb="141,0,0" tooltip="&gt;= 1000.0" id="250"/>
+      <LegendEntry rgb="141,0,0" tooltip="&#8805; 1000.0" id="250"/>
     </Legend>
   </ColorMap>
 </ColorMaps>

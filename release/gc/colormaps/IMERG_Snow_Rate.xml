@@ -79,7 +79,7 @@
       <ColorMapEntry rgb="66,3,58" transparent="false" value="[46.4159,51.0897)" ref="66"/>
       <ColorMapEntry rgb="58,3,48" transparent="false" value="[51.0897,+INF)" ref="67"/>
     </Entries>
-    <Legend type="continuous" minLabel="&lt; 0.1" maxLabel="&gt;= 51.0">
+    <Legend type="continuous" minLabel="&lt; 0.1" maxLabel="&#8805; 51.0">
       <LegendEntry rgb="191,191,191" tooltip="&lt; 0.1" id="1"/>
       <LegendEntry rgb="177,250,238" tooltip="0.1 - 0.110069" id="2"/>
       <LegendEntry rgb="171,249,239" tooltip="0.110069 - 0.121153" id="3"/>
@@ -146,7 +146,7 @@
       <LegendEntry rgb="84,4,79" tooltip="38.3119 - 42.1697" showTick="true" id="64"/>
       <LegendEntry rgb="75,3,69" tooltip="42.1697 - 46.4159" id="65"/>
       <LegendEntry rgb="66,3,58" tooltip="46.4159 - 51.0897" id="66"/>
-      <LegendEntry rgb="58,3,48" tooltip="&gt;= 51.0897" id="67"/>
+      <LegendEntry rgb="58,3,48" tooltip="&#8805; 51.0897" id="67"/>
     </Legend>
   </ColorMap>
 </ColorMaps>
